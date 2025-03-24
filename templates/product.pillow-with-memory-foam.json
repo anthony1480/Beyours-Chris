@@ -229,53 +229,41 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
+            "icon": "heart",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Love Yourself",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Give yourself time to rest</p>"
           }
         },
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "globe",
+            "icon": "check_mark",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "30 Day Money Back Guaranteed",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Didn't have the best night sleep? <strong>Send us a message</strong> to fix that</p>"
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Free Delivery Around Lebanon",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Wherever you are don't worry we got you</p>"
           }
         }
       },
       "block_order": [
         "guarantee-0",
         "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
+        "guarantee-2"
       ],
       "settings": {
         "layout": "default",
