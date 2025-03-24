@@ -192,12 +192,12 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
+            "icon": "check_mark",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Science Based",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>All of our products come from <strong>years of research</strong> and <strong>experts in the making</strong></p>"
           }
         },
         "guarantee-1": {
@@ -206,20 +206,20 @@
             "icon": "globe",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "World Class Material",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Even tho our products are lite, we do not take our <strong>materials lightly</strong></p>"
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Free Delivery Around Lebanon",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Not just affordable prices, but also free delivery.</p>"
           }
         },
         "guarantee-3": {
@@ -228,9 +228,9 @@
             "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "30-Day-Money-Back Guarantee",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Don't like it? Let's fix that</p>"
           }
         }
       },
