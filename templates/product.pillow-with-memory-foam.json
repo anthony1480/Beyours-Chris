@@ -673,6 +673,164 @@
         "padding_top": 72,
         "padding_bottom": 36
       }
+    },
+    "google_reviews_TMWJgV": {
+      "type": "Google-Reviews",
+      "blocks": {
+        "testimonial_GzwebU": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO Linen",
+            "text": "Wow, super murihin w aanjad bi shilo waja3 el ra2be wel daher",
+            "avatar": "shopify://shop_images/aa66a5be6d9059038ac3aa02c23f4c69.jpg",
+            "hide_avatar": false,
+            "author": "Liliane N",
+            "stars_count": 5
+          }
+        },
+        "testimonial_EQEXpp": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO Linen",
+            "text": "Sarle 4 years 3am 3ane waja3 ra2be w makenet 3erif eno men nawmte gher lama araret jib hel pillow. Saraha bet 3a2id",
+            "avatar": "shopify://shop_images/i1.jpg",
+            "hide_avatar": false,
+            "author": "Georges K",
+            "stars_count": 5
+          }
+        },
+        "testimonial_UFTAeB": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO Linen",
+            "text": "Wow, l effect taba3un bi 3a2id w ktir murihin. Very affordable",
+            "avatar": "shopify://shop_images/People.jpg",
+            "hide_avatar": false,
+            "author": "Lyna M",
+            "stars_count": 5
+          }
+        },
+        "testimonial_FLf3yr": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO Linen",
+            "text": "Ktir habbet saraha very recommended",
+            "hide_avatar": false,
+            "author": "Cynthia . S",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GzwebU",
+        "testimonial_EQEXpp",
+        "testimonial_UFTAeB",
+        "testimonial_FLf3yr"
+      ],
+      "settings": {
+        "heading": "<h2>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
+        "bottom_custom": false,
+        "bottom_font": "josefin_sans_n4",
+        "bottom_size": 18,
+        "bottom_size_mobile": 16,
+        "bottom_height": 130,
+        "bottom_align": "center",
+        "bottom_mt": 24,
+        "rating": 4.9,
+        "rating_hide": false,
+        "rating_align": "center",
+        "rating_custom": false,
+        "rating_font": "josefin_sans_n4",
+        "rating_size": 18,
+        "rating_size_mobile": 16,
+        "rating_height": 130,
+        "rating_mt": 16,
+        "stars_count": 5,
+        "stars_size": 16,
+        "slider_view": "5",
+        "slider_view_mobile": 1.5,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 24,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 30,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 20,
+        "avatar_size": 62,
+        "avatar_size_mobile": 40,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 18,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 20,
+        "navigation_mt": 32,
+        "arrow_size": 34,
+        "arrow_size_mobile": 34,
+        "arrow_icon_size": 34,
+        "arrow_icon_size_mobile": 34,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "progress_width": 150,
+        "progress_width_mobile": 150,
+        "progress_height": 6,
+        "progress_height_mobile": 6,
+        "progress_show_desktop": true,
+        "progress_show_mobile": true,
+        "card_bg_color": "#F8F8F8",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "title_color": "#B8B8B8",
+        "text_color": "#000000",
+        "author_color": "#000000",
+        "arrow_color": "#E6E6E6",
+        "arrow_hover_color": "#A7A7A4",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#FFFFFF",
+        "arrow_border_hover_color": "#FFFFFF",
+        "progress_bg_color": "#D9D9D9",
+        "progress_color": "#838383",
+        "heading_color": "#000000",
+        "bottom_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_color": "#F4AC03",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -684,6 +842,7 @@
     "product-recommendations",
     "recently-viewed-products",
     "collapsible-content",
-    "guarantees"
+    "guarantees",
+    "google_reviews_TMWJgV"
   ]
 }
