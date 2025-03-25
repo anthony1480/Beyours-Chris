@@ -123,6 +123,255 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_itcUwH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ncfDfF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make your bed the heaven you deserve",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_BE4gyA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These are must haves if you want a good night of sleep and to wake up the next day refreshed and ready to go</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ncfDfF",
+        "text_BE4gyA"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bundle_products_chBkiH": {
+      "type": "bundle-products",
+      "blocks": {
+        "product_BiJxUH": {
+          "type": "product",
+          "settings": {
+            "product": "down-proof-feather-touch-comforter",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 48,
+            "vertical": 64
+          }
+        },
+        "product_giMKpq": {
+          "type": "product",
+          "settings": {
+            "product": "pillow-with-memory-foam",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 46,
+            "vertical": 81
+          }
+        }
+      },
+      "block_order": [
+        "product_BiJxUH",
+        "product_giMKpq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/productimages2.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "Bundle & Save",
+        "subheading_size": "h5",
+        "heading": "Build your dream Bed",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "google_reviews_e9JxEn": {
+      "type": "Google-Reviews",
+      "blocks": {
+        "testimonial_keVzFx": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO",
+            "text": "These are real gems and the bundle is so affordable compared to the change it has done to my sleep routine",
+            "hide_avatar": true,
+            "author": "Alya . N",
+            "stars_count": 5
+          }
+        },
+        "testimonial_eeL4aV": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO",
+            "text": "Now we can really say no more headaches and lack of sleep, Finally",
+            "hide_avatar": true,
+            "author": "Liliane . M",
+            "stars_count": 5
+          }
+        },
+        "testimonial_XtzGXU": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO",
+            "text": "wow i am in love with the quality",
+            "hide_avatar": false,
+            "author": "Georges . J",
+            "stars_count": 5
+          }
+        },
+        "testimonial_rfUhQW": {
+          "type": "testimonial",
+          "settings": {
+            "title": "ATCO",
+            "text": "Great service, fast delivery, great prices and great quality, nothing to complain about.",
+            "hide_avatar": false,
+            "author": "Marie-jose . S",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_keVzFx",
+        "testimonial_eeL4aV",
+        "testimonial_XtzGXU",
+        "testimonial_rfUhQW"
+      ],
+      "settings": {
+        "heading": "<h2>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
+        "bottom_custom": false,
+        "bottom_font": "josefin_sans_n4",
+        "bottom_size": 18,
+        "bottom_size_mobile": 16,
+        "bottom_height": 130,
+        "bottom_align": "center",
+        "bottom_mt": 24,
+        "rating": 5,
+        "rating_hide": false,
+        "rating_align": "center",
+        "rating_custom": false,
+        "rating_font": "josefin_sans_n4",
+        "rating_size": 18,
+        "rating_size_mobile": 16,
+        "rating_height": 130,
+        "rating_mt": 16,
+        "stars_count": 5,
+        "stars_size": 16,
+        "slider_view": "5",
+        "slider_view_mobile": 1.5,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 24,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 30,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 20,
+        "avatar_size": 62,
+        "avatar_size_mobile": 40,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 18,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 20,
+        "navigation_mt": 32,
+        "arrow_size": 34,
+        "arrow_size_mobile": 34,
+        "arrow_icon_size": 34,
+        "arrow_icon_size_mobile": 34,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "progress_width": 150,
+        "progress_width_mobile": 150,
+        "progress_height": 6,
+        "progress_height_mobile": 6,
+        "progress_show_desktop": true,
+        "progress_show_mobile": true,
+        "card_bg_color": "#F8F8F8",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "title_color": "#B8B8B8",
+        "text_color": "#000000",
+        "author_color": "#000000",
+        "arrow_color": "#E6E6E6",
+        "arrow_hover_color": "#A7A7A4",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#FFFFFF",
+        "arrow_border_hover_color": "#FFFFFF",
+        "progress_bg_color": "#D9D9D9",
+        "progress_color": "#838383",
+        "heading_color": "#000000",
+        "bottom_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_color": "#F4AC03",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -130,6 +379,9 @@
     "subs",
     "product-grid",
     "recently-viewed",
-    "featured_collection_Y7kBmX"
+    "featured_collection_Y7kBmX",
+    "rich_text_itcUwH",
+    "bundle_products_chBkiH",
+    "google_reviews_e9JxEn"
   ]
 }
