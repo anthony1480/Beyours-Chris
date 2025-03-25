@@ -19,21 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "breadcrumb": {
-          "type": "breadcrumb",
-          "settings": {
-            "text_style": "uppercase",
-            "show_divider": true
-          }
-        },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -50,7 +35,8 @@
           "type": "price",
           "settings": {
             "price_size": "medium",
-            "show_badges": true
+            "show_badges": true,
+            "sale_badge_basis": "auto"
           }
         },
         "countdown": {
@@ -69,7 +55,10 @@
             "show_variant_labels": true,
             "picker_type": "button",
             "enable_color_swatches": true,
+            "swatches_source": "file",
             "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
             "size_chart": ""
           }
         },
@@ -81,25 +70,30 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "1. Collapsible tab",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "page": ""
+            "heading": "Key Features",
+            "content": "<p>• Outer Fabric: Indulge in the sumptuous feel of 233 thread count, 100% cotton for an<br/>irresistibly soft and breathable touch.<br/>• Feather-like Synthetic Fill: Generously filled with 400 grams of luxurious, down-proof,<br/>feather-like synthetic polyester fiber, mimicking the loft and plushness of natural down<br/>while preventing fiber escape. This hypoallergenic fill ensures optimal warmth,<br/>breathability, and year-round comfort.<br/>• Durable Construction: Meticulously constructed with double-stitched edges and<br/>reinforced seams, this comforter is built to maintain its shape and sumptuous comfort over<br/>time.<br/>• Easy Care: Designed for effortless luxury, this comforter is machine washable. </p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
           }
         },
         "collapsible_tab-1": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "2. Collapsible tab",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "page": ""
+            "heading": "Care Instructions:",
+            "content": "<p>Machine wash cold on a gentle cycle.<br/>▪ Use mild detergent.<br/>▪ Do not bleach.<br/>▪ Tumble dry low or air dry.<br/>▪ Do not iron.<br/>▪ For best results, wash separately or with like colors.</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": false,
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
           }
         },
         "inventory_status": {
@@ -108,12 +102,6 @@
             "inventory_threshold": 20,
             "show_inventory_transfer": true,
             "color_scheme": "accent-3"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         },
         "related_buttons": {
@@ -131,8 +119,6 @@
         }
       },
       "block_order": [
-        "breadcrumb",
-        "vendor",
         "title",
         "rating",
         "price",
@@ -143,7 +129,6 @@
         "collapsible_tab-1",
         "buy_buttons",
         "inventory_status",
-        "share",
         "related_buttons",
         "sticky_cart"
       ],
@@ -153,6 +138,7 @@
         "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "image_ratio": "adapt",
+        "show_featured_media": false,
         "show_thumbnails": true,
         "hide_variants": true,
         "enable_image_zoom": true,
@@ -172,7 +158,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE SHIPPING on all orders over $100",
+            "text": "The first cloud to sleep on",
             "text_size": 16,
             "link": ""
           }
@@ -183,7 +169,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "EASY RETURNS 30-day postage paid returns",
+            "text": "30-Day-Money Back Guarantee",
             "text_size": 16,
             "link": ""
           }
@@ -194,7 +180,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "10% OFF your first order | Use code: FIRST10",
+            "text": "Free Delivery Around Lebanon",
             "text_size": 16,
             "link": ""
           }
@@ -224,34 +210,34 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
+            "icon": "chat_bubble",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "24/7 Costumer Support",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Whatever you need, just ask us.</p>"
           }
         },
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "globe",
+            "icon": "check_mark",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Science based Material",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Guaranteed to relieve your pain</p>"
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "ship",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Free Delivery",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>With fast 2-5 Days Delivery</p>"
           }
         },
         "guarantee-3": {
@@ -260,9 +246,9 @@
             "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Don't Like it?",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>We have a 30-Day Money Back Guarantee</p>"
           }
         }
       },
@@ -278,7 +264,8 @@
         "horizontal_content": false,
         "full_width": true,
         "show_divider": false,
-        "heading": "Guarantees",
+        "columns_desktop": 4,
+        "heading": "Guarantee's",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
@@ -297,19 +284,35 @@
       "blocks": {
         "question-0": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
+          }
         },
         "question-1": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
+          }
         },
         "question-2": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
+          }
         },
         "question-3": {
           "type": "collapsible_row",
-          "settings": {}
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -333,6 +336,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "product_list_limit": 4,
         "show_divider": false,
         "heading": "You May Also Like",
         "heading_size": "h1",
@@ -386,7 +390,6 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "image": "",
             "author": "Author's name"
           }
         },
@@ -395,7 +398,6 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "image": "",
             "author": "Author's name"
           }
         },
@@ -404,7 +406,6 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "image": "",
             "author": "Author's name"
           }
         },
@@ -413,7 +414,6 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "image": "",
             "author": "Author's name"
           }
         },
@@ -422,7 +422,6 @@
           "settings": {
             "icon": "5",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "image": "",
             "author": "Author's name"
           }
         }
@@ -437,6 +436,7 @@
       "settings": {
         "autorotate": false,
         "autorotate_speed": 5,
+        "hide_images": false,
         "show_divider": false,
         "heading": "Testimonials",
         "heading_size": "h1",
@@ -462,7 +462,9 @@
           "settings": {
             "text": "<p>#instagram</p>",
             "text_size": "typeset2",
-            "secondary_color": true
+            "secondary_color": true,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
           }
         }
       },
@@ -477,8 +479,11 @@
         "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
         "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 28
@@ -490,7 +495,6 @@
         "image-0": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -503,7 +507,6 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h4",
@@ -516,7 +519,6 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -529,7 +531,6 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -542,7 +543,6 @@
         "image-4": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
