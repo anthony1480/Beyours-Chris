@@ -348,40 +348,6 @@
     "reveal-banner": {
       "type": "reveal-banner",
       "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Less pain, better dreams",
-            "subheading_size": "h5",
-            "secondary_color": false
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "99% Better sleep",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have been tested on <strong>250+ Lives</strong> and 100% of our costumers agree that life is 100 times worse without our <strong>science based pillows</strong></p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label": "Make me next",
-            "button_link": "",
-            "video_button": "",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "video_description": "Describe the video"
-          }
-        },
         "slide": {
           "type": "slide",
           "settings": {
@@ -404,10 +370,6 @@
         }
       },
       "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons",
         "slide"
       ],
       "settings": {
