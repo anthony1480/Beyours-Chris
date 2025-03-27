@@ -73,11 +73,11 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Who Have Already Stopped Having Nightmares and Sleeping Poorly. All Thanks to This Simple Improvement. </strong></p>",
+            "text": "<p><strong>Who Have Already Stopped Having Nightmares and Sleeping Poorly. All Thanks to This Simple Improvement. Could You Be Next?</strong></p>",
             "text_size": "typeset3",
             "secondary_color": true,
             "highlight_phrases": "Could You Be Next?",
-            "highlight_style": "marker"
+            "highlight_style": "circle"
           }
         }
       },
