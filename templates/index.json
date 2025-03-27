@@ -377,7 +377,7 @@
         "image_position": "center center",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "400px",
         "full_width": true,
         "show_divider": false,
         "image_mobile": "shopify://shop_images/banner_3.jpg",
