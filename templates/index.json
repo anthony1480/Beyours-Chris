@@ -429,7 +429,7 @@
         "video": "shopify://files/videos/ef8d7aad71e671e6d4fb8aa49cd258b2.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_box_position": "middle-center",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "image_ratio": "450px",
         "show_text_box": false,
         "full_width": false,
