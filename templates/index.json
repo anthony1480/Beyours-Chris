@@ -351,12 +351,12 @@
         "slide": {
           "type": "slide",
           "settings": {
-            "heading": "One investement, Life changing",
+            "heading": "One Investment, Life-Changing Results.",
             "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "<p>With an average of 4 years life span, all of our pillows are close to a 1 time payment that changes your life forever</p>",
-            "text_size": "typeset2",
-            "secondary_color": false,
+            "heading_tag": "h1",
+            "text": "<p>With an average lifespan of 4 years, our pillows are a one-time payment that transforms your sleep and your life forever.</p>",
+            "text_size": "typeset",
+            "secondary_color": true,
             "button_label": "Change My life",
             "button_link": "",
             "button_size": "medium",
