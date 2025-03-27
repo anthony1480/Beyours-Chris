@@ -536,7 +536,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How many days do you need to deliver?",
-            "row_content": "<p>Our delivery time is around 3-5 days all around Lebanon</p>",
+            "row_content": "<p><strong>Our delivery time is approximately 3–5 business days across all of Lebanon.</strong></p>",
             "page": ""
           }
         },
@@ -544,7 +544,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you have a 30-Day Money Back Guarantee?",
-            "row_content": "<p>Yes, we trust in our material and do have a 30-Day Money Back Guarantee</p>",
+            "row_content": "<p>Yes, we stand behind our products with a 30-Day Money-Back Guarantee.</p>",
             "page": ""
           }
         }
