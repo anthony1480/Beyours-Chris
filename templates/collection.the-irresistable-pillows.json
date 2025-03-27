@@ -18,7 +18,7 @@
         "apply_overlay": true,
         "image_position": "center center",
         "image_ratio": "550px",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "250px",
         "show_text_below": false,
