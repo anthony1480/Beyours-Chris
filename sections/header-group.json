@@ -83,7 +83,7 @@
       "settings": {
         "logo": "shopify://shop_images/Softex_logo.png",
         "mobile_logo": "shopify://shop_images/Softex_logo.png",
-        "logo_height": 64,
+        "logo_height": 96,
         "mobile_logo_height": 44,
         "logo_position": "top-center",
         "menu": "main-menu",
