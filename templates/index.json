@@ -428,7 +428,7 @@
       "settings": {
         "video": "shopify://files/videos/ef8d7aad71e671e6d4fb8aa49cd258b2.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_box_position": "bottom-right",
+        "text_box_position": "middle-center",
         "text_alignment": "left",
         "image_ratio": "450px",
         "show_text_box": false,
@@ -436,7 +436,7 @@
         "show_divider": false,
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "400px",
-        "show_text_below": true,
+        "show_text_below": false,
         "colors_button_label": "#1a1b18",
         "colors_button_background": "#ffffff",
         "colors_text": "#ffffff",
