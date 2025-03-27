@@ -1,1 +1,356 @@
-{"sections":{"image-banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"About Us","heading_size":"h0"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers.<\/p>","text_size":"typeset3"}}},"block_order":["heading","text"],"settings":{"image":"","image_position":"center center","text_box_position":"bottom-center","text_alignment":"center","image_ratio":"550px","full_width":true,"mobile_text_alignment":"center","mobile_image_ratio":"400px","stack_images_on_mobile":false,"show_text_below":false,"colors_text":"#ffffff","colors_overlay":"#000000","colors_overlay_opacity":28,"padding_top":0,"padding_bottom":36}},"main":{"type":"main-page","disabled":true,"settings":{"narrow":true,"padding_top":60,"padding_bottom":72}},"rich-text-0":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>","text_size":"typeset3","secondary_color":false}}},"block_order":["text"],"settings":{"text_alignment":"left","narrow":true,"padding_top":36,"padding_bottom":36}},"rich-text-1":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>","text_size":"typeset","secondary_color":false}}},"block_order":["text"],"settings":{"text_alignment":"left","narrow":true,"padding_top":36,"padding_bottom":36}},"image-with-text-0":{"type":"image-with-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_size":"typeset2","secondary_color":true}}},"block_order":["heading","text"],"settings":{"image":"","image_position":"center center","layout":"image_first","text_box_position":"middle","text_alignment":"left","image_ratio":"550px","full_width":true,"mobile_text_alignment":"left","mobile_image_ratio":"auto","padding_top":36,"padding_bottom":36}},"image-with-text-1":{"type":"image-with-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_size":"typeset2","secondary_color":true}}},"block_order":["heading","text"],"settings":{"image":"","image_position":"center center","layout":"text_first","text_box_position":"middle","text_alignment":"left","image_ratio":"550px","full_width":true,"mobile_text_alignment":"left","mobile_image_ratio":"auto","padding_top":36,"padding_bottom":36}},"image-with-text-2":{"type":"image-with-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_size":"typeset2","secondary_color":true}}},"block_order":["heading","text"],"settings":{"image":"","image_position":"center center","layout":"image_first","text_box_position":"middle","text_alignment":"left","image_ratio":"550px","full_width":true,"mobile_text_alignment":"left","mobile_image_ratio":"auto","padding_top":36,"padding_bottom":36}},"image-with-text-overlay":{"type":"image-with-text-overlay","blocks":{"heading":{"type":"heading","settings":{"heading":"Image with text overlay","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_size":"typeset2","secondary_color":false}},"button":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading","text","button"],"settings":{"image":"","image_position":"center center","text_box_position":"flex-start","text_alignment":"left","image_ratio":"550px","full_width":true,"mobile_text_box_position":"image_first","mobile_text_alignment":"center","mobile_image_ratio":"500px","colors_text":"#212326","colors_overlay":"#f3f3f3","colors_overlay_opacity":92,"padding_top":36,"padding_bottom":0}},"empty-space":{"type":"empty-space","settings":{"desktop_height":0,"mobile_height":48}}},"order":["image-banner","main","rich-text-0","rich-text-1","image-with-text-0","image-with-text-1","image-with-text-2","image-with-text-overlay","empty-space"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Founded in 1978 by Mr. Ghassan Abi<br/>Yaghi & Sons, ATCO S.A.L. is a renowned family-owned business celebrated<br/>for its quality products and exceptional service. Starting with the widely<br/>recognized \"SOFTEX\" brand in Lebanon and the Gulf region, ATCO S.A.L.<br/>has expanded its product offerings and market reach over the years.</p><p><strong>Company History</strong></p><p>ATCO S.A.L., a family-owned business<br/>founded in 1978 by Mr. Ghassan Abi Yaghi & Sons, entered a new era in 2024<br/>with a significant leadership transition. Bassam Abi Yaghi, son of the founder<br/>and a recognized expert with over 25 years of experience in the home linens<br/>industry, assumed full ownership and management, acquiring all shares. Mr. Abi<br/>Yaghi brings a dynamic vision to the company, with a strong commitment to<br/>advancing its operations, solidifying its position as the leading provider in<br/>the home business sector across Lebanon and the region, and achieving the<br/>highest international standards. He aims to achieve this through strategic<br/>initiatives focused on innovation, enhanced customer experience, expansion of<br/>product offerings, and adherence to global best practices. This transition<br/>builds on the strong foundation laid by the previous generation, while<br/>positioning ATCO S.A.L. for continued growth and success under experienced and<br/>globally-minded leadership.</p><p><strong>Our Services</strong></p><p>ATCO S.A.L. provides comprehensive<br/>home and hospitality solutions, catering to retailers, boutiques, hypermarkets,<br/>and multinational hotels across Lebanon and the Gulf countries. Leveraging<br/>cutting-edge market intelligence, we offer tailored services to meet diverse<br/>client needs. Our expertise extends to custom embroidery services, allowing for<br/>personalized products with logos, intricate designs, and lacework. We also<br/>offer client branding, producing products under client brand names and logos,<br/>and manufacture for major brands, adhering to their high standards.</p><p><strong> </strong></p><p><strong> </strong></p><p><strong>Our Brands</strong></p><p>We offer a portfolio of high-quality,<br/>trusted product collections, including:</p><p>Softex</p><p>L'oreiller Gold</p><p>Elite Home Fashion</p><p>Daynasty</p><p><strong>Export Markets</strong></p><p>ATCO S.A.L. proudly exports its<br/>Softex brand products to Canada, Europe, and the GCC, demonstrating a<br/>commitment to quality and excellence on a global scale.</p><p><strong> </strong></p><p><strong>Our Network & Partners</strong></p><p>We maintain strong partnerships with<br/>reputable companies and factories specializing in premium woodworks, kitchens,<br/>and furniture, enabling us to meet the diverse needs of our market.</p><p></p><p><strong>B2B and Retail</strong></p><p>ATCO S.A.L. serves both the B2B and<br/>retail markets, offering high-quality products through various channels,<br/>including direct sales, retail stores, and online platforms.</p><p><strong>Home Linens Expertise</strong></p><p>We specialize in the production of<br/>home linens, providing an extensive range of products designed for comfort and<br/>luxury, including:</p><p>Bed Sets</p><p>Comforters</p><p>Pillows</p><p>Mattress protectors &<br/>     Toppers</p><p>Kitchen linens</p><p>Bathroom linens</p><p>Blankets</p><p><strong>Our Mission</strong></p><p>To be the leading supplier<br/>     of linen products to the corporate landscape in Lebanon and the<br/>     surrounding region.</p><p>To utilize our market expertise<br/>     to provide superior solutions and recommendations during our clients'<br/>     decision-making processes.</p><p>To offer high-quality<br/>     products at competitive prices through our extensive market access and<br/>     resources.</p><p><strong>Our Vision</strong></p><p>To become a pioneering force in the<br/>home and hospitality solutions industry, setting benchmarks for quality,<br/>service, and innovation across the region.</p><p><strong>Our Values</strong></p><p>Quality: We are committed to delivering products of the highest quality,<br/>     ensuring complete customer satisfaction.</p><p>Integrity: We operate with transparency, honesty, and respect in all our<br/>     interactions.</p><p>Innovation: We continuously seek to innovate and improve our offerings to meet<br/>     the evolving needs of our clients.</p><p>Customer Focus: Our clients are at the heart of everything we<br/>     do, and we strive to exceed their expectations.</p><p><strong>Our Team</strong></p><p>Our dedicated team of market specialists<br/>understands the unique needs of our clients. By leveraging our industry<br/>expertise and multi-disciplinary skills, we ensure our clients receive<br/>consistently high standards of service.</p><p><strong>Product Excellence</strong></p><p>Our products are meticulously crafted<br/>to meet the highest standards of quality and durability. Our range includes<br/>banquet linens, table linens, bed linens, bath linens, curtains and draperies,<br/>and light sanitary products.</p><p><strong>Market Reach</strong></p><p>Our products have gained widespread<br/>recognition and trust in Lebanon and across the Gulf region. Our dedication to<br/>maintaining high standards has made SOFTEX a preferred choice for hotels, home,<br/>and restaurants.</p><p><strong>Innovation and Quality</strong></p><p>We continuously strive to improve our<br/>product offerings, incorporating the latest trends and technologies. Rigorous<br/>quality control processes ensure that every product delivers on our promise of<br/>excellence.</p><p><strong>Customer Satisfaction</strong></p><p>Customer satisfaction is our top<br/>priority. We are committed to understanding and exceeding client expectations,<br/>providing personalized solutions and exceptional service.</p><p><strong>Sustainability</strong></p><p>We are mindful of our environmental<br/>impact and dedicated to sustainable practices. our products are designed with<br/>sustainability in mind, using eco-friendly materials and processes wherever<br/>possible.</p><p> </p>",
+            "text_size": "typeset",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "550px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text_size": "typeset3",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text overlay",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "flex-start",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_box_position": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "500px",
+        "video_url": "",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_overlay": "#f3f3f3",
+        "colors_overlay_opacity": 92,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 0,
+        "mobile_height": 48
+      }
+    }
+  },
+  "order": [
+    "image-banner",
+    "main",
+    "rich-text-0",
+    "rich-text-1",
+    "image-with-text-0",
+    "image-with-text-1",
+    "image-with-text-2",
+    "image-with-text-overlay",
+    "empty-space"
+  ]
+}
