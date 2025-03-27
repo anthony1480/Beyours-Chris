@@ -31,7 +31,7 @@
         "footer-2": {
           "type": "link_list",
           "settings": {
-            "heading": "Categories",
+            "heading": "",
             "menu": "footer"
           }
         }
