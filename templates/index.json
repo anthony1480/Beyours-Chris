@@ -405,8 +405,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Everybody deserves a good night sleep. So not everyone gets one?</p>",
-            "text_size": "typeset2",
+            "text": "<p><strong>Everyone Deserves a Good Night’s Sleep, But Not Everyone Gets One… Until Now.</strong></p>",
+            "text_size": "typeset",
             "secondary_color": false
           }
         },
