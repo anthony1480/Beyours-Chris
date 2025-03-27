@@ -536,7 +536,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How many days do you need to deliver?",
-            "row_content": "<p><strong>Our delivery time is approximately 3–5 business days across all of Lebanon.</strong></p>",
+            "row_content": "<p><strong>Our delivery time is approximately 3 to 5 business days across all of Lebanon.</strong></p>",
             "page": ""
           }
         },
