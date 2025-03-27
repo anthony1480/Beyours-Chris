@@ -17,9 +17,9 @@
         "announcement_dYN3CP": {
           "type": "announcement",
           "settings": {
-            "text": "Free delivery all around Lebanon",
+            "text": "Free delivery across Lebanon",
             "text_on_mobile": "",
-            "text_size": 13,
+            "text_size": 14,
             "link": ""
           }
         },
@@ -28,7 +28,7 @@
           "settings": {
             "text": "The first clouds that you can actually sleep on",
             "text_on_mobile": "",
-            "text_size": 13,
+            "text_size": 14,
             "link": ""
           }
         }
