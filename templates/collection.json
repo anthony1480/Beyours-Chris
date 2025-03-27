@@ -97,6 +97,7 @@
     },
     "featured_collection_Y7kBmX": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "the-irresistable-pillows",
         "products_to_show": 2,
