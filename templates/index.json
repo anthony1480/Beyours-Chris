@@ -74,10 +74,10 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Who Have Already Stopped Having Nightmares and Sleeping Poorly. All Thanks to This Simple Improvement. Could You Be Next?</strong></p>",
-            "text_size": "typeset3",
+            "text_size": "typeset2",
             "secondary_color": true,
             "highlight_phrases": "Could You Be Next?",
-            "highlight_style": "circle"
+            "highlight_style": "marker"
           }
         }
       },
@@ -457,7 +457,7 @@
             "custom_icon": "",
             "title": "Science Based",
             "title_size": "h4",
-            "text": "<p>All of our products come from <strong>years of research</strong> and <strong>experts in the making</strong></p>"
+            "text": "<p>All of our products are backed by years of research and crafted with expertise.</p>"
           }
         },
         "guarantee-1": {
@@ -468,7 +468,7 @@
             "custom_icon": "",
             "title": "World Class Material",
             "title_size": "h4",
-            "text": "<p>Even tho our products are lite, we do not take our <strong>materials lightly</strong></p>"
+            "text": "<p>Though our products are lightweight, we never compromise on the quality of our materials.</p>"
           }
         },
         "guarantee-2": {
@@ -477,9 +477,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Free Delivery Around Lebanon",
+            "title": "Free Delivery Across Lebanon",
             "title_size": "h4",
-            "text": "<p>Not just affordable prices, but also free delivery.</p>"
+            "text": "<p>Enjoy Affordable Prices and Free Delivery to Your Doorstep.</p>"
           }
         },
         "guarantee-3": {
@@ -490,7 +490,7 @@
             "custom_icon": "",
             "title": "30-Day-Money-Back Guarantee",
             "title_size": "h4",
-            "text": "<p>Don't like it? Let's fix that</p>"
+            "text": "<p>Not Satisfied? Let Us Make It Right.</p>"
           }
         }
       },
