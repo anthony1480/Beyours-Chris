@@ -112,7 +112,6 @@
         "padding": 40,
         "text_alignment": "center",
         "text_box_position": "center",
-        "image": "shopify://shop_images/RegularShittyPillow.jpg",
         "image_position": "bottom",
         "colors_button_label": "#212326",
         "colors_button_background": "#faeaa1",
