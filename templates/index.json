@@ -65,18 +65,18 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "With over 250+      Costumers",
-            "heading_size": "h0",
+            "heading": "With over 2000+      Costumers",
+            "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>That have already stopped having nightmares and sleeping the wrong way with just this small improvement. Why not you next?</p>",
+            "text": "<p><strong>Who Have Already Stopped Having Nightmares and Sleeping Poorly. All Thanks to This Simple Improvement. </strong></p>",
             "text_size": "typeset3",
             "secondary_color": false,
-            "highlight_phrases": "Why not you next?",
+            "highlight_phrases": "Could You Be Next?",
             "highlight_style": "circle"
           }
         }
