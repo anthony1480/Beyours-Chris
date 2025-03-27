@@ -41,7 +41,7 @@
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "400px",
         "stack_images_on_mobile": false,
