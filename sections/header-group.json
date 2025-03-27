@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "Free delivery across Lebanon",
-            "text_on_mobile": "",
-            "text_size": 14,
+            "text_on_mobile": "Free delivery across Lebanon",
+            "text_size": 16,
             "link": ""
           }
         },
@@ -28,7 +28,7 @@
           "settings": {
             "text": "The first clouds that you can actually sleep on",
             "text_on_mobile": "",
-            "text_size": 13,
+            "text_size": 16,
             "link": ""
           }
         }
@@ -88,8 +88,8 @@
         "logo_position": "top-left",
         "menu": "main-menu",
         "menu_mobile": "main-menu",
-        "enable_dropdown_menu": false,
-        "show_line_separator": false,
+        "enable_dropdown_menu": true,
+        "show_line_separator": true,
         "uppercase_menu_items": true,
         "cart_icon": "cart",
         "icon_weight": "1.1",
