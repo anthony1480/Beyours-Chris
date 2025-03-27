@@ -11,6 +11,44 @@
   "name": "t:sections.overlay-group.name",
   "type": "custom.overlay",
   "sections": {
+    "cookie-banner": {
+      "type": "cookie-banner",
+      "blocks": {
+        "cookie-banner-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We use cookies and similar technologies to provide the best experience on our website. <a href=\"/policies/privacy-policy\">Privacy Policy</a></p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "cookie-banner-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Accept",
+            "button_label_2": "No"
+          }
+        }
+      },
+      "block_order": [
+        "cookie-banner-0",
+        "cookie-banner-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "mode": "enabled",
+        "delay": 5,
+        "text_alignment": "left",
+        "text_box_position": "bottom",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "colors_shadow": "#a8e8e2"
+      }
+    },
     "popup": {
       "type": "popup",
       "blocks": {
@@ -74,47 +112,10 @@
         "padding": 40,
         "text_alignment": "center",
         "text_box_position": "center",
-        "image_position": "top",
+        "image": "shopify://shop_images/RegularShittyPillow.jpg",
+        "image_position": "bottom",
         "colors_button_label": "#212326",
         "colors_button_background": "#faeaa1",
-        "colors_text": "#1a1b18",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "colors_shadow": "#a8e8e2"
-      }
-    },
-    "cookie-banner": {
-      "type": "cookie-banner",
-      "blocks": {
-        "cookie-banner-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We use cookies and similar technologies to provide the best experience on our website. <a href=\"/policies/privacy-policy\">Privacy Policy</a></p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "cookie-banner-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Accept",
-            "button_label_2": "No"
-          }
-        }
-      },
-      "block_order": [
-        "cookie-banner-0",
-        "cookie-banner-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "mode": "enabled",
-        "delay": 5,
-        "text_alignment": "left",
-        "text_box_position": "bottom",
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
         "colors_text": "#1a1b18",
         "colors_border": "#d2d5d9",
         "colors_background": "#ffffff",
@@ -241,8 +242,8 @@
     }
   },
   "order": [
-    "popup",
     "cookie-banner",
+    "popup",
     "age-verifier",
     "mobile-dock"
   ]
