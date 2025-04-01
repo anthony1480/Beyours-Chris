@@ -37,7 +37,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_size": "h2",
+            "title_size": "h0",
             "show_price": false,
             "price_size": "medium"
           }
@@ -82,7 +82,7 @@
           "settings": {
             "icon": "none",
             "heading": "1. Collapsible tab",
-            "content": "<p><strong>Premium<br/>Material:</strong> Made from<br/>high-quality polar fleece, providing superior softness and a cozy feel.</p>",
+            "content": "<p>Discover the ultimate comfort with our <strong>Pillow with Memory Foam </strong>. It combines <strong>feather-like synthetic polyester fiber </strong>for softness and <strong>memory foam </strong>on one side (and middle when applicable) for targeted support. Encased in a <strong>high-quality combed cotton cover </strong>, it’s hypoallergenic, anti-dust mite, and built to last with durable stitching.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
@@ -93,7 +93,7 @@
           "settings": {
             "icon": "none",
             "heading": "2. Collapsible tab",
-            "content": "<p><strong>Double<br/>Layer (2-Ply):</strong> Ensures<br/>extra insulation and durability, making it ideal for colder nights.</p>",
+            "content": "<p>The <strong>memory foam </strong>contours to your head and neck, offering pressure relief and proper alignment for restful sleep. Its removable, washable cover ensures easy care, while the synthetic filling provides a luxurious, allergen-free experience. Perfect for both comfort and therapeutic support.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
