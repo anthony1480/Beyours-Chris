@@ -11,8 +11,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
-        "heading_size": "h0",
+        "heading_size": "h2",
         "show_description": true,
         "show_image": true,
         "apply_overlay": true,
@@ -139,10 +140,10 @@
         "text_BE4gyA": {
           "type": "text",
           "settings": {
-            "text": "<p>These are must haves if you want a good night of sleep and to wake up the next day refreshed and ready to go</p>",
+            "text": "<p>These essentials are key to achieving a restful night's sleep and waking up refreshed, rejuvenated, and ready to tackle the day ahead.</p>",
             "text_size": "typeset2",
             "secondary_color": false,
-            "highlight_phrases": "",
+            "highlight_phrases": "These essentials",
             "highlight_style": "marker"
           }
         }
