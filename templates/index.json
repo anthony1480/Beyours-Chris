@@ -527,7 +527,7 @@
         "collapsible_row_FYrjwb": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you have Free delivery all around Lebanon?",
+            "heading": "Do you have Free delivery across Lebanon?",
             "row_content": "<p>Yes, we have free delivery across Lebanon</p>",
             "page": ""
           }
@@ -536,7 +536,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How many days do you need to deliver?",
-            "row_content": "<p><strong>Our delivery time is approximately 3 to 5 business days across all of Lebanon.</strong></p>",
+            "row_content": "<p><strong>Our delivery time is approximately 3 to 5 business days across Lebanon.</strong></p>",
             "page": ""
           }
         },
