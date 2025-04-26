@@ -100,7 +100,7 @@
         "text_eYMgwN": {
           "type": "text",
           "settings": {
-            "text": "<p>Georges Fattal Street </p><p>Sawaf & Masri Bldg.</p><p>Sin El Fil, Jisr El Wati,</p><p>Beirut, Lebanon </p><p>Phone: +961 1 482 566 / +961 1 482 566</p><p>Monday to Friday, 8:00 AM - 2:00 PM<br/>Closed on Saturday and Sunday</p>",
+            "text": "<h5>Georges Fattal Street </h5><h5>Sawaf & Masri Bldg.</h5><h5>Sin El Fil, Jisr El Wati,</h5><h5>Beirut, Lebanon </h5><h5>Phone: +961 1 482 566 / +961 1 482 566</h5><h5>Monday to Friday, 8:00 AM - 2:00 PM<br/>Closed on Saturday and Sunday</h5>",
             "text_size": "typeset",
             "secondary_color": false
           }
