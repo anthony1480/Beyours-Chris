@@ -62,7 +62,7 @@
         "popup-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up Now and get 25% off your first order</p>",
+            "text": "<p>Sign up Now and get 10% off your first order</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
