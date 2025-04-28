@@ -355,7 +355,7 @@
             "heading_size": "h1",
             "heading_tag": "h1",
             "text": "<p><em>With an average lifespan of 4 years with proper care, our pillows are a one-time investment designed to transform your sleep and your life for years to come.</em></p>",
-            "text_size": "typeset",
+            "text_size": "typeset2",
             "secondary_color": true,
             "button_label": "Change My life",
             "button_link": "shopify://collections/the-irresistable-pillows",
@@ -405,7 +405,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Everyone Deserves a Good Night’s Sleep, But Not Everyone Gets One… Until Now.</strong></p>",
+            "text": "<p><em>Everyone Deserves a Good Night’s Sleep, Yet So Many Struggle to Find It… Here’s How We Can Change That.</em></p>",
             "text_size": "typeset",
             "secondary_color": true
           }
