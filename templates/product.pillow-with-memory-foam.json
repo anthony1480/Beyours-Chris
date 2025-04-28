@@ -441,7 +441,7 @@
         "image_border_thickness": 0,
         "content_align": "center",
         "content_align_mobile": "center",
-        "icon_size": 50,
+        "icon_size": 40,
         "icon_size_mobile": 40,
         "title_custom": false,
         "title_font": "josefin_sans_n4",
