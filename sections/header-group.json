@@ -48,7 +48,7 @@
         "speed": 1.6,
         "colors_text": "#ffffff",
         "colors_background": "#f7eedd",
-        "gradient_background": "linear-gradient(185deg, rgba(38, 13, 148, 1), rgba(82, 218, 236, 1) 100%)",
+        "gradient_background": "radial-gradient(rgba(38, 13, 148, 1) 3%, rgba(82, 218, 236, 1) 100%)",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -81,7 +81,7 @@
         "mega_menu_YgggGA"
       ],
       "settings": {
-        "logo": "shopify://shop_images/Atco_logo_and_Address2-01_07098a57-ad6d-4b1d-af23-442e08bb67fa.png",
+        "logo": "shopify://shop_images/Softex_logo-white.png",
         "mobile_logo": "shopify://shop_images/Atco_logo_and_Address2-01_07098a57-ad6d-4b1d-af23-442e08bb67fa.png",
         "logo_height": 120,
         "mobile_logo_height": 76,
