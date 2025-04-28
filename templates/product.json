@@ -93,7 +93,7 @@
           "settings": {
             "icon": "none",
             "heading": "Benefits",
-            "content": "<p>- Superior Support:</p><p> - Promotes proper head and neck alignment.</p><p>- Feather-Like Comfort:</p><p>- Ensures a cozy and inviting sleep<br/>experience.</p><p>- Stylish Design:</p><p>- Adds elegance to your bedroom decor.</p>",
+            "content": "<h4>- Superior Support:</h4><h4> - Promotes proper head and neck alignment.</h4><h4>- Feather-Like Comfort:</h4><h5>- Ensures a cozy and inviting sleep experience.</h5><h4>- Stylish Design:</h4><h4>- Adds elegance to your bedroom decor.</h4>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
