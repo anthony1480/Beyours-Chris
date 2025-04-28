@@ -366,7 +366,7 @@
           "settings": {
             "icon": "heart",
             "title": "Neck Comfort",
-            "text": "99% of people face severe neck pain on the daily not knowing it is because of the sleep position their pillows provide them"
+            "text": "99% of people experience severe neck pain daily, not realizing it is caused by the sleep position their pillows create."
           }
         },
         "item_bw9Kpq": {
@@ -432,11 +432,11 @@
         "items_gap_mobile": 30,
         "items_mt": 24,
         "items_mt_mobile": 22,
-        "image": "shopify://shop_images/Softex_Memory_Foam_2pcs.jpg",
+        "image": "shopify://shop_images/MBR68845.jpg",
         "image_position": "center",
         "image_position_mobile": "first",
-        "image_ratio": "portrait",
-        "image_ratio_mobile": "portrait",
+        "image_ratio": "landscape",
+        "image_ratio_mobile": "landscape",
         "image_radius": 0,
         "image_border_thickness": 0,
         "content_align": "center",
