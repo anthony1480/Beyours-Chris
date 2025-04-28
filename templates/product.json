@@ -92,8 +92,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "2. Collapsible tab",
-            "content": "<p>The <strong>Softex Vacuumed Pillow </strong>features <strong>soft, resilient fiber filling </strong>that adapts to your head and neck, offering <strong>gentle support </strong>for all sleepers. Hypoallergenic, breathable, and cool, it’s perfect for sensitive skin. Compact, stylish, and easy to fluff, it’s a modern home essential!</p>",
+            "heading": "Benefits",
+            "content": "<p>- Superior Support:</p><p> - Promotes proper head and neck alignment.</p><p>- Feather-Like Comfort:</p><p>- Ensures a cozy and inviting sleep<br/>experience.</p><p>- Stylish Design:</p><p>- Adds elegance to your bedroom decor.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
