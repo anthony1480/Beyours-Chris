@@ -414,7 +414,7 @@
           "type": "button",
           "settings": {
             "button_label": "Help me sleep",
-            "button_link": "shopify://collections/the-irresistable-pillows",
+            "button_link": "shopify://collections",
             "button_size": "medium",
             "button_style_secondary": false
           }
