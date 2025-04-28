@@ -46,9 +46,9 @@
         "show_navigation": true,
         "direction": "left",
         "speed": 1.6,
-        "colors_text": "#1a1b18",
+        "colors_text": "#ffffff",
         "colors_background": "#f7eedd",
-        "gradient_background": "",
+        "gradient_background": "linear-gradient(185deg, rgba(38, 13, 148, 1), rgba(82, 218, 236, 1) 100%)",
         "padding_top": 0,
         "padding_bottom": 0
       }
