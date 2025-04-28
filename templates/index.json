@@ -358,7 +358,7 @@
             "text_size": "typeset2",
             "secondary_color": true,
             "button_label": "Change My life",
-            "button_link": "shopify://collections/the-irresistable-pillows",
+            "button_link": "shopify://collections/all",
             "button_size": "medium",
             "button_style_secondary": false,
             "colors_button_label": "#ffffff",
