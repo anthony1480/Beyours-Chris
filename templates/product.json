@@ -402,68 +402,171 @@
         "padding_bottom": 36
       }
     },
-    "testimonials": {
-      "type": "testimonials",
+    "google_reviews_DgQNiG": {
+      "type": "Google-Reviews",
       "blocks": {
-        "testimonial-0": {
+        "testimonial_JUMHEF": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
           }
         },
-        "testimonial-1": {
+        "testimonial_Gnm9Xg": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
           }
         },
-        "testimonial-2": {
+        "testimonial_CniLdm": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
           }
         },
-        "testimonial-3": {
+        "testimonial_NcVjU9": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
           }
         },
-        "testimonial-4": {
+        "testimonial_CtKz64": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
           }
         }
       },
       "block_order": [
-        "testimonial-0",
-        "testimonial-1",
-        "testimonial-2",
-        "testimonial-3",
-        "testimonial-4"
+        "testimonial_JUMHEF",
+        "testimonial_Gnm9Xg",
+        "testimonial_CniLdm",
+        "testimonial_NcVjU9",
+        "testimonial_CtKz64"
       ],
+      "name": "SS - Testimonial #9",
       "settings": {
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "hide_images": false,
-        "show_divider": false,
-        "heading": "Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
+        "heading": "<h2>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
+        "bottom_custom": false,
+        "bottom_font": "josefin_sans_n4",
+        "bottom_size": 18,
+        "bottom_size_mobile": 16,
+        "bottom_height": 130,
+        "bottom_align": "center",
+        "bottom_mt": 24,
+        "rating": 4.9,
+        "rating_hide": false,
+        "rating_align": "center",
+        "rating_custom": false,
+        "rating_font": "josefin_sans_n4",
+        "rating_size": 18,
+        "rating_size_mobile": 16,
+        "rating_height": 130,
+        "rating_mt": 16,
+        "stars_count": 5,
+        "stars_size": 16,
+        "slider_view": "5",
+        "slider_view_mobile": 1.5,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 24,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 30,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 20,
+        "avatar_size": 62,
+        "avatar_size_mobile": 40,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 18,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 20,
+        "navigation_mt": 32,
+        "arrow_size": 34,
+        "arrow_size_mobile": 34,
+        "arrow_icon_size": 34,
+        "arrow_icon_size_mobile": 34,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "progress_width": 150,
+        "progress_width_mobile": 150,
+        "progress_height": 6,
+        "progress_height_mobile": 6,
+        "progress_show_desktop": true,
+        "progress_show_mobile": true,
+        "card_bg_color": "#F8F8F8",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "title_color": "#B8B8B8",
+        "text_color": "#000000",
+        "author_color": "#000000",
+        "arrow_color": "#E6E6E6",
+        "arrow_hover_color": "#A7A7A4",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#FFFFFF",
+        "arrow_border_hover_color": "#FFFFFF",
+        "progress_bg_color": "#D9D9D9",
+        "progress_color": "#838383",
+        "heading_color": "#000000",
+        "bottom_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_color": "#F4AC03",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "rich-text": {
@@ -492,6 +595,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -580,6 +684,7 @@
         "image-3",
         "image-4"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 5,
         "spacing_images": 4,
@@ -607,7 +712,7 @@
     "collapsible-content",
     "product-recommendations",
     "recently-viewed-products",
-    "testimonials",
+    "google_reviews_DgQNiG",
     "rich-text",
     "gallery"
   ]
