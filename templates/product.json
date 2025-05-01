@@ -195,11 +195,12 @@
         },
         "announcement-3": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "",
+            "text": "10% OFF your first order | Use code: SOFTEX",
             "text_size": 16,
             "link": ""
           }
