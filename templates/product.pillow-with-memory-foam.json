@@ -36,7 +36,7 @@
           "settings": {
             "price_size": "large",
             "show_badges": true,
-            "sale_badge_basis": "auto"
+            "sale_badge_basis": "percentage"
           }
         },
         "countdown": {
