@@ -96,8 +96,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Benefits",
-            "content": "<h4>- Superior Support:</h4><h4> - Promotes proper head and neck alignment.</h4><h4>- Feather-Like Comfort:</h4><h5>- Ensures a cozy and inviting sleep experience.</h5><h4>- Stylish Design:</h4><h4>- Adds elegance to your bedroom decor.</h4>",
+            "heading": "Care Instructions",
+            "content": "<p>- Care Instructions: </p><p>Machine washable, wrinkle-resistant & quick-drying</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
