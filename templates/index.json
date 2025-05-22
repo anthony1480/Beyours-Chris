@@ -269,7 +269,7 @@
         "sixth_heading": "",
         "sixth_heading_url": "",
         "heading_image_size": 70,
-        "heading_image_size_mobile": 70,
+        "heading_image_size_mobile": 20,
         "heading_image_radius": 100,
         "heading_image_border_thickness": 1,
         "column_heading_custom": false,
