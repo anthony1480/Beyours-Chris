@@ -72,6 +72,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Who’ve Already Stopped Having Nightmares and Sleeping Poorly.<br/>All Thanks to One Simple Improvement.<br/>Will You Be Next?</p>",
             "text_size": "typeset2",
@@ -115,12 +116,12 @@
         "heading_alignment": "left",
         "heading_tag": "h2",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "image_ratio": "portrait",
         "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
-        "secondary_image_max": 1,
+        "secondary_image_max": 2,
         "show_vendor": true,
         "show_rating": true,
         "show_quick_buy": true,
