@@ -39,14 +39,6 @@
             "sale_badge_basis": "percentage"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        },
         "countdown": {
           "type": "countdown",
           "settings": {
@@ -68,6 +60,14 @@
             "enable_swatch_cross": true,
             "enable_swatch_unavailable_click": false,
             "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -139,9 +139,9 @@
         "title",
         "rating",
         "price",
-        "buy_buttons",
         "countdown",
         "variant_picker",
+        "buy_buttons",
         "description",
         "text_JYwhaX",
         "text_HQpkiV",
