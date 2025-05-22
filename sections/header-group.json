@@ -26,8 +26,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Trusted by over 3,800 happy sleepers",
-            "text_on_mobile": "Trusted by over 3,800 happy sleepers",
+            "text": "Soft where you need it. Firm where you want it",
+            "text_on_mobile": "Soft where you need it. Firm where you want it",
             "text_size": 16,
             "link": ""
           }
