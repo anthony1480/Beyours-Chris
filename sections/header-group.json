@@ -25,6 +25,7 @@
         },
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "The first clouds that you can actually sleep on",
             "text_on_mobile": "",
@@ -47,7 +48,7 @@
         "direction": "left",
         "speed": 1.9,
         "colors_text": "#0a0a0a",
-        "colors_background": "#ede4d4",
+        "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0
