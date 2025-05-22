@@ -25,10 +25,9 @@
         },
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "The first clouds that you can actually sleep on",
-            "text_on_mobile": "",
+            "text": "Trusted by over 3,800 happy sleepers",
+            "text_on_mobile": "Trusted by over 1,000 happy sleepers",
             "text_size": 16,
             "link": ""
           }
@@ -41,9 +40,9 @@
       "settings": {
         "only_homepage": true,
         "layout": "marquee",
-        "mobile_layout": "carousel",
+        "mobile_layout": "marquee",
         "autorotate": true,
-        "autorotate_speed": 5,
+        "autorotate_speed": 7,
         "show_navigation": true,
         "direction": "left",
         "speed": 1.9,
