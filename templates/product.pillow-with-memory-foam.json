@@ -70,10 +70,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "text_JYwhaX": {
           "type": "text",
           "settings": {
@@ -85,8 +81,8 @@
         "text_HQpkiV": {
           "type": "text",
           "settings": {
-            "icon": "leather",
-            "text": "Feather-like synthetic polyester fiber Giving it a Cloud Like Feeling",
+            "icon": "heart",
+            "text": "Wake Up Without Neck Pain. Guaranteed",
             "text_style": "body"
           }
         },
@@ -97,6 +93,10 @@
             "text": "30 Days Money Back Guarantee",
             "text_style": "body"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "inventory_status": {
           "type": "inventory_status",
@@ -142,10 +142,10 @@
         "countdown",
         "variant_picker",
         "buy_buttons",
-        "description",
         "text_JYwhaX",
         "text_HQpkiV",
         "text_j9XbkN",
+        "description",
         "inventory_status",
         "collapsible_tab-0",
         "collapsible_tab-1",
