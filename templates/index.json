@@ -129,7 +129,7 @@
         "enable_color_swatches": true,
         "enable_countdown": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 68
       }
     },
     "comparison_rt2_fzyeDn": {
@@ -239,17 +239,17 @@
         "heading": "<p><strong>The Difference</strong></p>",
         "heading_custom": false,
         "heading_font": "sans-serif",
-        "heading_size": 24,
-        "heading_size_mobile": 16,
-        "heading_height": 110,
+        "heading_size": 22,
+        "heading_size_mobile": 18,
+        "heading_height": 150,
         "text": "<p>Wake Up Without Neck Pain — Guaranteed</p>",
         "text_custom": true,
         "text_font": "sans-serif",
         "text_size": 21,
-        "text_size_mobile": 13,
-        "text_height": 50,
+        "text_size_mobile": 14,
+        "text_height": 90,
         "text_mt": 8,
-        "text_mt_mobile": 10,
+        "text_mt_mobile": 8,
         "table_columns": 3,
         "table_radius": 20,
         "table_mt": 6,
