@@ -54,6 +54,10 @@
             "sale_badge_basis": "percentage"
           }
         },
+        "aov_bundle_upsell_offer_fixed_axy3my": {
+          "type": "shopify://apps/aov-bundle-upsell/blocks/offer-fixed/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "settings": {}
+        },
         "countdown": {
           "type": "countdown",
           "settings": {
@@ -145,6 +149,7 @@
         "title",
         "rating",
         "price",
+        "aov_bundle_upsell_offer_fixed_axy3my",
         "countdown",
         "variant_picker",
         "description_VgMCqm",
