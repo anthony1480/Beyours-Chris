@@ -27,7 +27,7 @@
             "text": "",
             "text_size": "typeset2",
             "button_label": "Shop Now",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://products/pillow-with-memory-foam",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -373,6 +373,7 @@
       "block_order": [
         "slide"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner_3.jpg",
         "image_position": "center center",
