@@ -98,6 +98,16 @@
         "type": "shopify://apps/countdown-timer-essential/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
         "settings": {}
+      },
+      "16605207545338212596": {
+        "type": "shopify://apps/aov-bundle-upsell/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
+        "disabled": false,
+        "settings": {}
+      },
+      "12736017524961732444": {
+        "type": "shopify://apps/show-recent-orders-urgenzy/blocks/script-append/1eab53e4-7e8e-485b-9af3-3fee71101ea5",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
