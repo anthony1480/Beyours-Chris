@@ -99,13 +99,13 @@
         "disabled": false,
         "settings": {}
       },
-      "16605207545338212596": {
-        "type": "shopify://apps/aov-bundle-upsell/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
+      "12736017524961732444": {
+        "type": "shopify://apps/show-recent-orders-urgenzy/blocks/script-append/1eab53e4-7e8e-485b-9af3-3fee71101ea5",
         "disabled": false,
         "settings": {}
       },
-      "12736017524961732444": {
-        "type": "shopify://apps/show-recent-orders-urgenzy/blocks/script-append/1eab53e4-7e8e-485b-9af3-3fee71101ea5",
+      "6544682535036668446": {
+        "type": "shopify://apps/pumper-bundles-quantity-breaks/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
         "settings": {}
       }
