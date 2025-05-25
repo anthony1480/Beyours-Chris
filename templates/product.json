@@ -19,15 +19,9 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "breadcrumb": {
-          "type": "breadcrumb",
-          "settings": {
-            "text_style": "uppercase",
-            "show_divider": true
-          }
-        },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "box",
             "text": "{{ product.vendor }}",
@@ -147,7 +141,6 @@
         }
       },
       "block_order": [
-        "breadcrumb",
         "vendor",
         "title",
         "rating",
@@ -175,7 +168,7 @@
         "hide_variants": true,
         "enable_image_zoom": true,
         "enable_video_looping": true,
-        "mobile_image_ratio": "adapt_first",
+        "mobile_image_ratio": "square",
         "show_mobile_thumbnails": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -393,6 +386,7 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "show_divider": false,
         "heading": "Recently Viewed",
