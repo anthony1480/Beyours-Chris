@@ -470,9 +470,10 @@
         "testimonial_NcVjU9",
         "testimonial_CtKz64"
       ],
+      "disabled": true,
       "name": "SS - Testimonial #9",
       "settings": {
-        "heading": "<h2>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h2>",
+        "heading": "<h4>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h4>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 48,
