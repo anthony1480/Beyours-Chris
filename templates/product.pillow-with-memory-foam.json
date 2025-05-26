@@ -31,6 +31,19 @@
           "type": "rating",
           "settings": {}
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": false,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -47,19 +60,6 @@
             "colors_heading": "#da3f3f",
             "colors_text": "#da3f3f",
             "colors_background": "#ffeeee"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": false,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatches_source": "file",
-            "swatch_type": "round",
-            "enable_swatch_cross": true,
-            "enable_swatch_unavailable_click": false,
-            "size_chart": ""
           }
         },
         "buy_buttons": {
@@ -138,9 +138,9 @@
       "block_order": [
         "title",
         "rating",
+        "variant_picker",
         "price",
         "countdown",
-        "variant_picker",
         "buy_buttons",
         "text_JYwhaX",
         "text_HQpkiV",
