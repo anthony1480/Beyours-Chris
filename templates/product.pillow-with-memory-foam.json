@@ -39,6 +39,16 @@
             "sale_badge_basis": "percentage"
           }
         },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -50,16 +60,6 @@
             "enable_swatch_cross": true,
             "enable_swatch_unavailable_click": false,
             "size_chart": ""
-          }
-        },
-        "countdown": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up ! Sale end in:",
-            "number_size": "compact",
-            "colors_heading": "#da3f3f",
-            "colors_text": "#da3f3f",
-            "colors_background": "#ffeeee"
           }
         },
         "buy_buttons": {
@@ -139,8 +139,8 @@
         "title",
         "rating",
         "price",
-        "variant_picker",
         "countdown",
+        "variant_picker",
         "buy_buttons",
         "text_JYwhaX",
         "text_HQpkiV",
