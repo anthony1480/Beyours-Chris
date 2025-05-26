@@ -31,6 +31,14 @@
           "type": "rating",
           "settings": {}
         },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "large",
+            "show_badges": true,
+            "sale_badge_basis": "percentage"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -42,14 +50,6 @@
             "enable_swatch_cross": true,
             "enable_swatch_unavailable_click": false,
             "size_chart": ""
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_size": "large",
-            "show_badges": true,
-            "sale_badge_basis": "percentage"
           }
         },
         "countdown": {
@@ -138,8 +138,8 @@
       "block_order": [
         "title",
         "rating",
-        "variant_picker",
         "price",
+        "variant_picker",
         "countdown",
         "buy_buttons",
         "text_JYwhaX",
