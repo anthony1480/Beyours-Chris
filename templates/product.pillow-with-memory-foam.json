@@ -57,7 +57,7 @@
             "enable_color_swatches": true,
             "swatches_source": "file",
             "swatch_type": "round",
-            "enable_swatch_cross": true,
+            "enable_swatch_cross": false,
             "enable_swatch_unavailable_click": false,
             "size_chart": ""
           }
