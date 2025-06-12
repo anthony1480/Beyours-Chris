@@ -104,9 +104,9 @@
         "collapsible_tab-1": {
           "type": "collapsible_tab",
           "settings": {
-            "icon": "none",
+            "icon": "washing",
             "heading": "Care Instructions",
-            "content": "<p>- Care Instructions: </p><p>Machine washable, wrinkle-resistant & quick-drying</p>",
+            "content": "<p>Care Instructions: </p><p>Machine washable, wrinkle-resistant and quick-drying.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
