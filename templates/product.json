@@ -95,7 +95,7 @@
           "settings": {
             "icon": "none",
             "heading": "Key Features",
-            "content": "<p><strong>K</strong></p>",
+            "content": "",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
@@ -106,7 +106,7 @@
           "settings": {
             "icon": "washing",
             "heading": "Care Instructions",
-            "content": "<p>Care Instructions: </p><p>Machine washable, wrinkle-resistant and quick-drying.</p>",
+            "content": "<p>Care Instructions: </p><p>Dry Cleaning, wrinkle-resistant and quick-drying.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
