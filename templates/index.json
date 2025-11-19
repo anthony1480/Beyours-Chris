@@ -50,11 +50,31 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "image_hj7R6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "image_PmdCrD"
+        "image_PmdCrD",
+        "image_hj7R6b"
       ],
       "settings": {
         "slideshow_type": "legacy",
