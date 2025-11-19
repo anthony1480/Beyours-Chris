@@ -80,7 +80,7 @@
         "slideshow_type": "legacy",
         "text_alignment": "left",
         "image_ratio": "100vh",
-        "autorotate": false,
+        "autorotate": true,
         "autorotate_speed": 3,
         "full_width": true,
         "image_behavior": "none",
