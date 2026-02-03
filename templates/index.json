@@ -34,6 +34,7 @@
         },
         "image_PmdCrD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PillowMiddleMemoryFoam.jpg",
             "image_position": "center center",
@@ -53,6 +54,7 @@
         },
         "image_hj7R6b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/11.jpg",
             "image_position": "center center",
