@@ -440,8 +440,9 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "check_mark",
-            "icon_size": "medium",
+            "icon": "none",
+            "icon_size": "large",
+            "image": "shopify://shop_images/knowledge.png",
             "custom_icon": "",
             "title": "Science Based",
             "title_size": "h4",
