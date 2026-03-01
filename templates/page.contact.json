@@ -127,6 +127,7 @@
         "map_api_key": "",
         "map_zoom": 14,
         "map_style": "silver",
+        "image": "shopify://shop_images/5.png",
         "image_position": "center center",
         "text_box_position": "middle-left",
         "text_alignment": "left",
