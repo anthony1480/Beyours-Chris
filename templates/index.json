@@ -505,9 +505,9 @@
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "gradient_background": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "collapsible_content_PFfRJ8": {
