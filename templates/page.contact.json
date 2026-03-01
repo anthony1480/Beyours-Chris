@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "image-banner": {
+    "image_banner_ez6yBj": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_NqrKj9": {
           "type": "heading",
           "settings": {
             "heading": "Contact Us",
@@ -20,7 +20,7 @@
             "heading_tag": "h2"
           }
         },
-        "text": {
+        "text_8Gj3yF": {
           "type": "text",
           "settings": {
             "text": "<p>Contact us to get all the information needed.</p>",
@@ -30,21 +30,22 @@
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading_NqrKj9",
+        "text_8Gj3yF"
       ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/contact-customer-service.jpg",
-        "image_position": "top center",
-        "text_box_position": "bottom-right",
-        "text_alignment": "left",
-        "image_ratio": "550px",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "400px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
         "image_behavior": "none",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "250px",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "colors_button_label": "#1a1b18",
@@ -52,7 +53,7 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
-        "padding_top": 0,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -147,7 +148,7 @@
     }
   },
   "order": [
-    "image-banner",
+    "image_banner_ez6yBj",
     "main",
     "form",
     "map_cJB7bA"

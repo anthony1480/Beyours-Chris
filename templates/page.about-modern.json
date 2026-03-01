@@ -28,7 +28,7 @@
         "image": "shopify://shop_images/11.jpg",
         "image_position": "center center",
         "text_box_position": "center",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "image_ratio": "400px",
         "show_text_box": false,
         "full_width": true,
