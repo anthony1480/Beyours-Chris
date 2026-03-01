@@ -404,5 +404,11 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "h1.article-template__title.h0 {font-size: 35px;}",
+      "/* Phone */@media (max-width: 768px) {h1.article-template__title.h0 {font-size: 20px; }}"
+    ]
   }
 }
