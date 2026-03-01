@@ -42,6 +42,9 @@
         "footer-1",
         "footer-2"
       ],
+      "custom_css": [
+        "ul.policies.list-unstyled {display: none;}"
+      ],
       "settings": {
         "show_divider": true,
         "newsletter_enable": true,
