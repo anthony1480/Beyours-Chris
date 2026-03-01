@@ -76,7 +76,7 @@
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "blog": "news",
-        "post_limit": 3,
+        "post_limit": 4,
         "show_view_all": true,
         "show_divider": false,
         "heading": "Explore Our Latest Blogs",
@@ -84,7 +84,7 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "show_image": true,
         "image_ratio": "landscape",
         "image_position": "center center",
