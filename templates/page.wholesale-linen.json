@@ -181,6 +181,50 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_VgWGLU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bid3KN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Work With",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_BrahFQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We partner with hotels, resorts, guesthouses, retail stores, interior designers, property managers, and distributors who demand premium quality and reliable supply. Our wholesale solutions are designed to support businesses that value comfort, durability, and refined presentation.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bid3KN",
+        "text_BrahFQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#f9f9f9",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "contact_form_3zVyip": {
       "type": "contact-form",
       "blocks": {
@@ -211,6 +255,7 @@
     "image_banner_3e8iiV",
     "image_with_text_xPCgcB",
     "guarantees_3FJTBa",
+    "rich_text_VgWGLU",
     "contact_form_3zVyip"
   ]
 }
