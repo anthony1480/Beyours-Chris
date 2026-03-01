@@ -57,6 +57,66 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_xPCgcB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pkADHA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wholesale Linen Program",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_a4DRCE": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Elevate Your Business with Premium Linen Solutions</h2><p>At <strong>Softex</strong>, we offer exclusive wholesale partnerships designed for businesses that value quality, consistency, and long-term reliability.</p><p>With over four decades of textile manufacturing expertise through ATCO S.A.L, we understand what professional buyers expect: exceptional product standards, competitive pricing, and dependable supply.</p><p>Whether you operate in hospitality, retail, or large-scale property management, our wholesale program is built to support your growth.</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "button_h9dkQW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pkADHA",
+        "text_a4DRCE",
+        "button_h9dkQW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_3.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#000000",
+        "colors_button_background": "#ffd931",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "contact_form_3zVyip": {
       "type": "contact-form",
       "blocks": {
@@ -85,6 +145,7 @@
   "order": [
     "main",
     "image_banner_3e8iiV",
+    "image_with_text_xPCgcB",
     "contact_form_3zVyip"
   ]
 }
