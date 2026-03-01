@@ -9,8 +9,92 @@
  */
 {
   "sections": {
+    "image_banner_nH7xxn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nHiUgx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blog",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nHiUgx"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Softex_memory_pillow_web4.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "400px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_blog_adYaLW": {
+      "type": "featured-blog",
+      "blocks": {
+        "title_4yDM9V": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comment_count": false
+          }
+        },
+        "summary_yNiBXy": {
+          "type": "summary",
+          "settings": {}
+        },
+        "read_more_66rd96": {
+          "type": "read_more",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_4yDM9V",
+        "summary_yNiBXy",
+        "read_more_66rd96"
+      ],
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Explore Our Latest Blogs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_image": true,
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "narrow": true,
         "padding_top": 60,
@@ -19,6 +103,8 @@
     }
   },
   "order": [
+    "image_banner_nH7xxn",
+    "featured_blog_adYaLW",
     "main"
   ]
 }
