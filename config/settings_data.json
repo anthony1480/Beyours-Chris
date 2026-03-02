@@ -65,10 +65,10 @@
     "cart_recommendations_show_vendor": true,
     "predictive_search_show_vendor": true,
     "share_facebook": false,
-    "social_facebook_link": "https://www.facebook.com/profile.php?id=61574736726919#",
-    "social_instagram_link": "https://www.instagram.com/atcolinens/",
-    "social_tiktok_link": "https://www.tiktok.com/@atcosal?_t=ZS-8uoa5wju6Br&_r=1",
-    "social_linkedin_link": "https://www.linkedin.com/company/atco-s-a-l/posts/?feedView=all",
+    "social_facebook_link": "https://www.facebook.com/share/1EEhaVPYtT/?mibextid=wwXIfr",
+    "social_instagram_link": "https://www.instagram.com/softexlinens?igsh=MTYyMWwxcDVvcml6OA==",
+    "social_tiktok_link": "",
+    "social_linkedin_link": "",
     "gift_card_logo_height": 70,
     "disable_collection_portion": true,
     "sale_badge_basis": "percentage",
@@ -408,7 +408,7 @@
   "platform_customizations": {
     "custom_css": [
       "h1.article-template__title.h0 {font-size: 35px;}",
-      "/* Phone */@media (max-width: 768px) {h1.article-template__title.h0 {font-size: 20px; }}"
+      " /* Phone */@media (max-width: 768px) {h1.article-template__title.h0 {font-size: 20px; }}"
     ]
   }
 }
