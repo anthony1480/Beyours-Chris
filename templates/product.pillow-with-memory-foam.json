@@ -404,6 +404,82 @@
         "padding_bottom": 16
       }
     },
+    "guarantees_a7TfdE": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_YeJyGH": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "image": "shopify://shop_images/knowledge.png",
+            "custom_icon": "",
+            "title": "Science Based",
+            "title_size": "h4",
+            "text": "<p>All of our products are backed by years of research and crafted with expertise.</p>"
+          }
+        },
+        "guarantee_QWNb3Q": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "globe",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "World Class Material",
+            "title_size": "h4",
+            "text": "<p>Though our products are lightweight, we never compromise on the quality of our materials.</p>"
+          }
+        },
+        "guarantee_gEz9jy": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Free Delivery Across Lebanon",
+            "title_size": "h4",
+            "text": "<p>Enjoy Affordable Prices and Free Delivery to Your Doorstep.</p>"
+          }
+        },
+        "guarantee_wRCryY": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shield",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "30 Days Money Back Guarantee",
+            "title_size": "h4",
+            "text": "<p>Not Satisfied? Let Us Make It Right.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_YeJyGH",
+        "guarantee_QWNb3Q",
+        "guarantee_gEz9jy",
+        "guarantee_wRCryY"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Our Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -428,95 +504,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "disabled": true,
-      "settings": {
-        "show_divider": false,
-        "heading": "Recently Viewed",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "heart",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Love Yourself",
-            "title_size": "h4",
-            "text": "<p>Give yourself time to rest</p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "check_mark",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "30 Day Money Back Guaranteed",
-            "title_size": "h4",
-            "text": "<p>Not satisfied? No worries. Return your product within 30 days for a full refund no questions asked.<br/></p>"
-          }
-        },
-        "guarantee-2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Free Delivery Around Lebanon",
-            "title_size": "h4",
-            "text": "<p>Wherever you are don't worry we got you</p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Our Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -525,8 +512,7 @@
     "scrolling-promotion",
     "video_slider_edeBcc",
     "collapsible-content",
-    "product-recommendations",
-    "recently-viewed-products",
-    "guarantees"
+    "guarantees_a7TfdE",
+    "product-recommendations"
   ]
 }
