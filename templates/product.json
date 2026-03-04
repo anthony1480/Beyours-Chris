@@ -314,7 +314,8 @@
           "repeater": "{{ product.metafields.custom.faqs.value }}",
           "settings": {
             "heading": "{{ block.repeater.question | metafield_text }}",
-            "row_content": "{{ block.repeater.answer | metafield_tag }}"
+            "row_content": "{{ block.repeater.answer | metafield_tag }}",
+            "page": ""
           }
         }
       },
@@ -340,31 +341,6 @@
         "product_list_limit": 4,
         "show_divider": false,
         "heading": "You May Also Like",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "disabled": true,
-      "settings": {
-        "show_divider": false,
-        "heading": "Recently Viewed",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
@@ -691,10 +667,9 @@
     "empty-space",
     "main",
     "scrolling-promotion",
-    "guarantees_K8kHVM",
     "collapsible_content_VXqVrm",
+    "guarantees_K8kHVM",
     "product-recommendations",
-    "recently-viewed-products",
     "google_reviews_DgQNiG",
     "rich-text",
     "gallery"
