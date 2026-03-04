@@ -306,6 +306,34 @@
         "padding_bottom": 60
       }
     },
+    "collapsible_content_VXqVrm": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BjAjDT": {
+          "type": "collapsible_row",
+          "repeater": "{{ product.metafields.custom.faqs.value }}",
+          "settings": {
+            "heading": "{{ block.repeater.question | metafield_text }}",
+            "row_content": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BjAjDT"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -664,6 +692,7 @@
     "main",
     "scrolling-promotion",
     "guarantees_K8kHVM",
+    "collapsible_content_VXqVrm",
     "product-recommendations",
     "recently-viewed-products",
     "google_reviews_DgQNiG",
