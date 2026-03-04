@@ -62,10 +62,6 @@
             "size_chart": ""
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "text_XGXtMq": {
           "type": "text",
           "settings": {
@@ -97,6 +93,10 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "inventory_status": {
           "type": "inventory_status",
@@ -148,11 +148,11 @@
         "price",
         "countdown",
         "variant_picker",
-        "description",
         "text_XGXtMq",
         "text_4Fgnwt",
         "text_apmkBk",
         "buy_buttons",
+        "description",
         "inventory_status",
         "collapsible_tab-0",
         "collapsible_tab-1",
@@ -366,199 +366,6 @@
         "lazy": true
       }
     },
-    "rich_text_XFUhhE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9eNmyh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experience unparalleled comfort and luxury",
-            "heading_size": "h1",
-            "heading_tag": "h6"
-          }
-        },
-        "text_PEVgxL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This meticulously crafted comforter pairs the feather-soft touch of synthetic polyester fiber with a premium down-proof cover and elegant piping, ensuring a restful and sublime sleep every night.</p>",
-            "text_size": "typeset2",
-            "secondary_color": false,
-            "highlight_phrases": "softness of feather\nsynthetic polyester",
-            "highlight_style": "marker"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9eNmyh",
-        "text_PEVgxL"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#e2e2e2",
-        "colors_highlight": "#bbff00",
-        "gradient_background": "",
-        "padding_top": 44,
-        "padding_bottom": 44
-      }
-    },
-    "ss_feature13_7btXJq": {
-      "type": "SSFeature13",
-      "blocks": {
-        "item_XJBAiU": {
-          "type": "item",
-          "settings": {
-            "icon": "heart",
-            "title": "Neck Comfort",
-            "text": "99% of people face severe neck pain on the daily not knowing it is because of the sleep position their pillows provide them"
-          }
-        },
-        "item_iFUxgK": {
-          "type": "item",
-          "settings": {
-            "icon": "time",
-            "title": "Better Sleep",
-            "text": "Improve sleep quality by enhancing you sleeping position and the pillow that you lay your head on"
-          }
-        },
-        "item_4Tf4QA": {
-          "type": "item",
-          "settings": {
-            "icon": "gift",
-            "title": "Advanced Leather Type",
-            "text": "We only use the highest form of material which helps with sleep and posture."
-          }
-        },
-        "item_MfzBLV": {
-          "type": "item",
-          "settings": {
-            "icon": "plant",
-            "title": "Anti Migraine",
-            "text": "A big part of your daily migraine comes from sleep disruption which we have solved in our Proven Pillows"
-          }
-        },
-        "item_3Nq44j": {
-          "type": "item",
-          "settings": {
-            "icon": "bi-ecology",
-            "title": "Less stress",
-            "text": "It is scientifically known that better sleep quality equals less stress and better brain function"
-          }
-        },
-        "item_86VbTE": {
-          "type": "item",
-          "settings": {
-            "icon": "mobile",
-            "title": "Better Dreams",
-            "text": "Better sleep, better dreams :)"
-          }
-        }
-      },
-      "block_order": [
-        "item_XJBAiU",
-        "item_iFUxgK",
-        "item_4Tf4QA",
-        "item_MfzBLV",
-        "item_3Nq44j",
-        "item_86VbTE"
-      ],
-      "settings": {
-        "heading": "<h2>Why you need this</h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 46,
-        "heading_size_mobile": 32,
-        "heading_height": 150,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "body_gap": 80,
-        "items_gap": 30,
-        "items_gap_mobile": 30,
-        "items_mt": 24,
-        "items_mt_mobile": 22,
-        "image": "shopify://shop_images/Danw_Proof_Furnished_on_bed.jpg",
-        "image_position": "center",
-        "image_position_mobile": "first",
-        "image_ratio": "portrait",
-        "image_ratio_mobile": "portrait",
-        "image_radius": 0,
-        "image_border_thickness": 0,
-        "content_align": "center",
-        "content_align_mobile": "center",
-        "icon_size": 50,
-        "icon_size_mobile": 40,
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 16,
-        "title_size_mobile": 16,
-        "title_height": 130,
-        "title_mt": 16,
-        "title_mt_mobile": 8,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 16,
-        "text_size_mobile": 16,
-        "text_height": 150,
-        "text_mt": 10,
-        "text_mt_mobile": 6,
-        "text_hide_mobile": true,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 16,
-        "button_height": 100,
-        "button_width": 200,
-        "button_width_mobile": 200,
-        "button_mt": 16,
-        "button_mt_mobile": 16,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 24,
-        "button_padding_horizontal_mobile": 24,
-        "button_radius": 4,
-        "button_border_thickness": 1,
-        "button_align": "left",
-        "button_align_mobile": "left",
-        "button_style": "non_outline",
-        "button_position": "bottom",
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "icon_color": "#131313",
-        "title_color": "#131313",
-        "text_color": "#131313",
-        "heading_color": "#131313",
-        "image_border_color": "#000000",
-        "background_color": "#f2f2f2",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 52,
-        "padding_bottom": 52,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 160,
-        "section_radius": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -584,62 +391,30 @@
         "padding_bottom": 36
       }
     },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "show_divider": false,
-        "heading": "Recently Viewed",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible-content": {
       "type": "collapsible-content",
       "blocks": {
         "question-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What does \"down-proof\" mean in a comforter?",
-            "row_content": "<p>A down-proof comforter has a <strong>tightly woven fabric cover</strong> that prevents feathers or down from escaping, ensuring long-lasting softness and durability.</p>",
+            "heading": "What is the Softex Down-Proof Feather Touch Comforter made of?",
+            "row_content": "<p>The Softex Down-Proof Feather Touch Comforter features a <strong>233 thread count 100% cotton outer cover</strong> and a <strong>feather-like synthetic polyester filling</strong>. This combination creates a soft, breathable, and hypoallergenic comforter that mimics the plush feel of natural down while remaining easy to maintain.</p>",
             "page": ""
           }
         },
         "question-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the down-proof feather touch comforter good for all seasons?",
-            "row_content": "<p>Yes! It offers <strong>lightweight warmth</strong>, making it suitable for both <strong>winter and summer</strong>. If you prefer extra warmth, consider a <strong>higher fill power option</strong>.</p>",
+            "heading": "What does “down-proof” mean in a comforter?",
+            "row_content": "<p>“Down-proof” refers to a tightly woven fabric cover designed to <strong>prevent feathers or filling fibers from escaping</strong> while maintaining softness and durability. This helps the comforter keep its loft and comfort over time.</p>",
             "page": ""
           }
         },
         "question-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can this comforter trigger allergies?",
-            "row_content": "<p>No, it is typically <strong>hypoallergenic</strong> and designed to resist dust mites, mold, and allergens, making it ideal for sensitive sleepers.</p>",
-            "page": ""
-          }
-        },
-        "question-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Does the comforter lose its fluff over time?",
-            "row_content": "<p>Over time, it may <strong>flatten slightly</strong>, but regular <strong>fluffing and air-drying</strong> can help maintain its loft and softness.</p>",
+            "heading": "Is the Softex Feather Touch Comforter suitable for year-round use?",
+            "row_content": "<p>Yes. The comforter is designed to provide <strong>lightweight warmth and breathability</strong>, making it comfortable for both cooler and warmer seasons. Its balanced filling helps maintain warmth without feeling too heavy.</p>",
             "page": ""
           }
         }
@@ -647,8 +422,7 @@
       "block_order": [
         "question-0",
         "question-1",
-        "question-2",
-        "question-3"
+        "question-2"
       ],
       "settings": {
         "open_first_collapsible_row": false,
@@ -661,81 +435,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "chat_bubble",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "24/7 Costumer Support",
-            "title_size": "h4",
-            "text": "<p>Whatever you need, just ask us.</p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "check_mark",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Science based Material",
-            "title_size": "h4",
-            "text": "<p>Guaranteed to relieve your pain</p>"
-          }
-        },
-        "guarantee-2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "ship",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Free Delivery",
-            "title_size": "h4",
-            "text": "<p>With fast 2-5 Days Delivery</p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Don't Like it?",
-            "title_size": "h4",
-            "text": "<p>We have a 30-Day Money Back Guarantee</p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantee's",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -743,11 +442,7 @@
     "main",
     "scrolling-promotion",
     "video_slider_CQYn9E",
-    "rich_text_XFUhhE",
-    "ss_feature13_7btXJq",
     "product-recommendations",
-    "recently-viewed-products",
-    "collapsible-content",
-    "guarantees"
+    "collapsible-content"
   ]
 }
