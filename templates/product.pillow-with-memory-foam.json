@@ -359,154 +359,49 @@
         "lazy": true
       }
     },
-    "ss_feature13_mHzbqE": {
-      "type": "SSFeature13",
+    "collapsible-content": {
+      "type": "collapsible-content",
       "blocks": {
-        "item_YqNyBQ": {
-          "type": "item",
+        "question-0": {
+          "type": "collapsible_row",
           "settings": {
-            "icon": "heart",
-            "title": "Neck Comfort",
-            "text": "99% of people experience severe neck pain daily, not realizing it is caused by the sleep position their pillows create."
+            "heading": "What makes the Softex Pillow with Memory Foam unique?",
+            "row_content": "<p>The Softex Pillow with Memory Foam combines <strong>soft down-alternative polyester fiber with a supportive memory foam insert on one side</strong>, giving you both plush comfort and structured support. It is covered with <strong>233 thread-count combed cotton fabric</strong>, designed to feel soft, breathable, and durable.</p>",
+            "page": ""
           }
         },
-        "item_bw9Kpq": {
-          "type": "item",
+        "question-1": {
+          "type": "collapsible_row",
           "settings": {
-            "icon": "time",
-            "title": "Better Sleep",
-            "text": "Improve sleep quality by enhancing your sleeping position and the pillow you lay your head on."
+            "heading": "What are the benefits of a memory foam pillow?",
+            "row_content": "<p>Memory foam pillows mold to the shape of your head and neck, helping maintain proper spinal alignment and evenly distribute pressure while you sleep. This supportive contouring can help reduce neck strain and improve overall sleep comfort. </p>",
+            "page": ""
           }
         },
-        "item_LyXbKi": {
-          "type": "item",
+        "question-2": {
+          "type": "collapsible_row",
           "settings": {
-            "icon": "gift",
-            "title": "Advanced Leather Type",
-            "text": "We use only the highest quality materials to support better sleep and posture."
-          }
-        },
-        "item_HYK7zK": {
-          "type": "item",
-          "settings": {
-            "icon": "mobile",
-            "title": "Anti Migraine",
-            "text": "A major cause of daily migraines is sleep disruption something our Proven Pillows are designed to solve."
-          }
-        },
-        "item_WUrErG": {
-          "type": "item",
-          "settings": {
-            "icon": "people",
-            "title": "Less stress",
-            "text": "Scientific studies show that better sleep quality leads to less stress and improved brain function."
-          }
-        },
-        "item_UArMQB": {
-          "type": "item",
-          "settings": {
-            "icon": "star",
-            "title": "Better Dreams",
-            "text": "Better sleep, better dreams :)"
+            "heading": "Who is this pillow suitable for?",
+            "row_content": "<p>The Softex memory foam pillow is suitable for <strong>side and back sleepers who want both softness and support</strong>. Its breathable and hypoallergenic design also makes it a good option for people with sensitivities or allergies.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "item_YqNyBQ",
-        "item_bw9Kpq",
-        "item_LyXbKi",
-        "item_HYK7zK",
-        "item_WUrErG",
-        "item_UArMQB"
+        "question-0",
+        "question-1",
+        "question-2"
       ],
       "settings": {
-        "heading": "<h2>Why you need this pillow</h2>",
-        "heading_custom": true,
-        "heading_font": "arvo_n4",
-        "heading_size": 52,
-        "heading_size_mobile": 20,
-        "heading_height": 150,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "body_gap": 80,
-        "items_gap": 50,
-        "items_gap_mobile": 30,
-        "items_mt": 24,
-        "items_mt_mobile": 22,
-        "image": "shopify://shop_images/MBR68845.jpg",
-        "image_position": "center",
-        "image_position_mobile": "first",
-        "image_ratio": "landscape",
-        "image_ratio_mobile": "landscape",
-        "image_radius": 0,
-        "image_border_thickness": 0,
-        "content_align": "center",
-        "content_align_mobile": "center",
-        "icon_size": 40,
-        "icon_size_mobile": 24,
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 22,
-        "title_size_mobile": 16,
-        "title_height": 130,
-        "title_mt": 16,
-        "title_mt_mobile": 8,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 16,
-        "text_size_mobile": 16,
-        "text_height": 150,
-        "text_mt": 10,
-        "text_mt_mobile": 6,
-        "text_hide_mobile": true,
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 16,
-        "button_height": 100,
-        "button_width": 200,
-        "button_width_mobile": 200,
-        "button_mt": 16,
-        "button_mt_mobile": 16,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 24,
-        "button_padding_horizontal_mobile": 24,
-        "button_radius": 4,
-        "button_border_thickness": 1,
-        "button_align": "left",
-        "button_align_mobile": "left",
-        "button_style": "non_outline",
-        "button_position": "bottom",
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "icon_color": "#131313",
-        "title_color": "#131313",
-        "text_color": "#131313",
-        "heading_color": "#131313",
-        "image_border_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 160,
-        "section_radius": 0,
-        "border_thickness": 0,
-        "lazy": true
+        "open_first_collapsible_row": false,
+        "narrow": true,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h5",
+        "padding_top": 28,
+        "padding_bottom": 16
       }
     },
     "product-recommendations": {
@@ -557,60 +452,6 @@
         "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "collapsible-content": {
-      "type": "collapsible-content",
-      "blocks": {
-        "question-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are memory foam pillows good for neck pain?",
-            "row_content": "<p>Yes! Memory foam <strong>contours to your head and neck</strong>, providing <strong>excellent support</strong> and relieving pressure points</p>",
-            "page": ""
-          }
-        },
-        "question-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does your Memory Foam Pillows last?",
-            "row_content": "<p>They typically last <strong>2-4 years</strong> before losing their shape.</p>",
-            "page": ""
-          }
-        },
-        "question-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are memory foam pillows firm or soft?",
-            "row_content": "<p>They start <strong>firm</strong> but soften slightly with body heat. Some models offer <strong>adjustable loft</strong> to customize firmness.</p>",
-            "page": ""
-          }
-        },
-        "question-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Are your memory foam pillows hypoallergenic?",
-            "row_content": "<p>Yes, our memory foam is naturally <strong>resistant to dust mites, mold, and bacteria</strong>, making it great for allergy sufferers.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "question-0",
-        "question-1",
-        "question-2",
-        "question-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": true,
-        "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "heading_tag": "h5",
-        "padding_top": 28,
-        "padding_bottom": 16
       }
     },
     "guarantees": {
@@ -676,164 +517,6 @@
         "padding_top": 72,
         "padding_bottom": 36
       }
-    },
-    "google_reviews_TMWJgV": {
-      "type": "Google-Reviews",
-      "blocks": {
-        "testimonial_GzwebU": {
-          "type": "testimonial",
-          "settings": {
-            "title": "ATCO Linen",
-            "text": "Wow, super murihin w aanjad bi shilo waja3 el ra2be wel daher",
-            "avatar": "shopify://shop_images/aa66a5be6d9059038ac3aa02c23f4c69.jpg",
-            "hide_avatar": false,
-            "author": "Liliane N",
-            "stars_count": 5
-          }
-        },
-        "testimonial_EQEXpp": {
-          "type": "testimonial",
-          "settings": {
-            "title": "ATCO Linen",
-            "text": "Sarle 4 years 3am 3ane waja3 ra2be w makenet 3erif eno men nawmte gher lama araret jib hel pillow. Saraha bet 3a2id",
-            "avatar": "shopify://shop_images/i1.jpg",
-            "hide_avatar": false,
-            "author": "Georges K",
-            "stars_count": 5
-          }
-        },
-        "testimonial_UFTAeB": {
-          "type": "testimonial",
-          "settings": {
-            "title": "ATCO Linen",
-            "text": "Wow, l effect taba3un bi 3a2id w ktir murihin. Very affordable",
-            "avatar": "shopify://shop_images/People.jpg",
-            "hide_avatar": false,
-            "author": "Lyna M",
-            "stars_count": 5
-          }
-        },
-        "testimonial_FLf3yr": {
-          "type": "testimonial",
-          "settings": {
-            "title": "ATCO Linen",
-            "text": "Ktir habbet saraha very recommended",
-            "hide_avatar": false,
-            "author": "Cynthia . S",
-            "stars_count": 5
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_GzwebU",
-        "testimonial_EQEXpp",
-        "testimonial_UFTAeB",
-        "testimonial_FLf3yr"
-      ],
-      "settings": {
-        "heading": "<h2>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 48,
-        "heading_size_mobile": 12,
-        "heading_height": 130,
-        "heading_align": "center",
-        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
-        "bottom_custom": false,
-        "bottom_font": "josefin_sans_n4",
-        "bottom_size": 18,
-        "bottom_size_mobile": 12,
-        "bottom_height": 130,
-        "bottom_align": "center",
-        "bottom_mt": 0,
-        "rating": 4.9,
-        "rating_hide": false,
-        "rating_align": "center",
-        "rating_custom": false,
-        "rating_font": "josefin_sans_n4",
-        "rating_size": 18,
-        "rating_size_mobile": 14,
-        "rating_height": 90,
-        "rating_mt": 10,
-        "stars_count": 5,
-        "stars_size": 16,
-        "slider_view": "5",
-        "slider_view_mobile": 1.5,
-        "slider_gap": 20,
-        "slider_gap_mobile": 20,
-        "slider_mt": 20,
-        "card_padding_vertical": 24,
-        "card_padding_vertical_mobile": 16,
-        "card_padding_horizontal": 24,
-        "card_padding_horizontal_mobile": 10,
-        "card_radius": 30,
-        "card_border_thickness": 0,
-        "card_shadow": false,
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 12,
-        "title_size_mobile": 12,
-        "title_height": 130,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 18,
-        "text_size_mobile": 16,
-        "text_height": 130,
-        "text_mt": 20,
-        "avatar_size": 62,
-        "avatar_size_mobile": 40,
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 18,
-        "author_size_mobile": 16,
-        "author_height": 130,
-        "author_mt": 20,
-        "navigation_mt": 32,
-        "arrow_size": 34,
-        "arrow_size_mobile": 34,
-        "arrow_icon_size": 34,
-        "arrow_icon_size_mobile": 34,
-        "arrow_border_thickness": 0,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": true,
-        "progress_width": 150,
-        "progress_width_mobile": 150,
-        "progress_height": 6,
-        "progress_height_mobile": 6,
-        "progress_show_desktop": true,
-        "progress_show_mobile": true,
-        "card_bg_color": "#f8f8f8",
-        "card_border_color": "#000000",
-        "card_shadow_color": "#000000",
-        "title_color": "#b8b8b8",
-        "text_color": "#000000",
-        "author_color": "#000000",
-        "arrow_color": "#e6e6e6",
-        "arrow_hover_color": "#a7a7a4",
-        "arrow_bg_color": "#ffffff",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#ffffff",
-        "arrow_border_hover_color": "#ffffff",
-        "progress_bg_color": "#d9d9d9",
-        "progress_color": "#838383",
-        "heading_color": "#000000",
-        "bottom_color": "#000000",
-        "rating_text_color": "#000000",
-        "stars_color": "#f4ac03",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 190,
-        "border_thickness": 0,
-        "lazy": true
-      }
     }
   },
   "order": [
@@ -841,11 +524,9 @@
     "main",
     "scrolling-promotion",
     "video_slider_edeBcc",
-    "ss_feature13_mHzbqE",
+    "collapsible-content",
     "product-recommendations",
     "recently-viewed-products",
-    "collapsible-content",
-    "guarantees",
-    "google_reviews_TMWJgV"
+    "guarantees"
   ]
 }
