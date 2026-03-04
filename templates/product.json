@@ -306,60 +306,6 @@
         "padding_bottom": 60
       }
     },
-    "collapsible-content": {
-      "type": "collapsible-content",
-      "blocks": {
-        "question-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does the Softex Memory Foam Topper do?",
-            "row_content": "<p>The Softex Memory Foam Topper is designed to enhance the comfort of your mattress by adding a soft, supportive layer. The memory foam adapts to your body’s shape, helping relieve pressure points and providing a more comfortable and restful sleep. </p>",
-            "page": ""
-          }
-        },
-        "question-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Will this topper help with back or joint pain?",
-            "row_content": "<p>Yes. Memory foam naturally contours to your body and helps distribute weight evenly. This can reduce pressure on the back, shoulders, and hips while supporting proper spinal alignment during sleep. </p>",
-            "page": ""
-          }
-        },
-        "question-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I use the topper on any mattress?",
-            "row_content": "<p>Absolutely. The Softex Memory Foam Topper can be placed on most mattress types, including spring, foam, and hybrid mattresses. It is a simple way to upgrade the comfort of your existing bed without replacing the mattress.</p>",
-            "page": ""
-          }
-        },
-        "question-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I care for and maintain the memory foam topper?",
-            "row_content": "<p>To maintain your topper, use a mattress protector or fitted sheet over it. Spot clean when needed and allow it to air dry. Avoid machine washing the foam to preserve its structure and durability. </p><p></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "question-0",
-        "question-1",
-        "question-2",
-        "question-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": true,
-        "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -718,7 +664,6 @@
     "main",
     "scrolling-promotion",
     "guarantees_K8kHVM",
-    "collapsible-content",
     "product-recommendations",
     "recently-viewed-products",
     "google_reviews_DgQNiG",
