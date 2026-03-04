@@ -323,7 +323,7 @@
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "narrow": true,
         "show_divider": false,
         "heading": "Collapsible content",
