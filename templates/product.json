@@ -230,65 +230,66 @@
         "padding_bottom": 28
       }
     },
-    "guarantees": {
+    "guarantees_K8kHVM": {
       "type": "guarantees",
       "blocks": {
-        "guarantee-0": {
+        "guarantee_EW3VJ8": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
-            "icon_size": "medium",
+            "icon": "none",
+            "icon_size": "large",
+            "image": "shopify://shop_images/knowledge.png",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Science Based",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>All of our products are backed by years of research and crafted with expertise.</p>"
           }
         },
-        "guarantee-1": {
+        "guarantee_VN3tm7": {
           "type": "guarantee",
           "settings": {
             "icon": "globe",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "World Class Material",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Though our products are lightweight, we never compromise on the quality of our materials.</p>"
           }
         },
-        "guarantee-2": {
+        "guarantee_NDrM3a": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Free Delivery Across Lebanon",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Enjoy Affordable Prices and Free Delivery to Your Doorstep.</p>"
           }
         },
-        "guarantee-3": {
+        "guarantee_qeUNcV": {
           "type": "guarantee",
           "settings": {
             "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "30 Days Money Back Guarantee",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": "<p>Not Satisfied? Let Us Make It Right.</p>"
           }
         }
       },
       "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
+        "guarantee_EW3VJ8",
+        "guarantee_VN3tm7",
+        "guarantee_NDrM3a",
+        "guarantee_qeUNcV"
       ],
       "settings": {
         "layout": "default",
         "column_alignment": "center",
         "horizontal_content": false,
-        "full_width": true,
+        "full_width": false,
         "show_divider": false,
         "columns_desktop": 4,
         "heading": "Our Guarantees",
@@ -300,9 +301,9 @@
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
+        "gradient_background": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "collapsible-content": {
@@ -311,32 +312,32 @@
         "question-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "heading": "What does the Softex Memory Foam Topper do?",
+            "row_content": "<p>The Softex Memory Foam Topper is designed to enhance the comfort of your mattress by adding a soft, supportive layer. The memory foam adapts to your body’s shape, helping relieve pressure points and providing a more comfortable and restful sleep. </p>",
             "page": ""
           }
         },
         "question-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "heading": "Will this topper help with back or joint pain?",
+            "row_content": "<p>Yes. Memory foam naturally contours to your body and helps distribute weight evenly. This can reduce pressure on the back, shoulders, and hips while supporting proper spinal alignment during sleep. </p>",
             "page": ""
           }
         },
         "question-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "heading": "Can I use the topper on any mattress?",
+            "row_content": "<p>Absolutely. The Softex Memory Foam Topper can be placed on most mattress types, including spring, foam, and hybrid mattresses. It is a simple way to upgrade the comfort of your existing bed without replacing the mattress.</p>",
             "page": ""
           }
         },
         "question-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "heading": "How do I care for and maintain the memory foam topper?",
+            "row_content": "<p>To maintain your topper, use a mattress protector or fitted sheet over it. Spot clean when needed and allow it to air dry. Avoid machine washing the foam to preserve its structure and durability. </p><p></p>",
             "page": ""
           }
         }
@@ -716,7 +717,7 @@
     "empty-space",
     "main",
     "scrolling-promotion",
-    "guarantees",
+    "guarantees_K8kHVM",
     "collapsible-content",
     "product-recommendations",
     "recently-viewed-products",
