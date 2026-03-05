@@ -80,6 +80,9 @@
       "block_order": [
         "mega_menu_YgggGA"
       ],
+      "custom_css": [
+        "/* Custom CSS for header z-index */.site-header {position: sticky; /* or fixed, if not already set by theme */ z-index: 999; top: 0;}"
+      ],
       "settings": {
         "logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg.jpg",
         "mobile_logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg.jpg",
