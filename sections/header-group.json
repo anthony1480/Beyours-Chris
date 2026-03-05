@@ -37,6 +37,7 @@
         "announcement_dYN3CP",
         "announcement-bar-0"
       ],
+      "custom_css": [],
       "settings": {
         "only_homepage": true,
         "layout": "marquee",
