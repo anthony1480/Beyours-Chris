@@ -131,7 +131,7 @@
         "image_position": "center center",
         "text_box_position": "middle-left",
         "text_alignment": "left",
-        "image_ratio": "550px",
+        "image_ratio": "650px",
         "full_width": true,
         "show_divider": false,
         "mobile_text_box_position": "image_first",
