@@ -408,7 +408,8 @@
   "platform_customizations": {
     "custom_css": [
       "h1.article-template__title.h0 {font-size: 35px;}",
-      " /* Phone */@media (max-width: 768px) {h1.article-template__title.h0 {font-size: 20px; }}"
+      " /* Phone */@media (max-width: 768px) {h1.article-template__title.h0 {font-size: 20px; }}",
+      ".essential_countdown_annoucement_bar_wrapper.countdown_annoucement_bar_wrapper_cmb000a4s00g08rw1cox79389.top_page {z-index: 999;}"
     ]
   }
 }
