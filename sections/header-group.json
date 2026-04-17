@@ -17,8 +17,8 @@
         "announcement_dYN3CP": {
           "type": "announcement",
           "settings": {
-            "text": "Free delivery across Lebanon",
-            "text_on_mobile": "Free delivery across Lebanon",
+            "text": "Trusted by Hotels. Made for Your Home.",
+            "text_on_mobile": "Trusted by Hotels. Made for Your Home.",
             "text_size": 16,
             "link": ""
           }
@@ -26,7 +26,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Soft where you need it. Firm where you want it",
+            "text": "Experience 5-Star Comfort",
             "text_on_mobile": "Soft where you need it. Firm where you want it",
             "text_size": 16,
             "link": ""
