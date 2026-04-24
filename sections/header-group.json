@@ -59,6 +59,7 @@
       "blocks": {
         "mega_menu_YgggGA": {
           "type": "mega_menu",
+          "disabled": true,
           "settings": {
             "menu_title": "",
             "narrow": true,
@@ -85,8 +86,8 @@
         "/* Custom CSS for header z-index */.site-header {position: sticky; /* or fixed, if not already set by theme */ z-index: 999; top: 0;}"
       ],
       "settings": {
-        "logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg.jpg",
-        "mobile_logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg.jpg",
+        "logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg_42ae2870-c261-4eb6-8264-106459316c52.jpg",
+        "mobile_logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg_42ae2870-c261-4eb6-8264-106459316c52.jpg",
         "logo_height": 80,
         "mobile_logo_height": 76,
         "logo_position": "middle-left",
