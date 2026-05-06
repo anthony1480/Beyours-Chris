@@ -86,10 +86,10 @@
         "/* Custom CSS for header z-index */.site-header {position: sticky; /* or fixed, if not already set by theme */ z-index: 999; top: 0;}"
       ],
       "settings": {
-        "logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg_42ae2870-c261-4eb6-8264-106459316c52.jpg",
-        "mobile_logo": "shopify://shop_images/Softex_logo_FINAL-JPG_jpg_42ae2870-c261-4eb6-8264-106459316c52.jpg",
-        "logo_height": 80,
-        "mobile_logo_height": 76,
+        "logo": "shopify://shop_images/Softex_logo_png_23048f7e-4d11-474e-ac91-a363e48fc2d0.png",
+        "mobile_logo": "shopify://shop_images/Softex_logo_png_058855bf-ccb2-4a6d-a84b-dd9465453386.png",
+        "logo_height": 92,
+        "mobile_logo_height": 88,
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_mobile": "main-menu",
