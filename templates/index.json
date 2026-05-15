@@ -566,6 +566,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1778827783b6590020": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_498d2f2_zHP8y4": {
+          "type": "ai_gen_block_498d2f2",
+          "settings": {
+            "show_label": true,
+            "label_text": "Color:",
+            "label_font_size": 14,
+            "label_color": "#1a1b18",
+            "selected_name_color": "#212326",
+            "swatch_size": 60,
+            "swatch_gap": 8,
+            "swatch_shape": "circle",
+            "swatch_border_radius": 4,
+            "swatch_background": "#ffffff",
+            "swatch_border_width": 2,
+            "swatch_border_color": "#d2d5d9",
+            "active_border_width": 2,
+            "active_border_color": "#1a1b18",
+            "active_ring_width": 2,
+            "active_ring_color": "#faeaa1",
+            "show_tooltip": true,
+            "tooltip_bg_color": "#1a1b18",
+            "tooltip_text_color": "#ffffff",
+            "desktop_width_percent": 100,
+            "hide_default_selector": true
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_498d2f2_zHP8y4"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -577,6 +613,7 @@
     "video-hero",
     "google_reviews_F7hDGr",
     "guarantees",
-    "collapsible_content_PFfRJ8"
+    "collapsible_content_PFfRJ8",
+    "1778827783b6590020"
   ]
 }
