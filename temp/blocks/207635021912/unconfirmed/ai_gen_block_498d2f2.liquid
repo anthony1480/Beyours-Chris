@@ -1,6 +1,536 @@
+{% doc %}
+  @prompt
+    On the product detail page, replace the default Color variant selector with a custom image swatch picker. Loop through the product's variants and render each color option as a clickable image swatch using the variant's assigned image (60x60px, rounded/circular style). Hide the default color dropdown or button selector via CSS. Add a JS click handler so selecting a swatch updates the active variant, changes the main product image, and visually highlights the selected swatch with a border. The swatch label (color name) should appear as a tooltip or below the selected swatch.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-color-swatch-picker-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-color-swatch-picker__label-{{ ai_gen_id }} {
+    display: block;
+    margin-bottom: 12px;
+    font-size: {{ block.settings.label_font_size }}px;
+    color: {{ block.settings.label_color }};
+    font-weight: 500;
+  }
+
+  .ai-color-swatch-picker__selected-name-{{ ai_gen_id }} {
+    font-weight: 400;
+    color: {{ block.settings.selected_name_color }};
+    margin-left: 8px;
+  }
+
+  .ai-color-swatch-picker__swatches-{{ ai_gen_id }} {
+    display: flex;
+    flex-wrap: wrap;
+    gap: {{ block.settings.swatch_gap }}px;
+    margin-bottom: 16px;
+  }
+
+  .ai-color-swatch-picker__swatch-{{ ai_gen_id }} {
+    position: relative;
+    width: {{ block.settings.swatch_size }}px;
+    height: {{ block.settings.swatch_size }}px;
+    border-radius: {% if block.settings.swatch_shape == 'circle' %}50%{% else %}{{ block.settings.swatch_border_radius }}px{% endif %};
+    overflow: hidden;
+    cursor: pointer;
+    border: {{ block.settings.swatch_border_width }}px solid {{ block.settings.swatch_border_color }};
+    transition: all 0.3s ease;
+    background-color: {{ block.settings.swatch_background }};
+  }
+
+  .ai-color-swatch-picker__swatch-{{ ai_gen_id }}:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .ai-color-swatch-picker__swatch-{{ ai_gen_id }}.active {
+    border-color: {{ block.settings.active_border_color }};
+    border-width: {{ block.settings.active_border_width }}px;
+    box-shadow: 0 0 0 {{ block.settings.active_ring_width }}px {{ block.settings.active_ring_color }};
+  }
+
+  .ai-color-swatch-picker__swatch-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-color-swatch-picker__swatch-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .ai-color-swatch-picker__tooltip-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: {{ block.settings.tooltip_bg_color }};
+    color: {{ block.settings.tooltip_text_color }};
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .ai-color-swatch-picker__tooltip-{{ ai_gen_id }}::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: {{ block.settings.tooltip_bg_color }};
+  }
+
+  .ai-color-swatch-picker__swatch-{{ ai_gen_id }}:hover .ai-color-swatch-picker__tooltip-{{ ai_gen_id }} {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  {% if block.settings.hide_default_selector %}
+    .product-form__input--dropdown[data-option-name="Color"],
+    .product-form__input--pill[data-option-name="Color"],
+    .product-form__input[data-option-name="Color"] {
+      display: none !important;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 749px) {
+    .ai-color-swatch-picker__swatch-{{ ai_gen_id }} {
+      width: {{ block.settings.swatch_size | times: 0.85 }}px;
+      height: {{ block.settings.swatch_size | times: 0.85 }}px;
+    }
+  }
+{% endstyle %}
+
+<color-swatch-picker-{{ ai_gen_id }}
+  class="ai-color-swatch-picker-{{ ai_gen_id }}"
+  data-product-id="{{ product.id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.show_label %}
+    <div class="ai-color-swatch-picker__label-{{ ai_gen_id }}">
+      {{ block.settings.label_text }}
+      <span class="ai-color-swatch-picker__selected-name-{{ ai_gen_id }}" data-selected-name></span>
+    </div>
+  {% endif %}
+
+  <div class="ai-color-swatch-picker__swatches-{{ ai_gen_id }}" data-swatches-container>
+    {% assign color_option = null %}
+    {% assign color_option_index = null %}
+
+    {% for option in product.options_with_values %}
+      {% assign option_name_downcase = option.name | downcase %}
+      {% if option_name_downcase == 'color' or option_name_downcase == 'colour' %}
+        {% assign color_option = option %}
+        {% assign color_option_index = forloop.index0 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if color_option %}
+      {% assign processed_colors = '' %}
+      {% for variant in product.variants %}
+        {% assign variant_color = variant.options[color_option_index] %}
+        {% unless processed_colors contains variant_color %}
+          {% assign processed_colors = processed_colors | append: variant_color | append: ',' %}
+          
+          <div
+            class="ai-color-swatch-picker__swatch-{{ ai_gen_id }} {% if variant.id == product.selected_or_first_available_variant.id %}active{% endif %}"
+            data-swatch
+            data-variant-id="{{ variant.id }}"
+            data-color-name="{{ variant_color | escape }}"
+            data-option-index="{{ color_option_index }}"
+            role="button"
+            tabindex="0"
+            aria-label="Select {{ variant_color }}"
+          >
+            {% if variant.featured_image %}
+              <img
+                src="{{ variant.featured_image | image_url: width: 120 }}"
+                alt="{{ variant_color | escape }}"
+                class="ai-color-swatch-picker__swatch-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="60"
+                height="60"
+              >
+            {% else %}
+              <div class="ai-color-swatch-picker__swatch-placeholder-{{ ai_gen_id }}">
+                {{ variant_color | truncate: 3, '' }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.show_tooltip %}
+              <div class="ai-color-swatch-picker__tooltip-{{ ai_gen_id }}">
+                {{ variant_color }}
+              </div>
+            {% endif %}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    {% else %}
+      <p style="color: #999; font-size: 14px; font-style: italic;">
+        No color option found. Add a "Color" option to your product.
+      </p>
+    {% endif %}
+  </div>
+</color-swatch-picker-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ColorSwatchPicker{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.swatches = [];
+        this.selectedNameElement = null;
+        this.productId = this.dataset.productId;
+      }
+
+      connectedCallback() {
+        this.swatches = Array.from(this.querySelectorAll('[data-swatch]'));
+        this.selectedNameElement = this.querySelector('[data-selected-name]');
+        this.setupEventListeners();
+        this.updateSelectedName();
+      }
+
+      setupEventListeners() {
+        this.swatches.forEach((swatch) => {
+          swatch.addEventListener('click', () => this.handleSwatchClick(swatch));
+          swatch.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.handleSwatchClick(swatch);
+            }
+          });
+        });
+      }
+
+      handleSwatchClick(swatch) {
+        const variantId = swatch.dataset.variantId;
+        const colorName = swatch.dataset.colorName;
+        const optionIndex = parseInt(swatch.dataset.optionIndex);
+
+        this.swatches.forEach((s) => s.classList.remove('active'));
+        swatch.classList.add('active');
+
+        this.updateSelectedName(colorName);
+        this.updateVariant(variantId, optionIndex, colorName);
+        this.updateMainImage(variantId);
+      }
+
+      updateSelectedName(colorName) {
+        if (this.selectedNameElement) {
+          if (colorName) {
+            this.selectedNameElement.textContent = colorName;
+          } else {
+            const activeSwatch = this.querySelector('[data-swatch].active');
+            if (activeSwatch) {
+              this.selectedNameElement.textContent = activeSwatch.dataset.colorName;
+            }
+          }
+        }
+      }
+
+      updateVariant(variantId, optionIndex, colorValue) {
+        const productForm = document.querySelector(`form[data-product-id="${this.productId}"]`) || 
+                           document.querySelector('form[action*="/cart/add"]');
+        
+        if (!productForm) return;
+
+        const variantIdInput = productForm.querySelector('[name="id"]');
+        if (variantIdInput) {
+          variantIdInput.value = variantId;
+          variantIdInput.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+
+        const optionSelects = productForm.querySelectorAll('select[name^="options"]');
+        if (optionSelects[optionIndex]) {
+          optionSelects[optionIndex].value = colorValue;
+          optionSelects[optionIndex].dispatchEvent(new Event('change', { bubbles: true }));
+        }
+
+        const radioInputs = productForm.querySelectorAll(`input[type="radio"][name="options[${optionIndex}]"]`);
+        radioInputs.forEach((radio) => {
+          if (radio.value === colorValue) {
+            radio.checked = true;
+            radio.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+        });
+      }
+
+      updateMainImage(variantId) {
+        const variant = this.getVariantById(variantId);
+        if (!variant || !variant.featured_image) return;
+
+        const mainImage = document.querySelector('.product__media-item img') ||
+                         document.querySelector('.product-media img') ||
+                         document.querySelector('[data-product-featured-image]');
+
+        if (mainImage) {
+          const imageUrl = variant.featured_image.src;
+          mainImage.src = imageUrl;
+          mainImage.srcset = imageUrl;
+          if (variant.featured_image.alt) {
+            mainImage.alt = variant.featured_image.alt;
+          }
+        }
+
+        const mediaGallery = document.querySelector('media-gallery') ||
+                            document.querySelector('[data-media-gallery]');
+        if (mediaGallery && mediaGallery.setActiveMedia) {
+          const mediaId = variant.featured_media?.id;
+          if (mediaId) {
+            mediaGallery.setActiveMedia(mediaId);
+          }
+        }
+      }
+
+      getVariantById(variantId) {
+        if (window.productVariants && window.productVariants[this.productId]) {
+          return window.productVariants[this.productId].find(v => v.id == variantId);
+        }
+
+        const scriptTag = document.querySelector(`script[data-product-json][data-product-id="${this.productId}"]`) ||
+                         document.querySelector('script[data-product-json]');
+        
+        if (scriptTag) {
+          try {
+            const productData = JSON.parse(scriptTag.textContent);
+            return productData.variants.find(v => v.id == variantId);
+          } catch (e) {
+            console.error('Error parsing product JSON:', e);
+          }
+        }
+
+        return null;
+      }
+    }
+
+    customElements.define('color-swatch-picker-{{ ai_gen_id }}', ColorSwatchPicker{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Color swatch picker",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_label",
+      "label": "Show label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "label_text",
+      "label": "Label text",
+      "default": "Color:"
+    },
+    {
+      "type": "range",
+      "id": "label_font_size",
+      "label": "Label font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Label color",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "selected_name_color",
+      "label": "Selected name color",
+      "default": "#212326"
+    },
+    {
+      "type": "header",
+      "content": "Swatch style"
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "label": "Swatch size",
+      "min": 40,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "swatch_gap",
+      "label": "Gap between swatches",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "select",
+      "id": "swatch_shape",
+      "label": "Swatch shape",
+      "options": [
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "circle",
+          "label": "Circle"
+        }
+      ],
+      "default": "circle"
+    },
+    {
+      "type": "range",
+      "id": "swatch_border_radius",
+      "label": "Border radius (square only)",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "color",
+      "id": "swatch_background",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "swatch_border_width",
+      "label": "Border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "swatch_border_color",
+      "label": "Border color",
+      "default": "#d2d5d9"
+    },
+    {
+      "type": "header",
+      "content": "Active state"
+    },
+    {
+      "type": "range",
+      "id": "active_border_width",
+      "label": "Active border width",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "active_border_color",
+      "label": "Active border color",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "range",
+      "id": "active_ring_width",
+      "label": "Active ring width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "active_ring_color",
+      "label": "Active ring color",
+      "default": "#faeaa1"
+    },
+    {
+      "type": "header",
+      "content": "Tooltip"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tooltip",
+      "label": "Show tooltip on hover",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "tooltip_bg_color",
+      "label": "Tooltip background",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "tooltip_text_color",
+      "label": "Tooltip text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_default_selector",
+      "label": "Hide default color selector",
+      "default": true,
+      "info": "Hides the theme's default color dropdown or button selector"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Color swatch picker"
+    }
+  ]
+}
 {% endschema %}
