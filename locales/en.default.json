@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -199,7 +208,7 @@
         "refresh": "Refresh"
       },
       "price": {
-        "from_price_html": "From {{ price }}",
+        "from_price_html": "{{ price }}",
         "regular_price": "Regular price",
         "sale_price": "Sale price",
         "unit_price": "Unit price"
