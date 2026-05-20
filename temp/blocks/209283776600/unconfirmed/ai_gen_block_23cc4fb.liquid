@@ -1,6 +1,172 @@
+{% doc %}
+  @prompt
+    On the product collection/listing page, ensure that a discount percentage badge (e.g. "-30%") is displayed on ALL product cards that have a compare-at price higher than the current price. The badge should appear consistently on mobile and desktop, positioned on the product image (top left corner), with a red background and white text. The percentage should be calculated dynamically as: round((compare_at_price - price) / compare_at_price * 100). Currently some products are missing the badge even though they have a discounted price — fix this so it shows on every discounted product card including those with "From" pricing (multiple variants).
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% liquid
+  assign has_discount = false
+  assign discount_percentage = 0
+  
+  if product.compare_at_price_max > product.price_max
+    assign has_discount = true
+    assign price_diff = product.compare_at_price_max | minus: product.price_max
+    assign discount_percentage = price_diff | times: 100.0 | divided_by: product.compare_at_price_max | round
+  elsif product.compare_at_price_min > product.price_min
+    assign has_discount = true
+    assign price_diff = product.compare_at_price_min | minus: product.price_min
+    assign discount_percentage = price_diff | times: 100.0 | divided_by: product.compare_at_price_min | round
+  endif
+%}
+
+{% if has_discount %}
+  {% style %}
+    .ai-discount-badge-{{ ai_gen_id }} {
+      position: absolute;
+      top: {{ block.settings.badge_top_offset }}px;
+      left: {{ block.settings.badge_left_offset }}px;
+      z-index: 10;
+      background-color: {{ block.settings.badge_background_color }};
+      color: {{ block.settings.badge_text_color }};
+      font-size: {{ block.settings.badge_font_size }}px;
+      font-weight: {{ block.settings.badge_font_weight }};
+      padding: {{ block.settings.badge_padding_vertical }}px {{ block.settings.badge_padding_horizontal }}px;
+      border-radius: {{ block.settings.badge_border_radius }}px;
+      line-height: 1;
+      display: block;
+    }
+
+    @media screen and (max-width: 749px) {
+      .ai-discount-badge-{{ ai_gen_id }} {
+        font-size: {{ block.settings.badge_font_size | times: 0.9 }}px;
+        padding: {{ block.settings.badge_padding_vertical | times: 0.9 }}px {{ block.settings.badge_padding_horizontal | times: 0.9 }}px;
+      }
+    }
+  {% endstyle %}
+
+  <span class="ai-discount-badge-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+    -{{ discount_percentage }}%
+  </span>
+{% endif %}
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Discount badge",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Badge style"
+    },
+    {
+      "type": "color",
+      "id": "badge_background_color",
+      "label": "Background color",
+      "default": "#d72c0d"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "badge_font_size",
+      "label": "Font size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "select",
+      "id": "badge_font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "600"
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "header",
+      "content": "Badge spacing"
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_vertical",
+      "label": "Vertical padding",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "badge_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 4,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Badge position"
+    },
+    {
+      "type": "range",
+      "id": "badge_top_offset",
+      "label": "Top offset",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "badge_left_offset",
+      "label": "Left offset",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "Discount badge"
+    }
+  ]
+}
 {% endschema %}
