@@ -45,7 +45,7 @@
         "autorotate": true,
         "autorotate_speed": 9,
         "show_navigation": true,
-        "direction": "left",
+        "direction": "right",
         "speed": 1.9,
         "colors_text": "#1a1b18",
         "colors_background": "#ede8d0",
