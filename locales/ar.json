@@ -3553,7 +3553,69 @@
           "button_label": "أدر اشتراكك"
         },
         "resend_gift_cards_by_email": "إعادة إرسال البريد الإلكتروني",
-        "resend_gift_cards_by_text": "إعادة إرسال الرسالة النصية"
+        "resend_gift_cards_by_text": "إعادة إرسال الرسالة النصية",
+        "title": "شكرًا لشرائك!",
+        "tracking_number": "رقم التتبع:",
+        "thank_you_title": "تم تأكيد طلبك",
+        "thank_you_title_payment": "تم تأكيد دفعتك",
+        "thank_you_title_review": "تم إرسال طلبك للمراجعة",
+        "thank_you_title_payments_app_pending_default": "جارٍ معالجة دفعتك",
+        "thank_you_title_payments_app_pending_buyer_action_required": "تم استلام طلبك",
+        "thank_you_title_payments_app_failed_pending_payment": "تعذّرت معالجة دفعتك",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "لم يتم تأكيد عنصر واحد",
+          "other": "لم يتم تأكيد بعض العناصر"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "لم يتم تحصيل أي رسوم منك حتى الآن",
+          "other": "لم يتم تحصيل أي رسوم منك مقابل هذه العناصر"
+        },
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "ستتلقى قريبًا رسالة بريد إلكتروني لتأكيد رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "ستتلقى قريبًا رسالة تأكيد تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "ستتلقى قريبًا رسالة تأكيد تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "ستتلقى قريبًا رسالة تأكيد تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "تواصل معنا عبر البريد الإلكتروني أو الهاتف لتلقي تأكيد الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "بعد إتمام الدفع، ستتلقى رسالة تأكيد نصية تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "بعد إتمام الدفع، ستتلقى رسالة تأكيد نصية تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "بعد إتمام الدفع، ستتلقى رسالة تأكيد نصية تتضمن رقم طلبك.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "ستتلقى رسالة بريد إلكتروني عند تأكيد دفعتك.",
+        "track_your_order_link_text": "تتبّع طلبك",
+        "updated_time": "تم التحديث منذ %{time_ago}",
+        "unfulfilled_items_title": "جارٍ التحضير للشحن",
+        "unfulfilled_items_description": "نقوم حاليًا بإعداد هذه العناصر للشحن.",
+        "track_shipment": "تتبّع الشحنة",
+        "view_business_customer_account": "عرض الحساب",
+        "thank_you_ready_for_picked_up": "تم استلام طلبك من %{address}.",
+        "vat_invoices": {
+          "title": "فواتير ضريبة القيمة المضافة"
+        },
+        "verify_shop_account_title": "تحقّق من حسابك على Shop",
+        "verify_shop_account_message": "تم حفظ معلوماتك باستخدام Shop، تحقّق من حسابك لاستخدامها تلقائيًا على ملايين المتاجر.",
+        "verify_shop_account_cta": "تحقّق من حسابك",
+        "verify_shop_account_confirmation": "تم حفظ تفاصيل الدفع"
+      },
+      "throttle": {
+        "cart_summary_heading": "سلة التسوق الخاصة بك",
+        "estimated_wait_time": {
+          "calculating": "جارٍ حساب وقت الانتظار المُقدَّر",
+          "less_than_one": "الوقت المقدّر للانتظار: أقل من دقيقة",
+          "one": "مدة الانتظار المقدّرة: {{count}} دقيقة",
+          "other": "مدة الانتظار المقدّرة: {{count}} دقيقة"
+        },
+        "footer": {
+          "heading": "لا تُعِد تحميل هذه الصفحة، ستتحدّث تلقائيًا.",
+          "body": "العناصر الموجودة في سلة التسوق ليست محجوزة حتى تُكمل عملية الدفع."
+        }
       }
     },
     "attributes": {
