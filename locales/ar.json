@@ -2513,6 +2513,76 @@
             "permission_not_allowed": "السماح بمشاركة موقعك.",
             "permission_denied": "تعذّر الحصول على موقعك. حاول مرة أخرى."
           }
+        },
+        "title": "نقطة الاستلام",
+        "selector_tabs": "محدد نقطة الاستلام",
+        "waiting_on_pickup_point_location_notice": "جارٍ البحث عن نقاط الاستلام..."
+      },
+      "remote_merchandise_only": {
+        "checkout_on_shop_label": "أتمم الشراء على %{shop_name}"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "تم تطبيق بطاقة الهدايا على طلبك بالفعل",
+          "insufficient_funds": "لا توجد أموال متبقية في بطاقة الهدايا هذه",
+          "expired": "انتهت صلاحية بطاقة الهدية هذه",
+          "not_available": "بطاقة الهدايا هذه لم تعد متاحة",
+          "invalid": "أدخل بطاقة هدايا صالحة",
+          "currency_mismatch": "تُقبل فقط بطاقات الهدايا بعملة %{shop_currency}",
+          "generic": "تعذّر إضافة بطاقة الهدايا إلى الدفع.",
+          "throttle_limit_exceeded": "لقد تجاوزت الحد الأقصى لعدد المحاولات. حاول مرة أخرى لاحقًا.",
+          "no_longer_available": "لم يعد بالإمكان استخدام بطاقة الهدايا هذه مع عملية الدفع هذه"
+        }
+      },
+      "post_purchase": {
+        "page_title": "ما بعد الشراء",
+        "title": "ما بعد الشراء",
+        "escape_confirmation": "لقد دفعتَ ثمن طلبك.",
+        "escape_action": "عرض تأكيد الطلب ›",
+        "components": {
+          "close": "إغلاق",
+          "expand": "عرض المزيد",
+          "processing": "جارٍ المعالجة…",
+          "submit": "إرسال"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "جارٍ إعادة التوجيه…",
+        "redirecting_title": "جارٍ إعادة التوجيه…",
+        "redirecting_notice": "انتظر ريثما نعيد توجيهك.",
+        "redirecting_to_bank": "جارٍ إعادة التوجيه إلى {{bank}}",
+        "complete_your_purchase_title": "أكمل عملية الشراء",
+        "continue_to_payment_gateway_notice": "تابع إلى الدفع لإضافة معلومات الدفع الخاصة بك.",
+        "continue_to_payment_gateway_button_label": "المتابعة إلى الدفع",
+        "complete_your_purchase_title_error": "صحّح معلومات الدفع الخاصة بك",
+        "continue_to_payment_gateway_notice_error": "تعذّر التحقق من معلومات الدفع الخاصة بك.",
+        "continue_to_payment_gateway_button_label_error": "تحديث معلومات الدفع",
+        "page_title": "ترتيب المعالجة",
+        "title": "ترتيب المعالجة",
+        "your_order_has_been_received_title": "شكرًا على طلبك",
+        "you_will_receive_confirmation": "نتلقى الكثير من الطلبات حاليًا. من المفترض أن تتلقى التأكيد عبر البريد الإلكتروني أو رسالة نصية قريبًا. إذا لم يصلك خلال الساعة القادمة، فأخبرنا.",
+        "you_will_not_be_charged": "لن يتم تحصيل أي رسوم منك بعد.",
+        "wait": {
+          "short": "جارٍ تجهيز طلبك.",
+          "medium": {
+            "one": "جارٍ معالجة طلبك. مدة الانتظار المقدّرة هي %{count} دقيقة.",
+            "other": "جارٍ تجهيز طلبك. الوقت المُقدّر للانتظار هو %{count} دقيقة."
+          },
+          "long": "ستتلقى بريدًا إلكترونيًا بمجرد معالجة طلبك. يوجد حاليًا عدد كبير من الطلبات.",
+          "no_auto_refresh_html": "إذا لم تتم إعادة توجيهك تلقائيًا، %{link}.",
+          "refresh_this_page": "حدّث هذه الصفحة"
+        },
+        "remote_shops_payments_processing": "معالجة المدفوعات",
+        "action_required": "يلزم اتخاذ إجراء",
+        "modal_notice": "نتواصل مع {{paymentMethod}}",
+        "remote_checkout_count": "%{current} من %{total}"
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "تحتوي صفحة الدفع فقط على منتجات من المتجر البعيد. يلزم إعادة التوجيه إلى المتجر البعيد لإتمام عملية الدفع.",
+          "currency_mismatch": "لا يمكن إضافة هذا العنصر إلى سلة التسوق لأنه من متجر يستخدم عملة مختلفة.",
+          "currency_mismatch_removal": "تمت إزالة أحد العناصر من سلة التسوق لأنّه من متجر يستخدم عملة مختلفة.",
+          "max_remote_shops_exceeded": "لا يمكن إضافة هذا المنتج لأن سلة التسوق تحتوي بالفعل على الحد الأقصى من المنتجات من متاجر أخرى."
         }
       }
     },
