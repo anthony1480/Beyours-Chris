@@ -273,7 +273,79 @@
       "add_to_apple_wallet": "أضف إلى محفظة Apple",
       "copy_code": "نسخ الرمز",
       "expired": "منتهي الصلاحية",
-      "copy_code_success": "تم نسخ الرمز بنجاح"
+      "copy_code_success": "تم نسخ الرمز بنجاح",
+      "title": "إليك بطاقة هدايا بقيمة {{ value }} من {{ shop }}!",
+      "subtext": "بطاقة الهدايا الخاصة بك",
+      "gift_card_code": "رمز بطاقة الهدايا",
+      "shop_link": "العودة إلى التسوق",
+      "remaining_html": "المتبقي {{ balance }}",
+      "qr_image_alt": "رمز QR — امسحه لاسترداد بطاقة الهدايا",
+      "print_gift_card": "طباعة"
     }
+  },
+  "newsletter": {
+    "label": "أدخل البريد الإلكتروني هنا",
+    "success": "شكرًا لاشتراكك",
+    "button_label": "اشترك"
+  },
+  "onboarding": {
+    "product_title": "عنوان منتج نموذجي",
+    "collection_title": "اسم مجموعتك",
+    "no_content": "لا يتضمن هذا القسم حاليًا أي محتوى. أضف محتوى إلى هذا القسم باستخدام الشريط الجانبي."
+  },
+  "products": {
+    "product": {
+      "color_swatch_trigger": "اللون",
+      "add_to_cart": "أضف إلى السلة",
+      "add_set_to_cart": "أضف المجموعة إلى سلة التسوق",
+      "description": "الوصف",
+      "inventory": {
+        "in_stock_label": "متوفر في المخزون، جاهز للشحن"
+      },
+      "include_taxes": "شامل الضريبة.",
+      "choose_options": "اختر الخيارات",
+      "choose_product_options": "اختر الخيارات لـ {{ product_name }}"
+    },
+    "modal": {
+      "label": "معرض الوسائط"
+    },
+    "facets": {
+      "filter_and_operator_subtitle": "مطابقة الكل",
+      "apply": "تطبيق",
+      "clear": "واضح",
+      "clear_all": "مسح الكل",
+      "from": "من",
+      "filter_and_sort": "تصفية وترتيب",
+      "filter_by_label": "تصفية",
+      "filter_button": "تصفية",
+      "filters_selected": {
+        "one": "تم تحديد {{ count }}",
+        "other": "تم تحديد {{ count }}"
+      },
+      "max_price": "أعلى سعر هو {{ price }}",
+      "price_html": "السعر: {{ price_min }} &ndash; {{ price_max }}",
+      "product_count": {
+        "one": "{{ product_count }} من أصل {{ count }} منتج",
+        "other": "{{ product_count }} من أصل {{ count }} منتجًا"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} منتج",
+        "other": "{{ count }} منتجًا"
+      },
+      "reset": "إعادة تعيين",
+      "sort_button": "فرز",
+      "sort_by_label": "فرز حسب",
+      "to": "إلى",
+      "clear_filter": "مسح الفلتر",
+      "show_more": "عرض المزيد",
+      "show_less": "عرض أقل"
+    }
+  },
+  "localization": {
+    "country_label": "البلد/المنطقة",
+    "update_country": "تحديث الدولة/المنطقة",
+    "language_label": "اللغة",
+    "update_language": "تحديث اللغة",
+    "text_direction_trigger": "من اليسار إلى اليمين"
   }
 }
