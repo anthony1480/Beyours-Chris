@@ -3919,7 +3919,9 @@
       "shop_404": {
         "ctas": {
           "sell_in_person": {
-            "caption": "احصل على الميزات التي تحتاجها لإدارة متجرك للبيع بالتجزئة، سواء كنت في بداية مشوارك أو تعمل على توسيع نطاقه."
+            "caption": "احصل على الميزات التي تحتاجها لإدارة متجرك للبيع بالتجزئة، سواء كنت في بداية مشوارك أو تعمل على توسيع نطاقه.",
+            "header": "بِع شخصيًا",
+            "link_text": "ابدأ التجربة المجانية"
           },
           "open_a_store": {
             "header": "افتح متجرًا جديدًا على شوبيفاي",
@@ -3930,7 +3932,83 @@
             "header": "استكشف إصدارات Shopify",
             "caption": "مع أكثر من 100 تحديث للمنتجات، يمكنك أن تكون أكثر إنتاجية وإبداعًا، وأن تحقق إمكانات أكبر في مجال التجارة مما كنت تتخيل.",
             "link_text": "استكشف أحدث الإصدارات"
+          },
+          "store_owner": {
+            "header": "هل أنت مالك المتجر؟",
+            "caption": "هل تواجه مشكلة في الدخول إلى متجرك؟ جرّب ميزة %{forgot_your_store_link}. إذا كنت ترغب في إعادة تنشيط متجرك، فاتصل بـ %{shopify_support_link}.",
+            "shopify_support_link_text": "دعم Shopify"
           }
+        },
+        "title": "أنشئ موقعًا للتجارة الإلكترونية وبِع عبر الإنترنت! برنامج التجارة الإلكترونية من شوبيفاي",
+        "title_unavailable": "المتجر غير متاح",
+        "heros": {
+          "store_will_be_right_back": "سيعود هذا المتجر للعمل قريبًا",
+          "store_unavailable": "هذا المتجر غير متاح حاليًا.",
+          "store_not_exist": "هذا المتجر غير موجود.",
+          "no_storefront": "هذا المتجر ليس لديه موقع إلكتروني حتى الآن."
+        },
+        "subtitles": {
+          "store_will_be_right_back": "تعمل Shopify على إعادته إلى العمل في أقرب وقت ممكن."
+        },
+        "links": {
+          "refresh_page": "حدّث الصفحة",
+          "explore_other_stores": "استكشف متاجر أخرى",
+          "start_free_trial": "ابدأ تجربة مجانية"
+        },
+        "status_card": {
+          "eyebrow": "مساعدة لأصحاب المتاجر",
+          "header": "تحقّق من حالة Shopify",
+          "caption": "تحقّق مما إذا كان هناك عطل يؤثر على متاجر أخرى أيضًا على Shopify.",
+          "link_text": "عرض حالة أنظمة Shopify"
+        },
+        "owner_ctas": {
+          "header": "هل أنت مالك المتجر؟",
+          "fix_domain": "لإكمال إعداد عنوان الويب الجديد، انتقل إلى %{domain_settings_link}. انقر على «ربط النطاق» وأدخل: %{domain}.<br>إذا كنت تواجه مشكلة في الوصول إلى متجرك، فجرّب صفحة %{forgot_your_store_link}.",
+          "fix_domain_link_text": "إعدادات نطاقك",
+          "forgot_your_store_link_text": "هل نسيت متجرك؟",
+          "add_storefront": "يمكنك إعداد موقعك الإلكتروني بإضافة قناة المتجر الإلكتروني في %{admin_link}. إذا كنت تواجه مشكلة في الدخول إلى متجرك، فجرّب صفحة %{forgot_your_store_link}.",
+          "admin_link_text": "المسؤول الإداري"
+        }
+      },
+      "taken": "تم استخدامه بالفعل",
+      "too_short": "قصير جدًا (الحد الأدنى هو %{count} أحرف)",
+      "too_long": "طويل جدًا (الحد الأقصى هو %{count} حرفًا)",
+      "verify_email": "لقد أرسلنا رسالة بريد إلكتروني إلى %{customer_email}، يُرجى النقر على الرابط المرفق للتحقق من عنوان بريدك الإلكتروني."
+    },
+    "links": {
+      "powered_by_shopify": "مدعوم من شوبيفاي",
+      "learn_more": "تعرّف على المزيد"
+    },
+    "feed": {
+      "more": "المزيد"
+    },
+    "notices": {
+      "address": {
+        "updated": "تم تحديث العنوان بنجاح.",
+        "error_updating": "حدث خطأ أثناء تحديث العنوان",
+        "created": "تم إنشاء العنوان بنجاح",
+        "error_creating": "حدث خطأ أثناء إنشاء العنوان.",
+        "deleted": "تم حذف العنوان بنجاح",
+        "error_deleting": "خطأ في حذف العنوان."
+      },
+      "cart": {
+        "all_items_in_cart": "جميع %{count} من %{name} موجودة في سلة التسوق لديك.",
+        "empty_update": "لا يمكن تحديث سلة التسوق الفارغة",
+        "generic_error": "خطأ في السلة",
+        "changed": "تم تغيير سلة التسوق",
+        "digital_product_not_available_for_company_locations": "لا يمكن إضافة هذا العنصر إلى طلب B2B",
+        "buyer_cannot_purchase_for_company_locations": "لا يمكنك الشراء لهذا الموقع",
+        "bundle_requires_components": "لا يمكن إضافة منتج الحزمة «%{name}» إلى سلة التسوق.",
+        "gift_card_price_must_be_greater_than_zero": "لا يمكن إضافة منتج الحزمة «%{name}» إلى سلة التسوق.",
+        "cart_too_large": "سلة التسوق كبيرة جدًا.",
+        "cart_attributes_error": "تحتوي سمات سلة التسوق على بيانات غير صالحة."
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "متوفر في المخزون",
+          "out_of_stock": "غير متوفر بالمخزون"
         }
       }
     }
