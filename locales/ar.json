@@ -597,7 +597,28 @@
         "pincode_label": "رمز PIN",
         "optional_pincode_label": "رمز PIN (اختياري)",
         "pincode_placeholder": "رمز PIN",
-        "optional_last_name_label": "اسم العائلة (اختياري)"
+        "optional_last_name_label": "اسم العائلة (اختياري)",
+        "title": "معلومات",
+        "shipping_used_as_billing_notice": "سيُستخدم هذا العنوان أيضًا باعتباره عنوان الفوترة لهذا الطلب.",
+        "stored_addresses_label": "العناوين المحفوظة",
+        "storefront_link": "موقع التاجر",
+        "street_name_label": "شارع",
+        "street_number_label": "رقم المبنى",
+        "subdistrict_label": "الناحية",
+        "ward_label": "جناح",
+        "suburb_label": "ضاحية",
+        "province_label": "مقاطعة",
+        "province_placeholder": "مقاطعة",
+        "state_label": "الولاية",
+        "state_placeholder": "الولاية",
+        "region_label": "المنطقة",
+        "region_placeholder": "المنطقة",
+        "region_none": "لم يتم اختيار أيٍّ منها",
+        "state_and_territory_label": "الولاية/الإقليم",
+        "state_and_territory_placeholder": "الولاية/الإقليم",
+        "zip_code_label": "الرمز البريدي",
+        "zip_code_placeholder": "الرمز البريدي",
+        "ship_to_company": "الشحن إلى {{companyName}}"
       },
       "company_location": {
         "location_title": "موقع الشركة",
@@ -630,6 +651,57 @@
       "clipboard": {
         "copied": "تم النسخ",
         "failed_to_copy": "تعذّر النسخ"
+      },
+      "customer_account": {
+        "not_user_label": "ألست %{first_name}؟",
+        "have_an_account_label": "هل لديك حساب؟",
+        "sign_in_link_label": "تسجيل الدخول",
+        "sign_out_link_label": "تسجيل الخروج",
+        "save_my_information_label": "احفظ هذه المعلومات للمرة القادمة",
+        "invalid_address": "العنوان المحدد غير صالح. %{update_address_link} أو اختر عنوانًا مختلفًا.",
+        "incomplete_address": "العنوان المحدد غير مكتمل. %{update_address_link} أو اختر عنوانًا مختلفًا.",
+        "rollup_label": "الحساب",
+        "rollup_accessibility_label": "خيارات الحساب",
+        "invalid_shipping_method_summary": "اختر عنوان شحن صالحًا لعرض طرق الشحن المتاحة",
+        "saved_address_option_description": {
+          "one": "لديك {{count}} عنوان محفوظ.",
+          "other": "لديك {{count}} عناوين محفوظة."
+        },
+        "saved_address_option_link": "استخدام عنوان محفوظ",
+        "saved_address_modal_title": "استخدام عنواني المحفوظ"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "منتج غير متاح",
+          "other": "المنتجات غير المتاحة"
+        },
+        "products_not_available": {
+          "one": "ستتم إزالة هذا المنتج من سلة التسوق الخاصة بك لأنه غير متاح في بلدك/منطقتك.",
+          "other": "ستتم إزالة هذه المنتجات من سلة التسوق لأنّها غير متاحة في بلدك/منطقتك."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "هذا المنتج غير متاح في بلدك/منطقتك.",
+          "other": "هذه المنتجات غير متاحة في بلدك/منطقتك."
+        },
+        "unavailable_label": "غير متاح"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "ستتم إزالة هذا المنتج من سلة التسوق لأن طرق التوصيل غير متاحة لعنوانك.",
+            "other": "ستتم إزالة هذه العناصر من سلة التسوق الخاصة بك لعدم توفر طرق توصيل لعنوانك."
+          },
+          "label": "لا يوجد توصيل"
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "طرق الدفع",
+        "title": "طرق الدفع",
+        "update_card_button_label": "تحديث البطاقة",
+        "delete_customer_mandate": {
+          "generic_error": "حدثت مشكلة أثناء معالجة طلبك.",
+          "success_message": "تم حذف طريقة الدفع بنجاح"
+        }
       }
     },
     "attributes": {
