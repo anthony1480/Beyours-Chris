@@ -1520,7 +1520,10 @@
         "all_violations_content": "اتصل بنا أو تواصل عبر {{emailLink}} لتحديث هذه المعلومات وإكمال طلبك:",
         "all_violations_email_link": "البريد الإلكتروني",
         "delivery_address_validation_errors_banner": {
-          "contact_us": "تواصل معنا"
+          "contact_us": "تواصل معنا",
+          "title": "عنوان الشحن غير صالح",
+          "text_html": "%{contact_us} لتعديل عنوانك",
+          "use_different_address": "استخدم عنوان شحن مختلفًا"
         },
         "calculating_shipping": "لا يزال احتساب تكلفة الشحن جارياً. حاول مرة أخرى بعد بضع ثوانٍ. لم يتم تحصيل أي رسوم منك.",
         "calculating_taxes": "لا تزال الضرائب قيد الاحتساب. حاول مرة أخرى بعد بضع ثوانٍ. لم يتم تحصيل أي رسوم منك.",
@@ -1528,6 +1531,44 @@
           "title": "معلومات الاتصال غير صالحة",
           "header": "لتحديث معلوماتك، {{emailLink}}.",
           "email_link": "اتصل بنا"
+        },
+        "return_to_cart_link_text": "العودة إلى سلة التسوق",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} لتحديث الكميات",
+        "subscription_changed": "لقد تغيّر أحد اشتراكاتك.",
+        "violations_title": "{{violation}} مفقود أو غير صالح",
+        "individual_violations_title": {
+          "DeliveryViolations": "عنوان الشحن",
+          "PaymentViolations": "عنوان الفوترة",
+          "OtherViolations": "معلومات الطلب",
+          "UnhandledViolations": "معلومات الطلب"
+        },
+        "editable_shipping_address_violations_message_title": "أضف هذه المعلومات لإكمال طلبك:",
+        "editable_shipping_address_violations_message_footer": "لتحديث العنوان لهذا الموقع بشكل دائم، {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "اتصل بنا",
+        "shipping_address_incomplete_title": "عنوان الشحن غير مكتمل",
+        "generic_processing_error": {
+          "title": "حدثت مشكلة أثناء معالجة طلبك",
+          "body": "لم يتم تحصيل أي مبلغ منك. حاول مرة أخرى أو استخدم طريقة دفع مختلفة."
+        },
+        "payment_method_not_available_with_payment_terms": "لم تعد طريقة الدفع التي اخترتها متاحة، لأن الدفع لهذا الطلب أصبح وفق شروط {{paymentTerms}}",
+        "payment_method_not_available_with_fulfillment_terms": "لم تعد طريقة الدفع التي اخترتها متاحة، لأن سداد قيمة هذا الطلب مستحق الآن عند إتمام التنفيذ.",
+        "payment_method_not_available_with_fixed_terms": "طريقة الدفع التي اخترتها لم تعد متاحة لأن موعد سداد قيمة هذا الطلب لاحقًا",
+        "payment_method_not_available_with_review_requirement": "لم تعد طريقة الدفع التي اخترتها متاحة، لأن الدفع سيكون مستحقًا بمجرد تأكيد طلبك.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "يوجد {{count}} خطأ:",
+            "other": "هناك {{count}} من الأخطاء:"
+          },
+          "section_label": {
+            "delivery": "التوصيل",
+            "contact": "تواصل",
+            "payment": "الدفع",
+            "billing": "الفوترة"
+          },
+          "errors_in_section": {
+            "one": "{{count}} خطأ في {{section}}",
+            "other": "{{count}} أخطاء في {{section}}"
+          }
         }
       },
       "marketplaces": {
@@ -1542,6 +1583,51 @@
       "memberships": {
         "delivery_promise_unfulfillable": "العنوان غير مدعوم للعضوية الحالية.",
         "items_split_across_locations_unsupported": "خدمة التوصيل برايم غير متاحة لطلبك. تم تحديث خيارات الشحن الخاصة بك."
+      },
+      "notifications": {
+        "title": "الإشعارات"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "تمت الإضافة",
+            "other": "تمت إضافة %{count}"
+          },
+          "removed": "تمت الإزالة"
+        },
+        "additional_payment_requested": "يلزم سداد %{total_outstanding}"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "اشترِ %{product_name}",
+          "one": "اشترِ %{product_name} وعنصرًا آخر بعدد %{count}",
+          "other": "اشترِ %{product_name} و%{count} عناصر أخرى"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "حدثت مشكلة أثناء إنشاء طلبك. حاول مرة أخرى، أو تواصل معنا لمزيد من التفاصيل.",
+        "network_failure": "تعذّر إرسال طلبك بسبب خطأ في الشبكة. تحقّق من اتصالك وحاول مرة أخرى.",
+        "inventory_reservation_failure": "بعض العناصر لم تعد متاحة."
+      },
+      "online_store_chat": {
+        "title": "هل لديك أسئلة؟ تحدث معنا"
+      },
+      "offsite_payment_failed": {
+        "title": "فشلت عملية الدفع خارج الموقع",
+        "payment_not_processed_title": "فشلت عملية الدفع",
+        "payment_not_processed_text": "حاول مسح رمز QR مرة أخرى. إذا لم ينجح الأمر، فأبلغ موظفينا وجرب طريقة دفع أخرى.",
+        "payment_link_expired_title": "انتهت صلاحية رابط الدفع",
+        "payment_link_expired_text": "حاول مسح رمز QR مرة أخرى."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "يجب أن يكون سعر بطاقة الهدايا أكبر من 0.",
+            "gift_card_price_must_not_exceed_limit": "يجب ألا يتجاوز سعر بطاقة الهدايا %{gift_card_limit}.",
+            "subtotal_limit_reached": "تم الوصول إلى الحد الأقصى لقيمة عناصر السطر.",
+            "signature_mismatch": "عدم تطابق توقيع البضائع للسطر %{stable_id}."
+          }
+        }
       }
     },
     "attributes": {
