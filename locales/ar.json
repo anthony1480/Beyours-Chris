@@ -2065,13 +2065,79 @@
             "card_number": "رقم البطاقة",
             "expiry": "تاريخ انتهاء الصلاحية",
             "name": "الاسم على البطاقة",
-            "billing": "الفوترة إلى"
-          }
+            "billing": "الفوترة إلى",
+            "security_code": "رمز الأمان"
+          },
+          "title": "تعديل البطاقة"
         },
         "custom_onsite_payment_method_modal": {
           "title": "تأكيد الدفع المخصص في الموقع"
         },
-        "choose_new_payment_method": "اختر طريقة دفع جديدة"
+        "choose_new_payment_method": "اختر طريقة دفع جديدة",
+        "gift_card_code_label": "رمز بطاقة الهدايا",
+        "gift_card_balance_label": "الرصيد:",
+        "ftd_vault_credit_card_label": "احفظ بطاقة الائتمان هذه في حسابي لإتمام عملية الدفع بشكل أسرع",
+        "ends_with_label": "ينتهي بـ %{last_digits}",
+        "expiry_long": "(تنتهي صلاحيتها في %{month}/%{year})",
+        "expiry_short": "(انتهاء %{month}/%{year})",
+        "free_order_notice_html": "طلبك <strong>مجاني</strong>. لا يلزم إجراء أي دفع.",
+        "express_checkout_free_order": "لن يتم تحصيل أي رسوم منك مقابل طلب مجاني",
+        "generic_incorrect_card_info": "تعذّر التحقق من تفاصيل الدفع الخاصة بك. تحقّق من بيانات بطاقتك وحاول مرة أخرى.",
+        "klarna_label": "Klarna",
+        "klarna_pay_later_label": "ادفع لاحقًا باستخدام Klarna",
+        "klarna_pay_now_label": "ادفع الآن باستخدام Klarna",
+        "giropay_label": "Giropay",
+        "eps_label": "تحويل eps",
+        "klarna_slice_it_label": "تمويل عبر Klarna",
+        "ideal_label": "iDEAL | Wero",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "بطاقة ائتمان KCP",
+        "loading": "جارٍ تحميل الدفع...",
+        "google": {
+          "connect": "انقر للاتصال بحسابك على Google Pay",
+          "error_authorizing": "خطأ في تفويض الدفع"
+        },
+        "lpm": {
+          "multibanco": {
+            "voucher": {
+              "label": "مولتيبانكو",
+              "entity": "كيان",
+              "number": "مرجع",
+              "steps": {
+                "pay_at_atm_or_online": "ادفع في جهاز صراف آلي تابع لـ Multibanco أو عبر الخدمات المصرفية عبر الإنترنت باستخدام التفاصيل أدناه."
+              }
+            }
+          }
+        },
+        "location_billing_address_label": "عنوان فوترة الموقع",
+        "fact_billing_address_label": "عنوان الفوترة",
+        "location_shipping_address_label": "عنوان موقع الشحن",
+        "expired_cards_info": {
+          "one": "هناك %{count} بطاقة منتهية الصلاحية، ويمكنك عرضها وتعديلها في حسابك.",
+          "other": "يوجد %{count} بطاقة منتهية الصلاحية، ويمكنك عرضها وتعديلها في حسابك."
+        },
+        "local_payment_method_receiver_notice": "بعد تقديم طلبك، ستتلقى تفاصيل الدفع. أجرِ الدفع عبر جهاز الصراف الآلي أو عبر الإنترنت خلال {{dueDays}} يومًا.",
+        "gift_card_wrapper": {
+          "heading": "بطاقة هدية",
+          "apply_gift_card_label": "تطبيق بطاقة هدايا",
+          "apply_another_gift_card_label": "تطبيق بطاقة هدايا أخرى",
+          "gift_card_label": "بطاقة هدايا %{identifier}",
+          "payment_tag": "بطاقة هدية",
+          "add_label": "أضف بطاقة هدية",
+          "manage_label": "إدارة بطاقات الهدايا"
+        },
+        "gift_card_store_credit": {
+          "add_label": "أضف بطاقة هدايا أو رصيدًا للمتجر",
+          "manage_label": "إدارة بطاقات الهدايا أو الرصيد المتجرِي"
+        },
+        "gift_card_checkbox_label": "تطبيق بطاقة الهدايا",
+        "markets_pro_disclaimer_label": "بإتمام طلبك، توافق على الشراء من Global-e بصفتها التاجر المسجّل، وفقًا لشروط %{markets_pro_terms} وسياسة %{privacy_policy} الخاصة بـ Global-e، وعلى مشاركة معلوماتك مع %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "الشروط والأحكام",
+        "markets_pro_disclaimer_privacy_policy": "سياسة الخصوصية",
+        "markets_pro_disclaimer_terms_and_conditions_title": "شروط وأحكام التاجر المسجّل",
+        "markets_pro_disclaimer_privacy_policy_title": "سياسة خصوصية التاجر المسجّل of Record",
+        "expired_payment_method": "انتهت صلاحية طريقة الدفع المحددة",
+        "gift_cards_unavailable": "لم يعد بالإمكان تطبيق بطاقة الهدايا الخاصة بك على هذا الطلب، وقد تمت إزالتها"
       }
     },
     "attributes": {
