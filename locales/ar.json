@@ -1307,6 +1307,92 @@
         "could_not_resolve_address": "تعذّر العثور على عنوانك. حاول مرة أخرى أو استخدم عنوانًا مختلفًا.",
         "geolocation": {
           "permission_not_allowed": "اسمح بمشاركة الموقع أو بالبحث بدلًا من ذلك."
+        },
+        "title": "الموقع",
+        "location_selected": "موقعك المحدد",
+        "location_information": {
+          "one": "يوجد %{count} موقعًا تتوفر فيه منتجات بالقرب منك",
+          "other": "يوجد %{count} موقعًا يتوفر فيها المخزون بالقرب منك"
+        },
+        "location_information_far_away": {
+          "one": "يوجد موقع واحد يحتوي على عنصرك %{count}",
+          "other": "يوجد %{count} موقعًا يتوفر فيه منتجك"
+        },
+        "location_information_far_away_one_item": {
+          "one": "يوجد موقع واحد يحتوي على عنصرك %{count}",
+          "other": "يوجد %{count} موقعًا يتوفر فيه منتجك"
+        },
+        "location_information_far_away_other_items": {
+          "one": "يوجد موقع واحد يحتوي على عناصرك %{count}",
+          "other": "يوجد %{count} موقعًا يحتوي على عناصرك"
+        },
+        "location_nearby": {
+          "one": "يوجد %{count} موقع قريب يتوفر فيه منتجك",
+          "other": "يوجد %{count} موقعًا قريبًا يتوفر فيه منتجك"
+        },
+        "location_nearby_one_item": {
+          "one": "يوجد %{count} موقع قريب يتوفر فيه منتجك",
+          "other": "يوجد %{count} موقعًا قريبًا يتوفر فيه منتجك"
+        },
+        "location_nearby_other_items": {
+          "one": "يوجد %{count} موقع قريب تتوفر فيه عناصرك",
+          "other": "يوجد %{count} موقعًا قريبًا تتوفر فيه منتجاتك"
+        },
+        "location_nearby_short": {
+          "one": "%{count} موقعًا قريبًا يتوفر فيه منتجك",
+          "other": "%{count} موقعًا قريبًا يتوفر فيه منتجك"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} موقعًا قريبًا يتوفر فيه منتجك",
+          "other": "%{count} موقعًا قريبًا يتوفر فيه منتجك"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} موقع قريب يحتوي على أغراضك",
+          "other": "%{count} موقعًا قريبًا يحتوي على عناصرك"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} موقعًا يحتوي على أغراضك",
+          "other": "%{count} موقعًا يحتوي على أغراضك"
+        },
+        "toggle_location": "تغيير الموقع",
+        "pick_up_location": "موقع الاستلام",
+        "or": "أو",
+        "search_button": "ابحث عن المتاجر",
+        "no_stores_found": "لم يتم العثور على متاجر",
+        "selected_pickup_option_no_longer_available": {
+          "title": "الموقع الذي اخترته سابقًا لم يعد متاحًا",
+          "description": "لقد اخترنا أقرب موقع تتوفر فيه أغراضك."
+        },
+        "paginator": {
+          "accessibility_label": "ترقيم صفحات الاستلام المحلي",
+          "previous": "الصفحة السابقة",
+          "next": "الصفحة التالية",
+          "label": {
+            "one": "%{first} - %{last} من أصل %{count} متجرًا",
+            "other": "%{first} - %{last} من أصل %{count} متجرًا"
+          }
+        },
+        "reveal_more_label": {
+          "one": "عرض %{count} موقعًا إضافيًا",
+          "other": "عرض %{count} من المواقع الإضافية"
+        },
+        "no_pickup_locations_found": "لم يتم العثور على مواقع للاستلام",
+        "pickup_unavailable_banner_title": {
+          "one": "لا توجد مواقع يتوفر فيها منتجك",
+          "other": "لا توجد مواقع مع عناصر منتجاتك"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "لا توجد مواقع في %{country} تتوفر فيها سلعتك",
+          "other": "لا توجد مواقع في %{country} تحتوي على عناصرك"
+        },
+        "pickup_unavailable_banner_body": {
+          "try_different_location": "جرّب موقعًا مختلفًا",
+          "ship_to_address": "اشحن إلى العنوان",
+          "there_are_no_stores": "لا توجد متاجر بالقرب من عنوانك، أو أن العناصر التي اخترتها غير متاحة للاستلام.",
+          "ship_items": "اشحن أغراضك",
+          "search_elsewhere": "ابحث في مكان آخر",
+          "search_elsewhere_standalone": "ابحث في مكان آخر",
+          "ship_items_or_search_elsewhere": "%{ship_items} أو %{search_elsewhere}"
         }
       }
     },
