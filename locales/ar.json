@@ -128,6 +128,83 @@
       "subtotal": "المجموع الفرعي",
       "total_duties": "الرسوم الجمركية",
       "total_refunded": "تم ردّ المبلغ"
+    },
+    "orders": {
+      "title": "سجل الطلبات",
+      "order_number": "اطلب",
+      "order_number_link": "رقم الطلب {{ number }}",
+      "date": "التاريخ",
+      "payment_status": "حالة الدفع",
+      "fulfillment_status": "حالة التنفيذ",
+      "total": "الإجمالي",
+      "none": "لم تُجرِ أي طلبات بعد."
+    },
+    "recover_password": {
+      "title": "إعادة تعيين كلمة مرورك",
+      "subtext": "سنرسل إليك رسالة بريد إلكتروني لإعادة تعيين كلمة مرورك",
+      "success": "أرسلنا إليك رسالة بريد إلكتروني تحتوي على رابط لتحديث كلمة المرور."
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "submit": "إنشاء",
+      "return": "العودة إلى المتجر"
+    },
+    "reset_password": {
+      "title": "إعادة تعيين كلمة مرور الحساب",
+      "subtext": "أدخل كلمة مرور جديدة",
+      "password": "كلمة المرور",
+      "password_confirm": "تأكيد كلمة المرور",
+      "submit": "إعادة تعيين كلمة المرور"
     }
+  },
+  "general": {
+    "continue_shopping": "العودة إلى التسوق",
+    "cart": {
+      "view": "عرض السلة",
+      "item_added": "تمت إضافة المنتج إلى سلة التسوق الخاصة بك",
+      "note": {
+        "title": "ملاحظة",
+        "caption": "تعليمات خاصة للطلب",
+        "button": "تطبيق"
+      },
+      "gift_note": {
+        "title": "رسالة",
+        "caption": "أضف رسالة مخصصة إلى طلبك",
+        "button": "تطبيق"
+      },
+      "discount": {
+        "title": "قسيمة",
+        "caption": "أضف رمز الخصم",
+        "tooltip": "سيُطبَّق الخصم عند إتمام الدفع",
+        "button": "تطبيق"
+      },
+      "shipping_calculator": {
+        "title": "الشحن",
+        "caption": "تقدير أسعار الشحن",
+        "tooltip": "سيتم احتساب تكاليف الشحن والضرائب عند إتمام الدفع",
+        "button": "احسب"
+      },
+      "free_shipping": {
+        "remaining_html": "أنفق {{ remaining_amount }} إضافية للحصول على شحن مجاني",
+        "congratulations_html": "أنت مؤهل للشحن المجاني."
+      }
+    },
+    "date": {
+      "day": "يوم",
+      "days": "الأيام",
+      "hour": "ساعة"
+    },
+    "breadcrumbs": {
+      "home": "الصفحة الرئيسية",
+      "home_link_title": "العودة إلى الصفحة الرئيسية"
+    }
+  },
+  "date_formats": {
+    "month_year": "%B %Y",
+    "month_day_year": "%B %d، %Y"
   }
 }
