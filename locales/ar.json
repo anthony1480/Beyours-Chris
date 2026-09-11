@@ -1112,7 +1112,23 @@
             "invalid_card_source": "لا تملك هذه الجلسة الإذن لاستخدام مصدر البطاقة هذا.",
             "payment_instrument_not_found": "تعذّر العثور على طريقة الدفع",
             "gift_cards_not_allowed_for_b2b": "لا يُسمح ببطاقات الهدايا في متاجر الشركات.",
-            "method_required": "يجب اقتراح طريقة دفع."
+            "method_required": "يجب اقتراح طريقة دفع.",
+            "positive_amount_expected": "يجب أن يكون المبلغ المطلوب دفعه أكبر من 0.",
+            "total_amount_mismatch": "المبلغ الإجمالي المستحق لا يطابق مجموع مبالغ المدفوعات.",
+            "subscription_terms_not_accepted": "لم يتم قبول شروط الاشتراك.",
+            "unexpected_retail_attributions": "تم تقديم نسب المتجر بشكل غير متوقع للدفع ببطاقة الائتمان.",
+            "wallet_content_missing": "محتوى المحفظة مفقود.",
+            "unauthorized_capture_method": "لا يُسمح بتهيئة طريقة تحصيل المدفوعات.",
+            "saved_payment_methods_not_allowed": "لا يُسمح باستخدام طرق الدفع المحفوظة.",
+            "saved_payment_methods_not_enabled": "طرق الدفع المحفوظة غير مفعّلة لهذا المتجر.",
+            "saved_payment_methods_cvv_verification_disabled": "طريقة الدفع المحددة تتطلب التحقق من رمز CVV، وهو غير مفعّل لهذا المتجر. اختر طريقة دفع مختلفة.",
+            "store_credit_not_enabled": "الرصيد المتجرّي غير مفعّل لهذا المتجر.",
+            "store_credit_account_not_found": "لم يتم العثور على حساب الرصيد الائتماني للمتجر.",
+            "store_credit_account_mismatch": "لا يتطابق حساب الرصيد الدائن للمتجر مع هوية المشتري.",
+            "store_credit_mismatched_currency": "عملة حساب الرصيد الائتماني للمتجر لا تتطابق مع عملة الدفع.",
+            "store_credit_insufficient_funds": "لا توجد أموال كافية في حساب رصيد المتجر.",
+            "store_credit_buying_gift_card": "لا يمكنك استخدام رصيد المتجر لشراء بطاقة هدايا.",
+            "paypal_express_address_invalid": "أعاد PayPal عنوانًا غير صالح."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "يجب أن يتضمن عرض المشتري الخاص بك non-negotiable_terms.",
@@ -1125,6 +1141,39 @@
           },
           "optional_duties": {
             "optional_duties_not_permitted": "لا يُسمح برفض دفع الرسوم لهذا الطلب."
+          },
+          "session_identifier_not_unique_error": "حدث خطأ ما في طلبك، جرّب إتمام الشراء مرة أخرى.",
+          "session_is_already_finished": "تم إتمام جلسة الدفع هذه بالفعل.",
+          "tax": {
+            "new_tax_must_be_accepted": "تغيّرت الضرائب المرتبطة بطلبك. راجعها وحاول مرة أخرى.",
+            "unresolvable_tax_terms": "لا يمكن حسم الشروط المقترحة في سياق التفاوض الحالي.",
+            "delivery_price_is_abstract": "سعر التوصيل المرتبط مجرد.",
+            "tax_inclusivity_mismatch": "أعد التفاوض باستخدام قيمة محددة لـ totalTaxAndDutyAmount أو totalAmountIncludedInTarget.",
+            "mixed_tax_inclusivity_not_supported": "يجب أن تكون جميع بنود الضريبة شاملة للضريبة أو مستثناة منها.",
+            "tax_exemption_not_supported": "لا يُسمح بالإعفاءات الضريبية لجلسة التفاوض الحالية.",
+            "delivery_tax_exemption_not_supported": "الإعفاءات الضريبية لأسطر التوصيل غير مدعومة حاليًا.",
+            "proposed_allocations_required": "حقل «التخصيصات المقترحة» مفقود.",
+            "merchandise_terms_must_be_defined": "يجب تحديد مصطلحات البضائع.",
+            "delivery_terms_must_be_defined": "يجب تحديد شروط التوصيل.",
+            "merchandise_discount_terms_must_be_defined": "يجب تحديد شروط خصم البضائع.",
+            "delivery_discount_terms_must_be_defined": "يجب تحديد شروط خصم التوصيل.",
+            "allocated_required": "الحقل «allocated» مفقود.",
+            "value_required": "حقل «value» مفقود.",
+            "line_splits_not_supported": "يجب تقسيم حقل «بنود البضائع» بحيث يحتوي كل بند على مكوّن سطر واحد في عرض البائع."
+          },
+          "tip": {
+            "not_accepted_by_shop": "المتجر لا يقبل البقشيش.",
+            "only_one_tip_line_allowed": "لا يدعم عدة أسطر للتلميحات.",
+            "tips_not_allowed_for_b2b": "لا يُسمح بالإكراميات في متاجر الشركات.",
+            "currency_change_reset": "تمت إعادة ضبط الإكرامية بسبب تغيير العملة.",
+            "tips_not_allowed_for_deferred_purchase_options": "لا تتوفر الإكراميات بعد لخيارات الشراء المؤجلة."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "لا يوجد طلب المسودة هذا في المتجر الحالي.",
+            "staff_member_not_exist": "هذا الموظف غير موجود في المتجر الحالي.",
+            "location_not_exist": "هذا الموقع غير موجود في المتجر الحالي.",
+            "point_of_sale_device_not_exist": "جهاز نقطة البيع هذا غير موجود في المتجر الحالي.",
+            "unresolvable_target_merchandise_lines": "لا يمكن حسم الإسنادات المقترحة للبيع بالنظر إلى سياق التفاوض الحالي."
           }
         },
         "continue_to_payment_plans_button_label": "المتابعة إلى خطط الدفع",
@@ -1173,7 +1222,16 @@
           "add_file": "إضافة ملف",
           "invalid_file_type": "نوع الملف غير مدعوم",
           "dragged_over": "أسقط الملف لرفعه"
-        }
+        },
+        "finalize_order_accessibility_label": "إتمام الطلب",
+        "expand_notice_label": "عرض المزيد",
+        "forwarding_indicator": {
+          "new_window": "يُفتح في نافذة جديدة.",
+          "external": "يفتح موقعًا إلكترونيًا خارجيًا.",
+          "external_and_new_window": "يفتح موقعًا إلكترونيًا خارجيًا في نافذة جديدة."
+        },
+        "full_price": "السعر الكامل:",
+        "full_title": "{{pageTitle}} - {{shopName}} - إتمام الشراء"
       }
     },
     "attributes": {
