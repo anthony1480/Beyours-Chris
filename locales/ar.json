@@ -1997,7 +1997,81 @@
           }
         },
         "business_customer_vaulting_payment_label": "احفظ طريقة الدفع هذه عند إتمام الشراء وفوّض %{company} لخصم المبلغ منها مقابل المشتريات المستقبلية لهذا الموقع. يمكن لجميع جهات الاتصال المعيّنة لهذا الموقع استخدام طريقة الدفع هذه.",
-        "business_customer_with_bank_account_vaulting_payment_label": "احفظ طريقة الدفع هذه عند إتمام الشراء وفوّض %{company} بخصم المبلغ من حسابك مقابل عمليات الشراء المستقبلية التي توافق عليها لهذا الموقع، حتى تلغي ذلك. ويمكن لجميع جهات الاتصال المعيّنة لهذا الموقع استخدام طريقة الدفع."
+        "business_customer_with_bank_account_vaulting_payment_label": "احفظ طريقة الدفع هذه عند إتمام الشراء وفوّض %{company} بخصم المبلغ من حسابك مقابل عمليات الشراء المستقبلية التي توافق عليها لهذا الموقع، حتى تلغي ذلك. ويمكن لجميع جهات الاتصال المعيّنة لهذا الموقع استخدام طريقة الدفع.",
+        "discount_button_action_label": "تطبيق رمز الخصم",
+        "discount_codes_removed_summary": {
+          "one": "تمت إزالة رمز خصم بنسبة %{count}",
+          "other": "تمت إزالة %{count} من رموز الخصم"
+        },
+        "discount_codes_modified_summary": {
+          "one": "تم تعديل رمز الخصم %{count}",
+          "other": "تم تعديل %{count} من رموز الخصم"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "تمت إزالة رمز الخصم %{count} أو تعديله",
+          "other": "تمت إزالة رموز خصم أو تعديلها بعدد %{count}"
+        },
+        "discount_show_more_warnings": {
+          "one": "إظهار %{count} إضافية",
+          "other": "إظهار %{count} إضافية"
+        },
+        "detected_card_brand": "تم اكتشاف علامة البطاقة: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "احفظ بطاقتك الائتمانية",
+        "credit_card_vaulting_sign_in_banner_info": "سجّل الدخول أو أنشئ حسابًا لحفظ بطاقتك الائتمانية لعمليات الشراء المستقبلية.",
+        "credit_card_vaulting_sign_in_banner_button_label": "سجّل الدخول",
+        "credit_card_start_month": "شهر البدء",
+        "credit_card_start_year": "سنة البدء",
+        "delete_customer_mandate_modal_title": "إزالة بطاقة الدفع هذه؟",
+        "delete_customer_mandate_modal_body": "إذا أزلت هذه البطاقة، فستحتاج إلى إضافتها مجددًا قبل استخدامها لإجراء المدفوعات.",
+        "delete_customer_mandate_modal_confirm": "إزالة البطاقة",
+        "delete_customer_mandate_modal_cancel": "إلغاء",
+        "card_verification_value_placeholder": "رمز الأمان",
+        "crypto_payment_method": {
+          "description": "اربط محفظتك بأمان. لن تتم مشاركة رصيدك وعنوانك.",
+          "tooltip": "لن تتم مشاركة رصيد محفظتك وعنوانك، ولا يمكن خصم سوى المبلغ المطلوب.",
+          "cashback_descriptor": {
+            "one": "ستتلقى استردادك النقدي بعد %{count} يومًا",
+            "other": "ستتلقى استردادك النقدي بعد %{count} يومًا"
+          }
+        },
+        "crypto_modal": {
+          "header": "ادفع %{shop_name} %{total_price} بعملة USDC",
+          "error": {
+            "refresh": "تحديث",
+            "close": "إغلاق",
+            "sandbox_error": "حدث خطأ ما",
+            "web_component_error": "حدثت مشكلة أثناء تحميل هذه الصفحة"
+          }
+        },
+        "different_credit_card_label": "استخدم بطاقة ائتمان مختلفة",
+        "different_billing_address_label": "استخدم عنوان فوترة مختلفًا",
+        "default": "افتراضي",
+        "continue_to_guest_checkout": "المتابعة إلى الدفع كضيف",
+        "cashapppay_label": "الدفع عبر تطبيق Cash App",
+        "change_currency_section_description": "اختر عملة 马会",
+        "clear": "واضح",
+        "delete_credit_card_modal": {
+          "title": "حذف البطاقة",
+          "confirmation": "هل أنت متأكد من رغبتك في حذف {{brandName}} المنتهي بـ {{lastDigits}}؟",
+          "cancel": "إلغاء",
+          "delete": "حذف"
+        },
+        "edit_credit_card_modal": {
+          "done": "تم",
+          "cancel": "إلغاء",
+          "description": "لا يمكنك تعديل عنوان الفوترة لبطاقتك إلا.",
+          "fields": {
+            "default": "تعيين كافتراضي",
+            "card_number": "رقم البطاقة",
+            "expiry": "تاريخ انتهاء الصلاحية",
+            "name": "الاسم على البطاقة",
+            "billing": "الفوترة إلى"
+          }
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "تأكيد الدفع المخصص في الموقع"
+        },
+        "choose_new_payment_method": "اختر طريقة دفع جديدة"
       }
     },
     "attributes": {
