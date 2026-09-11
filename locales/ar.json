@@ -1231,7 +1231,83 @@
           "external_and_new_window": "يفتح موقعًا إلكترونيًا خارجيًا في نافذة جديدة."
         },
         "full_price": "السعر الكامل:",
-        "full_title": "{{pageTitle}} - {{shopName}} - إتمام الشراء"
+        "full_title": "{{pageTitle}} - {{shopName}} - إتمام الشراء",
+        "page_title": "إتمام الشراء",
+        "skip_to_content": "انتقل إلى المحتوى",
+        "pay_now_button_label": "ادفع الآن",
+        "print_policies_link_label": "طباعة",
+        "tooltip_accessibility_label": "مزيد من المعلومات",
+        "qr_code": "رمز QR",
+        "title": "إتمام الشراء - {{shopName}}",
+        "loading": "جارٍ التحميل…",
+        "loading_title": "إتمام الشراء - {{shopName}}",
+        "google_map_title": "خرائط Google",
+        "submit_order_button_label": "إرسال الطلب",
+        "submit_for_review_button_label": "إرسال للمراجعة",
+        "submit_for_review_notice_label": "لن يستحق الدفع حتى تتم مراجعة طلبك",
+        "submit": "إرسال",
+        "processing": "جارٍ المعالجة…",
+        "stepper": {
+          "increase": "زيادة {{type}}",
+          "decrease": "تقليل {{type}}",
+          "minimum_reached": "تم الوصول إلى الحد الأدنى وهو {{value}}",
+          "maximum_reached": "تم بلوغ الحد الأقصى البالغ {{value}}"
+        },
+        "remove_chip": "إزالة العنصر",
+        "remove_item": "إزالة %{label}",
+        "remove_tag": "إزالة الوسم",
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}، و{{lastWord}}",
+            "twoWordConnector": "{{firstWord}} و{{secondWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}، أو {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} أو {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "مجموعة من {{number}} علامة",
+            "other": "مجموعة مكوّنة من {{number}} علامة"
+          }
+        },
+        "sheet": {
+          "expand": "توسيع"
+        }
+      },
+      "local_pickup": {
+        "location_address_search_label": "العنوان",
+        "location_address_search_placeholder": "%{postal_code_label} أو العنوان",
+        "location_closest": "أقرب موقع يتوفر فيه منتجك",
+        "location_closest_one_item": "أقرب موقع يتوفر فيه منتجك",
+        "location_closest_other_items": "أقرب موقع تتوفر فيه منتجاتك",
+        "location_far_away": {
+          "one": "%{count} موقعًا مع منتجك",
+          "other": "%{count} مواقع يتوفر فيها منتجك"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} موقعًا مع منتجك",
+          "other": "%{count} مواقع يتوفر فيها منتجك"
+        },
+        "cancel": "إلغاء",
+        "all_stores_far_away": {
+          "title": "أقرب المواقع تبعد أكثر من %{distance}",
+          "title_with_item": {
+            "one": "أقرب موقع يتوفر فيه منتجك يبعد أكثر من %{distance} عن %{location}",
+            "other": "أقرب موقع تتوفر فيه منتجاتك يبعد أكثر من %{distance} عن %{location}"
+          },
+          "title_with_location": "أقرب موقع يبعد أكثر من %{distance} عن %{location}",
+          "title_with_specific_location": "أقرب موقع يتوفر فيه منتجك يبعد أكثر من %{distance} عن %{location}",
+          "description": "اختر موقعًا أو %{ship_to_address_link}",
+          "description_with_location": "%{change_location_link} أو %{ship_to_address_link}",
+          "ship_to_address_link": "اشحن إلى العنوان",
+          "change_location_link": "غيّر موقعك"
+        },
+        "could_not_resolve_address": "تعذّر العثور على عنوانك. حاول مرة أخرى أو استخدم عنوانًا مختلفًا.",
+        "geolocation": {
+          "permission_not_allowed": "اسمح بمشاركة الموقع أو بالبحث بدلًا من ذلك."
+        }
       }
     },
     "attributes": {
