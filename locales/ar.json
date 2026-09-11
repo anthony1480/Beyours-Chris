@@ -1745,7 +1745,73 @@
             "one": "%{count} عنصر",
             "other": "%{count} عنصرًا"
           }
-        }
+        },
+        "group_title_label": "جزء من \"%{group_title}\"",
+        "number_items": {
+          "one": "%{count} عنصر",
+          "other": "%{count} عنصرًا"
+        },
+        "more_items_modal": {
+          "search_item": "بحث",
+          "clear_search": "مسح البحث",
+          "empty_results": "لم يتم العثور على نتائج لـ \"%{searchText}\". تحقق من الإملاء أو استخدم كلمة أو عبارة مختلفة.",
+          "number_items_shown": "%{shownNumber} من %{totalNumber} عنصرًا"
+        },
+        "order_name_label": "اطلب %{name}",
+        "order_discounts_apply_to_local_shop": "تنطبق خصومات الطلبات على العناصر من %{shop_name} فقط",
+        "gift_card_title": "بطاقة هدية",
+        "gift_card_label": "بطاقة هدية",
+        "gift_card_placeholder": "بطاقة هدية",
+        "gift_cards_apply_to_local_shop": "تنطبق بطاقات الهدايا على العناصر من %{shop_name} فقط",
+        "gift_card_subscriptions_notice": "ستُطبَّق بطاقات الهدايا على دفعتك الأولى فقط",
+        "pickup_label": "الاستلام من المتجر",
+        "no_pickup_location": "لا تتوفر مواقع للاستلام.",
+        "pickup_unavailable_banner_title": {
+          "one": "لا توجد متاجر يتوفر فيها منتجك",
+          "other": "لا توجد متاجر متاحة تحتوي على منتجاتك"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "الشحن إلى العنوان",
+          "ship_to_address_instead_html": "%{link} بدلًا من ذلك"
+        },
+        "information_estimated_taxes_label": "الضرائب (تقديرية)",
+        "order_total_label": "إجمالي الطلب",
+        "partial_total_label": "الإجمالي",
+        "paid_label": "مدفوع",
+        "payment_due_label": "الدفعة مستحقة",
+        "gift_card_savings_notice": "بعد %{gift_card_amount} من بطاقات الهدايا",
+        "original_price": "السعر الأصلي",
+        "order_total_updated_label": "الإجمالي المحدّث",
+        "multiple_shipping_lines_label": "إجمالي الشحن",
+        "higher_value_discount_applied": "تعذّر استخدام <strong style=\"text-transform:uppercase\">%{code}</strong> مع الخصومات الحالية لديك.",
+        "percent_off_shipping": "خصم %{percent}% على الشحن",
+        "payment_terms_totals": {
+          "due_today": "إجمالي المستحق اليوم",
+          "due_today_next": "مستحق اليوم",
+          "due_later": "إجمالي المستحق %{due_at}",
+          "due_on_fulfillment": "الإجمالي المستحق عند التنفيذ",
+          "due_on_fulfillment_next": "مستحق عند التنفيذ",
+          "due_on_receipt": "الإجمالي المستحق عند الاستلام",
+          "due_later_checkout_to_draft": "إجمالي المبلغ المستحق لاحقًا",
+          "total_paid": "إجمالي المدفوع"
+        },
+        "maximum_discount_code_limit_reached": "لقد وصلت إلى الحد الأقصى لعدد رموز الخصم. أزل رمزًا موجودًا لاستخدام <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "may_be_charged_on_delivery": "قد تُفرض رسوم عند التسليم",
+        "lpm": {
+          "wechat_pay": {
+            "checkout_disclosure": "أكّد إجمالي المبلغ النهائي باليوان الصيني في تطبيق WeChat",
+            "checkout_disclosure_with_alternative_payment_currency": "سيعالج %{shop_name} هذه الدفعة بقيمة %{amount_due} %{processing_currency}، وسيحوّلها WeChat إلى اليوان الصيني.",
+            "checkout_disclosure_charged_in_cny": "سيعالج %{shop_name} هذه الدفعة بقيمة %{amount_due} %{processing_currency}",
+            "post_purchase_disclosure": "عرض الإجمالي باليوان الصيني في WeChat"
+          },
+          "alipay": {
+            "checkout_disclosure": "أكّد الإجمالي النهائي باليوان الصيني في تطبيق Alipay",
+            "checkout_disclosure_with_alternative_payment_currency": "ستعالج %{shop_name} هذه الدفعة بمبلغ %{amount_due} %{processing_currency}، الذي يحوّله Alipay إلى اليوان الصيني (CNY)",
+            "checkout_disclosure_charged_in_cny": "سيعالج %{shop_name} هذه الدفعة بقيمة %{amount_due} %{processing_currency}",
+            "post_purchase_disclosure": "عرض الإجمالي باليوان الصيني في Alipay"
+          }
+        },
+        "pay_merchant_label": "ادفع إلى %{merchant_name}"
       }
     },
     "attributes": {
