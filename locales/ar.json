@@ -2711,7 +2711,71 @@
         "invalid_shipping_method_summary": "أدخل عنوان شحن صالحًا لعرض طرق الشحن المتاحة",
         "add_shipping_address": "أضف عنوان الشحن",
         "add_new_delivery_address": "أضف عنوان توصيل جديدًا",
-        "choose_new_address": "اختر عنوانًا جديدًا"
+        "choose_new_address": "اختر عنوانًا جديدًا",
+        "shipping_method_title": "طريقة الشحن",
+        "shipping_method_rollup_accessibility_label": "خيارات طريقة الشحن",
+        "shipping_method_one_time_purchase_group_title": "شراء لمرة واحدة",
+        "shipping_method_first_shipment_group_title": {
+          "one": "الشحنة الأولى",
+          "other": "أولى الشحنات"
+        },
+        "shipping_method_subscription_group_title": "اشتراك",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "شحنة متكررة",
+          "other": "الشحنات المتكررة"
+        },
+        "no_rates_for_cart_or_destination_notice": "لا تتوفر طرق شحن لسلة التسوق أو عنوانك",
+        "no_pickup_location_notice": "منتج واحد على الأقل من منتجاتك غير متاح للاستلام",
+        "no_rates_for_country_notice": "لم يتم العثور على أسعار شحن لهذا العنوان.",
+        "no_rates_contact_notice": "تواصل معنا لمزيد من المعلومات",
+        "shipping_line_phone_label": "رقم الهاتف المحمول (مطلوب)",
+        "shipping_line_phone": "قد يستخدم مندوب التوصيل هذا الرقم للتواصل معك.",
+        "shipping_line_delivery_phone_label": "رقم الهاتف المحمول",
+        "shipping_line_delivery_phone": "قد يتم التواصل معك لإطلاعك على مستجدات توصيل طلبك.",
+        "optional_shipping_line_delivery_instructions_label": "تعليمات التوصيل (اختياري)",
+        "shipping_line_delivery_instructions": "أدخل المعلومات اللازمة مثل رموز الأبواب أو تعليمات التسليم.",
+        "other_method": {
+          "zero": "لا تتوفر طرق أخرى",
+          "one": "%{count} طريقة أخرى متاحة في",
+          "other": "%{count} طريقة أخرى متاحة بدءًا من"
+        },
+        "shipping_rate_discounted_amount": "كان: %{original_amount}. الآن: %{amount}",
+        "local_delivery": "التوصيل المحلي",
+        "prime_not_available": {
+          "default": "خدمة التوصيل برايم غير متاحة لطلبك. تم تحديث خيارات الشحن الخاصة بك."
+        },
+        "one_time_purchase_shipping": "شحن لمرة واحدة",
+        "shipping_information_required_notice": "معلومات الشحن مطلوبة. {{link}}.",
+        "shipping_information_redirect_link": "أدخل معلوماتك هنا",
+        "loading_progressive_rates": "جارٍ البحث عن أسعار إضافية…",
+        "no_other_methods_available": "لا تتوفر طرق أخرى",
+        "shipping_method_combinations": {
+          "combination": "%{rest} و %{current}"
+        },
+        "shipping_used_as_billing_notice": "سيُستخدم هذا العنوان أيضًا باعتباره عنوان الفوترة لهذا الطلب.",
+        "shipping_address_title": "الشحن إلى",
+        "shipping_address_rollup_accessibility_label": "خيارات الشحن إلى العنوان",
+        "invalid_shipping_method_summary_selected": "اختر عنوان شحن مختلفًا لعرض طرق الشحن المتاحة",
+        "method_summary": {
+          "incomplete_address_entered": "أدخل عنوان شحن كاملًا لعرض طرق الشحن المتاحة",
+          "incomplete_address_selected": "اختر عنوان شحن كاملًا لعرض طرق الشحن المتاحة"
+        },
+        "local_pickup": {
+          "search_address": "البحث عن عنوان",
+          "rollup_title": "موقع الاستلام",
+          "rollup_accessibility_label": "خيارات موقع الاستلام"
+        },
+        "missing_shipping_address": "عنوان الشحن مفقود",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} عناصر",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} إضافية",
+        "split_shipping_merchandise_shipment_number": "الشحنة %{number} من %{total}",
+        "pre_order_ships_now": "يشحن الآن",
+        "pre_order_ships_later": "يُشحن لاحقًا",
+        "pre_order_ships_date": "يُشحن في %{date}",
+        "split_shipping_multiple_shipment_label": "شحنات متعددة",
+        "split_shipping_first_shipment_notice": "سيصل طلبك الأول خلال %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice": "سيصل طلبك في شحنات متعددة",
+        "split_shipping_more_shipping_options": "المزيد من خيارات الشحن"
       },
       "session_errors": {
         "session_not_unique": "حدثت مشكلة أثناء معالجة طلبك. حدّث هذه الصفحة للعودة إلى المتجر.",
