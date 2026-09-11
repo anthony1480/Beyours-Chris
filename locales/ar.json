@@ -2936,6 +2936,86 @@
         },
         "return_to_store": "العودة إلى {{shopName}}",
         "return_to_store_simple": "العودة إلى المتجر"
+      },
+      "shop_policies": {
+        "policy_label": "السياسة",
+        "policies_label": "السياسات",
+        "select_policy_label": "اختر سياسة",
+        "refund_policy": "سياسة استرداد الأموال",
+        "privacy_policy": "سياسة الخصوصية",
+        "terms_of_service": "شروط الخدمة",
+        "legal_notice": "إشعار قانوني",
+        "shipping_policy": "الشحن",
+        "terms_of_sale": "شروط البيع",
+        "subscription_policy": "الإلغاءات",
+        "purchase_options_policy": "سياسة خيارات الشراء",
+        "contact_information": "تواصل",
+        "purchase_options_cancellation_policy": "الإلغاءات",
+        "cookie_preferences": "ملفات تعريف الارتباط",
+        "terms_and_policies": "الشروط والسياسات"
+      },
+      "shop_wallet": {
+        "title": "محفظة Shop Pay",
+        "description": "اختر ما تريد استخدامه لهذه عملية الشراء.",
+        "loading": "جارٍ تحميل محفظة Shop Pay…",
+        "ready_status": "محفظة Shop Pay الخاصة بك جاهزة. اختر طريقة دفع.",
+        "cancel": "إلغاء",
+        "retry": "حاول مرة أخرى",
+        "return_to_hatch": "العودة إلى Hatch",
+        "choose_again": "اختر مجددًا",
+        "payment_method": {
+          "heading": "طريقة الدفع",
+          "expiry": "ينتهي في {{expiry}}",
+          "accessibility_label": "بطاقة {{brand}} المنتهية بالأرقام {{lastDigits}}"
+        },
+        "shipping_address": {
+          "heading": "عنوان الشحن"
+        },
+        "confirm": {
+          "label": "تأكيد الاختيار",
+          "success_title": "تم تأكيد الاختيار",
+          "success_message": "تفاصيل المحفظة المحددة جاهزة. لا يعيد هذا النموذج الأولي هذه التفاصيل إلى تطبيق الشريك بعد.",
+          "retryable_error_title": "لم تتم مشاركة التحديد",
+          "retryable_error_message": "حاول تأكيد اختيار محفظتك مرة أخرى.",
+          "terminal_error_title": "انتهى اتصال المحفظة",
+          "terminal_error_message": "ارجع وافتح Shop Pay مرة أخرى."
+        },
+        "cancelled": {
+          "title": "تم إلغاء التحديد",
+          "message": "لم تتم مشاركة أي تفاصيل عن المحفظة ولم تُجرَ أي عملية شراء."
+        },
+        "empty": {
+          "title": "لا توجد بطاقات محفوظة",
+          "message": "لا توجد بطاقات محفوظة في محفظة Shop Pay هذه."
+        },
+        "ineligible": {
+          "title": "لا توجد بطاقات مؤهلة",
+          "message": "لا يمكن استخدام أيٍّ من البطاقات المحفوظة لإتمام عملية الشراء هذه."
+        },
+        "expired": {
+          "title": "انتهت صلاحية جلسة المحفظة هذه",
+          "message": "ارجع إلى تطبيق الشريك وابدأ عملية الشراء من جديد."
+        },
+        "revoked": {
+          "title": "لم يعد Shop Pay متصلًا",
+          "message": "أعد ربط Shop Pay في تطبيق الشريك قبل المتابعة."
+        },
+        "error": {
+          "title": "تعذّر تحميل محفظة Shop Pay الخاصة بك",
+          "message": "عُد إلى Hatch وحاول فتح Shop Pay مرة أخرى."
+        }
+      },
+      "split_delivery": {
+        "accessibility": {
+          "status": {
+            "ship_separately": "سيتم شحن %{items} بشكل منفصل.",
+            "pickup_in_store": "سيتم استلام %{items} من المتجر.",
+            "remove_items": "تمت إزالة %{items} من السلة."
+          }
+        },
+        "cross_border": {
+          "banner": "تم تحديث طريقة التوصيل الخاصة بك"
+        }
       }
     },
     "attributes": {
