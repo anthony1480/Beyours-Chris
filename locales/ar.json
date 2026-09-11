@@ -196,15 +196,84 @@
     "date": {
       "day": "يوم",
       "days": "الأيام",
-      "hour": "ساعة"
+      "hour": "ساعة",
+      "hours": "الساعات",
+      "minute": "الحد الأدنى",
+      "minutes": "الدقائق",
+      "second": "ثانية",
+      "seconds": "ثوانٍ"
     },
     "breadcrumbs": {
       "home": "الصفحة الرئيسية",
       "home_link_title": "العودة إلى الصفحة الرئيسية"
+    },
+    "password_page": {
+      "login_form_heading": "ادخل إلى المتجر باستخدام كلمة المرور:",
+      "login_password_button": "الدخول باستخدام كلمة المرور",
+      "login_form_password_label": "كلمة المرور",
+      "login_form_password_placeholder": "كلمة مرورك",
+      "login_form_error": "كلمة المرور غير صحيحة!",
+      "login_form_submit": "أدخل",
+      "modal": "نافذة كلمة المرور المنبثقة",
+      "admin_link_html": "هل أنت مالك المتجر؟ <a href=\"/admin\" class=\"link link--underline\">سجّل الدخول من هنا</a>",
+      "powered_by_shopify_html": "سيعمل هذا المتجر بواسطة {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "مشاركة",
+        "share_on_twitter": "تغريدة",
+        "share_on_pinterest": "ثبّتها",
+        "share_on_whatsapp": "مشاركة",
+        "share_on_telegram": "مشاركة",
+        "share_by_email": "البريد الإلكتروني"
+      },
+      "links": {
+        "twitter": "تويتر",
+        "facebook": "فيسبوك",
+        "pinterest": "بنترست",
+        "instagram": "إنستغرام",
+        "tumblr": "تمبلر",
+        "snapchat": "سناب شات",
+        "youtube": "يوتيوب",
+        "vimeo": "فيميو",
+        "tiktok": "تيك توك"
+      }
+    },
+    "pagination": {
+      "label": "ترقيم الصفحات",
+      "page": "الصفحة {{ number }}",
+      "next": "التالي ›",
+      "previous": "‹ السابق",
+      "show_more": "عرض المزيد"
+    },
+    "search": {
+      "search": "ابحث في موقعنا",
+      "placeholder": "بحث",
+      "clear": "واضح"
+    },
+    "share": {
+      "share": "شارك الآن",
+      "close": "إغلاق المشاركة",
+      "copy_to_clipboard": "نسخ الرابط",
+      "share_url": "نسخ الرابط",
+      "success_message": "تم نسخ الرابط إلى الحافظة!"
+    },
+    "slider": {
+      "of": "من",
+      "next_slide": "اسحب إلى اليمين",
+      "previous_slide": "مرّر إلى اليسار"
     }
   },
   "date_formats": {
     "month_year": "%B %Y",
     "month_day_year": "%B %d، %Y"
+  },
+  "gift_cards": {
+    "issued": {
+      "add_to_apple_wallet": "أضف إلى محفظة Apple",
+      "copy_code": "نسخ الرمز",
+      "expired": "منتهي الصلاحية",
+      "copy_code_success": "تم نسخ الرمز بنجاح"
+    }
   }
 }
