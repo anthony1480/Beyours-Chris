@@ -2841,7 +2841,28 @@
           "free_for_first_n_order": {
             "one": "للطلب الأول",
             "other": "للطلبات الأولى البالغ عددها %{count}"
-          }
+          },
+          "subscription_free_with_frequency_label": "شحن مجاني %{delivery_frequency}",
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "كل يوم",
+              "other": "كل %{count} يومًا"
+            },
+            "week": {
+              "one": "كل أسبوع",
+              "other": "كل %{count} أسابيع"
+            },
+            "month": {
+              "one": "كل شهر",
+              "other": "كل %{count} أشهر"
+            },
+            "year": {
+              "one": "كل عام",
+              "other": "كل %{count} سنوات"
+            }
+          },
+          "shipping_price_included": "مُضمَّن",
+          "recurring_order_shipping_price": "يليه %{recurring_order_shipping_price}"
         },
         "split_shipping_shipped_by_shop": "تم الشحن بواسطة %{shop_name}",
         "split_shipping_shipping_label": "طريقة",
@@ -2857,11 +2878,64 @@
         "split_shipping_option_lowest_price": "أقل سعر",
         "split_shipping_option_fastest": "الأسرع",
         "split_shipping_option_recommended": "موصى به",
-        "split_shipping_option_custom": "مخصص"
+        "split_shipping_option_custom": "مخصص",
+        "title": "الشحن",
+        "subscription_shipping": "شحن الاشتراك",
+        "subscription_local_delivery": "التوصيل المحلي بالاشتراك",
+        "subscription_pickup": "استلام الاشتراك",
+        "waiting_on_rate_notice": "جارٍ الحصول على أسعار الشحن المتاحة…",
+        "waiting_on_pickup_location_notice": "جارٍ الحصول على مواقع الاستلام المتاحة…",
+        "two_day_delivery": "توصيل خلال يومين %{time}",
+        "unbranded_default_description": "جاهز للشحن",
+        "unbranded_description_same_day": "يُشحن في يوم العمل نفسه",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "يُشحن في يوم العمل التالي",
+          "other": "يُشحن خلال %{count} أيام عمل"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "يُشحن خلال %{count} أسبوع.ones",
+          "other": "يُشحن خلال %{count} أسابيع"
+        },
+        "third_party_address_timeout": "تعذّر تحميل العناوين. أعد المحاولة أو استخدم عنوانًا مختلفًا.",
+        "third_party_address_error": "حدث خطأ أثناء تحميل اختيار العنوان. أدخل عنوانك يدويًا أدناه.",
+        "third_party_payment_timeout": "تعذّر تحميل طرق الدفع. أعد المحاولة أو استخدم طريقة دفع مختلفة.",
+        "third_party_payment_error": "حدث خطأ أثناء تحميل خيارات الدفع. استخدم طريقة دفع مختلفة."
       },
       "session_errors": {
         "session_not_unique": "حدثت مشكلة أثناء معالجة طلبك. حدّث هذه الصفحة للعودة إلى المتجر.",
         "session_already_finished": "تم إرسال هذا الطلب بالفعل. يمكنك العودة إلى المتجر لبدء طلب جديد."
+      },
+      "shipping_errors": {
+        "shipping_method": "تغيّرت خيارات الشحن لطلبك. راجع اختيارك.",
+        "shipping_method_not_available": "تم تحديث سلة التسوق، ولا يمكن شحن العناصر التي أضفتها إلى عنوانك. أزل العناصر لإكمال طلبك.",
+        "shipping_method_not_available_generic": {
+          "one": "يتعذر شحن طلبك إلى العنوان المحدد. راجع عنوانك للتأكد من صحته وحاول مرة أخرى، أو اختر عنوانًا مختلفًا.",
+          "other": "لا يمكن شحن بعض العناصر في سلة التسوق إلى العنوان الذي أدخلته. راجع عنوانك للتأكد من صحته وحاول مرة أخرى، أو اختر عنوانًا مختلفًا."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "العناصر الموجودة في سلة التسوق لا تستوفي متطلبات السعر أو الوزن للتأهل للشحن. حدّث سلة التسوق وحاول مرة أخرى.",
+        "shipping_method_not_available_updated": {
+          "one": "المنتج الذي أضفته لا يمكن شحنه إلى موقعك. أزِله لإتمام عملية الدفع، أو تواصل مع المتجر.",
+          "other": "عنصر واحد أو أكثر من العناصر التي أضفتها لا يمكن شحنه إلى موقعك. أزلها لإتمام الشراء، أو تواصل مع المتجر."
+        },
+        "payment_method_not_supported": "لا يمكنك استخدام طريقة الدفع هذه للطلب من %{country}. استخدم طريقة دفع مختلفة للشحن إلى هذا البلد.",
+        "empty_state": "أدخل عنوان الشحن لعرض طرق الشحن المتاحة.",
+        "title": "الشحن غير متاح",
+        "invalid_selected_address": "عنوان الشحن المحدد غير صالح",
+        "invalid_selected_address_with_update_link": "عنوان الشحن المحدد غير صالح. %{update_address_link} أو اختر عنوانًا مختلفًا",
+        "unavailable_addresses_only_countries": "لا يمكن شحن طلبك إلا إلى {{countriesList}}. أضف عنوانًا جديدًا للمتابعة.",
+        "unavailable_address_country": "الشحن غير متاح في البلد الذي اخترته. استخدم عنوانًا مختلفًا للمتابعة",
+        "unavailable_selected_address": "الشحن غير متاح للعنوان المحدد",
+        "unavailable_selected_address_for_region": "الشحن غير متاح إلى {{region}}. اختر عنوانًا مختلفًا للمتابعة"
+      },
+      "shop_pay_external": {
+        "title": "الدفع عبر Shop Pay",
+        "errors": {
+          "problem_loading": "توجد مشكلة في تحميل Shop Pay",
+          "try_again_later": "تحقّق من اتصالك أو أغلق هذه النافذة وحاول مرة أخرى بعد لحظات.",
+          "checkout_has_expired": "انتهت صلاحية إتمام الشراء. أغلق هذه النافذة وحاول إتمام الشراء مرة أخرى من {{shopName}}."
+        },
+        "return_to_store": "العودة إلى {{shopName}}",
+        "return_to_store_simple": "العودة إلى المتجر"
       }
     },
     "attributes": {
