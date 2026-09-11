@@ -1393,7 +1393,67 @@
           "search_elsewhere": "ابحث في مكان آخر",
           "search_elsewhere_standalone": "ابحث في مكان آخر",
           "ship_items_or_search_elsewhere": "%{ship_items} أو %{search_elsewhere}"
+        },
+        "toggle_more_locations": {
+          "one": "%{count} موقع إضافي",
+          "other": "%{count} موقع إضافي"
+        },
+        "toggle_multiple_locations": "%{count}+ مواقع إضافية",
+        "your_location": "موقعك"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "معلومات إضافية",
+          "tax_credential_br": "CPF/CNPJ",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "الرمز الجمركي الشخصي",
+          "shipping_credential_cn": "رقم هوية المقيم",
+          "tax_credential_it": "الرقم الضريبي (اختياري)",
+          "tax_email_it": "PEC (اختياري)",
+          "tax_credential_cl": "RUT",
+          "shipping_credential_cl": "RUT",
+          "tax_credential_co": "رقم الهوية/ضريبة القيمة المضافة",
+          "tax_credential_type_co": "نوع وثيقة الهوية",
+          "shipping_credential_co": "رقم الهوية/ضريبة القيمة المضافة",
+          "shipping_credential_type_co": "نوع وثيقة الهوية",
+          "tax_credential_cr": "رقم التعريف/‏RUT",
+          "shipping_credential_cr": "رقم التعريف/‏RUT",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/IVA",
+          "shipping_credential_gt": "NIT/IVA",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
+          "tax_credential_my": "الرقم الضريبي/رقم التسجيل",
+          "shipping_credential_my": "الرقم الضريبي/رقم التسجيل",
+          "shipping_credential_mx": "طلب التعليقات",
+          "tax_credential_mx": "طلب التعليقات",
+          "tax_credential_type_mx": "النظام الضريبي",
+          "tax_credential_use_mx": "استخدام الفاتورة الإلكترونية (CFDI)",
+          "tax_credential_py": "CI/RUC/IVA",
+          "shipping_credential_py": "CI/RUC/IVA",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "tax_credential_pt": "الرقم التعريفي الضريبي/ضريبة القيمة المضافة",
+          "shipping_credential_pt": "الرقم التعريفي الضريبي/ضريبة القيمة المضافة",
+          "tax_credential_es": "رقم الهوية الوطنية/الرقم التعريفي الضريبي",
+          "shipping_credential_es": "رقم الهوية الوطنية/الرقم التعريفي الضريبي",
+          "shipping_credential_tw": "رقم الهوية الوطنية/رقم ضريبة القيمة المضافة",
+          "tax_credential_tr": "رقم هوية الجمهورية التركية/ضريبة القيمة المضافة",
+          "shipping_credential_tr": "رقم هوية الجمهورية التركية/ضريبة القيمة المضافة"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "أرسل إليّ أخبارًا وعروضًا عبر البريد الإلكتروني",
+        "post_accept_marketing_checkbox_label": "لقد اشتركت في تلقي الأخبار والعروض عبر البريد الإلكتروني",
+        "pending_accept_marketing_checkbox_label": "تحقق من بريدك الإلكتروني لتأكيد اشتراكك في الأخبار والعروض",
+        "accept_sms_checkbox_label": "أرسل لي رسائل نصية بالأخبار والعروض",
+        "accept_whatsapp_marketing_checkbox_label": "راسلني عبر واتساب بالأخبار والعروض",
+        "disclaimer": {
+          "privacy_policy": "سياسة الخصوصية",
+          "terms_of_service": "شروط الخدمة"
+        },
+        "accept_shop_pay_marketing_checkbox_label": "سجّلني للحصول على الأخبار والعروض من هذا المتجر"
       }
     },
     "attributes": {
