@@ -1871,7 +1871,133 @@
         "recurring_total_tooltip": "لا يشمل الشحن أو الضرائب أو الرسوم الجمركية أو أي خصومات سارية",
         "subscriptions": "الاشتراكات",
         "recurring_payments": "المدفوعات المتكررة",
-        "recurring_total_multiple_label": "يتضمن هذا الطلب رسومًا متكررة لعدة عناصر"
+        "recurring_total_multiple_label": "يتضمن هذا الطلب رسومًا متكررة لعدة عناصر",
+        "view_all_items": {
+          "one": "عرض %{count} عنصر",
+          "other": "عرض جميع العناصر البالغ عددها %{count}"
+        },
+        "unconfirmed_label": "غير مؤكد",
+        "total_savings": "إجمالي التوفير",
+        "total_price_label": "السعر الإجمالي",
+        "vat_label_html": "شامل %{amount} من الضرائب",
+        "total_updated_label": "السعر الإجمالي المحدّث:",
+        "unit_price": {
+          "accessible_separator": "لكلٍّ منهم",
+          "per_item": {
+            "single": "%{price} لكل وحدة",
+            "one": "%{price} لكل %{count} عنصر",
+            "other": "%{price} لكل %{count} عناصر"
+          }
+        },
+        "total_updated_label_with_price": "إجمالي السعر المحدّث: %{totalPrice}",
+        "updated_shipping_method": "طريقة الشحن المحدّثة: %{shipping_method}"
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "سيُطلب منك تسجيل الدخول باستخدام Amazon.",
+        "amazon_payments_logout": "تسجيل الخروج من Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "تعذّر استخدام طريقة الدفع المحددة. اختر طريقة أخرى أو تواصل مع مصرفك أو جهة إصدار بطاقتك.",
+        "amazon_payments_abandoned_mfa_challenge": "تعذّر إتمام عملية الدفع. جرّب طريقة دفع أخرى أو تواصل مع مصرفك أو جهة إصدار بطاقتك.",
+        "amazon_payments_could_not_enqueue_authorize": "حدثت مشكلة أثناء معالجة دفعتك. حاول مرة أخرى أو استخدم طريقة دفع مختلفة.",
+        "amount_left_to_pay_label": "تاريخ استحقاق الدفع:",
+        "apply_gift_card_button_label": "تطبيق",
+        "bank_account_vaulted_company_location": "تم حفظ الحساب البنكي لهذا الموقع",
+        "billing_address_associated_with_mandate": "استخدم العنوان المرتبط بطريقة الدفع",
+        "billing_address_associated_with_mandate_info": "إذا كنت ترغب في تغيير عنوان الفوترة، فأزل بيانات بطاقتك الائتمانية ثم أدخلها مرة أخرى.",
+        "billing_address_description": "اختر العنوان المطابق لبطاقتك أو طريقة الدفع الخاصة بك.",
+        "billing_address_description_no_shipping_address": "أدخل العنوان المطابق لبطاقتك أو طريقة الدفع.",
+        "bank_payment_method_label": "طريقة الدفع البنكية",
+        "bancontact_label": "Bancontact",
+        "bank_picker_label": "مصرف",
+        "afterpay_label": "Afterpay",
+        "alipay_label": "Alipay",
+        "apple_pay_payment_error": "تعذّر إتمام عملية الدفع. حاول مرة أخرى أو استخدم طريقة دفع مختلفة.",
+        "apple": {
+          "connect": "انقر لربط حساب Apple Pay الخاص بك",
+          "not_available": "خدمة Apple Pay غير متاحة في هذا المتصفح. لربط حساب Apple Pay، ستحتاج إلى استخدام متصفح Safari على جهاز من Apple."
+        },
+        "account_connected": "تم ربط الحساب.",
+        "add_credit_card_modal": {
+          "title": "إضافة بطاقة",
+          "save": "حفظ",
+          "cancel": "إلغاء"
+        },
+        "alternative_payment_currency_total_notice": "ملاحظة: سيتم تحصيل مبلغ %{amount_due} منك.",
+        "alternative_payment_currency_total_manual_payment_notice": "ملاحظة: الإجمالي بعد التحويل هو %{amount_due}.",
+        "bank_account_type": {
+          "checking": "جارٍ التحقق",
+          "savings": "المدخرات"
+        },
+        "bank_account_disclaimer": "قد تستغرق دفعات ACH ما يصل إلى 4 أيام عمل لمعالجتها.",
+        "bank_account_choose": "اختر حسابًا لإكمال عملية الشراء بأمان",
+        "bank_account_connect_another": "ربط حساب مصرفي آخر",
+        "bank_account_connect": "ربط الحساب البنكي",
+        "bank_account_missing": "يجب ربط الحساب المصرفي",
+        "bank_account_generic_error": "تعذّر إضافة الحساب المصرفي. حاول مرة أخرى لاحقًا.",
+        "add_payment_method": "إضافة طريقة دفع",
+        "add_new_payment_method": "أضف طريقة دفع جديدة",
+        "card_number_label": "رقم البطاقة",
+        "card_number_placeholder": "رقم البطاقة",
+        "bogus_test_checkout": {
+          "title": "تعليمات الاختبار",
+          "intro": "استخدم هذه القيم لاختبار إتمام الدفع:",
+          "approved_transaction": "{{card_number}} لمحاكاة معاملة مُعتمدة",
+          "declined_transaction": "{{card_number}} لمحاكاة معاملة مرفوضة",
+          "gateway_failure": "{{card_number}} لمحاكاة فشل البوابة",
+          "additional_instructions": "استخدم أي تاريخ انتهاء صلاحية مستقبلي وأي رمز أمان مكوّن من 3 أرقام.",
+          "support_link": "احصل على الدعم"
+        },
+        "card_pay_with": "ادفع باستخدام:",
+        "card_security_notice": "جميع المعاملات آمنة ومشفّرة.",
+        "card_security_vault_notice": "نحتاج إلى بياناتك لإجراء المدفوعات المستقبلية. جميع المعاملات آمنة ومشفّرة.",
+        "card_information_notice": "جميع المعاملات آمنة ومشفّرة. لا تُخزَّن معلومات بطاقة الائتمان مطلقًا.",
+        "card_nickname_label": "الاسم المستعار (اختياري)",
+        "card_expired": "منتهي الصلاحية",
+        "card_expiry_label": "تاريخ انتهاء الصلاحية (شهر / سنة)",
+        "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (شهر / سنة)",
+        "card_verification_value_label": "رمز الأمان",
+        "card_verification_confirm": "لأغراض التحقق، أدخل رمز أمان بطاقتك.",
+        "card_expiry_date_explanation": "تاريخ انتهاء البطاقة بالتنسيق: الشهر، الشهر، السنة، السنة",
+        "card_expiration_month_label": "شهر انتهاء الصلاحية",
+        "card_expiration_year_label": "سنة انتهاء الصلاحية",
+        "card_verification_value_explanation": "رمز الأمان المكوّن عادةً من 3 أرقام والموجود على ظهر بطاقتك. تحتوي بطاقات أمريكان إكسبريس على رمز مكوّن من 4 أرقام موجود في الجهة الأمامية.",
+        "card_verification_value_explanation_amex": "رمز الأمان المكوّن من 4 أرقام على واجهة بطاقتك",
+        "card_verification_value_explanation_other": "رمز الأمان المكوّن من 3 أرقام على ظهر بطاقتك",
+        "card_start_label": "تاريخ الإصدار (شهر / سنة)",
+        "card_start_placeholder": "تاريخ الإصدار (شهر / سنة)",
+        "card_issue_number_label": "رقم الإصدار",
+        "card_issue_number_placeholder": "رقم الإصدار",
+        "card_change_label": "تغيير",
+        "card_update_label": "تحديث البطاقة",
+        "card_vaulted_company_location": "تم حفظ البطاقة لهذا الموقع",
+        "billing_address_title": "عنوان الفوترة",
+        "billing_address_rollup_accessibility_label": "خيارات عنوان الفوترة",
+        "card_fields_container_prefix": "حاوية الحقل لـ:",
+        "card_fields_unavailable_html": {
+          "one": "لا تتوفر مدفوعات بطاقات الائتمان والخصم في الوقت الحالي.<br><a href=\"%{current_url}\">حدّث هذه الصفحة</a> أو حاول مرة أخرى لاحقًا.",
+          "other": "لا تتوفر مدفوعات بطاقات الائتمان والخصم في الوقت الحالي.<br><a href=\"%{current_url}\">حدّث هذه الصفحة</a> أو جرّب طريقة دفع أخرى."
+        },
+        "card_fields_processing_error": "حدثت مشكلة أثناء معالجة الدفع. حاول تحديث هذه الصفحة أو تحقّق من اتصالك بالإنترنت.",
+        "billing_address_not_supported_for_payment_method_error": "طريقة الدفع هذه غير متاحة لعنوان الفوترة والعملة المحددين. جرّب طريقة دفع أخرى.",
+        "bizum_label": "Bizum",
+        "blik_label": "BLIK",
+        "billing_must_match_shipping_notice": "يجب أن يتطابق عنوان إرسال الفواتير لطريقة الدفع مع عنوان الشحن.",
+        "brand_not_available": "هذا المتجر لا يقبل {{brand}}. استخدم بطاقة أخرى للدفع.",
+        "billing_address_invalid_phone": "حدّث رقم الهاتف في عنوان الفوترة الخاص بـ {{label}} {{last_digits}} للمتابعة.",
+        "billing_address_invalid_phone_no_card": "حدّث رقم الهاتف في عنوان الفوترة للمتابعة.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "أدخل تاريخ إصدار صالحًا",
+              "issue_number": "أدخل رقم مشكلة صالحًا"
+            },
+            "invalid": {
+              "verification_value": "أدخل رمز CVV أو رمز أمان صالحًا"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "احفظ طريقة الدفع هذه عند إتمام الشراء وفوّض %{company} لخصم المبلغ منها مقابل المشتريات المستقبلية لهذا الموقع. يمكن لجميع جهات الاتصال المعيّنة لهذا الموقع استخدام طريقة الدفع هذه.",
+        "business_customer_with_bank_account_vaulting_payment_label": "احفظ طريقة الدفع هذه عند إتمام الشراء وفوّض %{company} بخصم المبلغ من حسابك مقابل عمليات الشراء المستقبلية التي توافق عليها لهذا الموقع، حتى تلغي ذلك. ويمكن لجميع جهات الاتصال المعيّنة لهذا الموقع استخدام طريقة الدفع."
       }
     },
     "attributes": {
