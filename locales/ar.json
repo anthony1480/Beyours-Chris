@@ -1685,7 +1685,67 @@
         },
         "alternative_payment_currency_total": "تم تحصيل %{amount_due}",
         "alternative_payment_currency_chinese_yuan": "أكّد الإجمالي النهائي باليوان الصيني في تطبيق %{wallet}.",
-        "discount_applies_to_subscription_items_only": "ينطبق هذا الخصم على عناصر الاشتراك فقط"
+        "discount_applies_to_subscription_items_only": "ينطبق هذا الخصم على عناصر الاشتراك فقط",
+        "for_add_on": "لـ: %{group_title}",
+        "from_shop_heading": "من %{shop_name}",
+        "from_other_stores_heading": "من المتاجر الأخرى",
+        "from_multiple_stores_heading": "من متاجر متعددة",
+        "discount_title": "خصم",
+        "discount_title_with_position": "خصم %{position}",
+        "discount_title_stacking": {
+          "one": "خصم",
+          "other": "الخصومات"
+        },
+        "discount_order_stacking": {
+          "one": "خصم الطلب",
+          "other": "خصومات الطلبات"
+        },
+        "discount_label": "رمز الخصم",
+        "discount_not_found": "تعذّر العثور على خصم صالح يطابق الرمز المُدخل",
+        "discount_placeholder": "رمز الخصم",
+        "discount_code_removed": "تمت إزالة رمز الخصم %{code}",
+        "discount_code_replaced": "تمت إزالة رمز الخصم %{old_code} وتطبيق %{code}",
+        "discount_code_replaced_multiple": "تمت إزالة رموز خصم متعددة وتطبيق %{code}",
+        "gift_card_applied": "تم تطبيق بطاقة الهدايا",
+        "enter_shipping_address": "أدخل عنوان الشحن",
+        "gift_card_and_discount_title": "رمز خصم أو بطاقة هدايا",
+        "gift_card_and_discount_label": "رمز خصم أو بطاقة هدايا",
+        "gift_card_and_discount_placeholder": "رمز خصم أو بطاقة هدايا",
+        "free_shipping_discount_label": "شحن مجاني",
+        "discount_has_been_applied": "تم تطبيق الخصم",
+        "discount_has_been_removed": "تمت إزالة الخصم",
+        "gift_card_has_been_applied": "تم تطبيق بطاقة الهدايا",
+        "gift_card_has_been_removed": "تمت إزالة بطاقة الهدايا",
+        "discount_requires_customer_notice": "أدخل معلومات الشحن لتطبيق رمز الخصم <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "eligible_customer_missing_notice": "يتطلب رمز الخصم <strong style=\"text-transform:uppercase\">%{code}</strong> عميلاً مؤهلاً",
+        "estimated_taxes_label": "الضرائب المقدّرة",
+        "estimated_taxes_label_short": "مُقدَّر",
+        "estimated_taxes_finalization_tooltip_content": "سيتم تأكيد الضريبة والإجمالي النهائيين عبر البريد الإلكتروني أو الرسائل النصية بعد إتمام طلبك.",
+        "estimated_taxes_finalization_tooltip_content_short": "تم احتساب الضريبة نهائيًا بعد الدفع",
+        "free_total_label": "مجانًا",
+        "free_shipping_total_label": "مجانًا",
+        "duties_included_label": "الإجمالي شامل الضرائب والرسوم. لا توجد رسوم إضافية عند التوصيل.",
+        "discount_savings_notice": "بعد خصومات بقيمة %{discount_amount}",
+        "expand_order_summary_short": "عرض",
+        "gift_card_ending": "بطاقة هدايا تنتهي بـ %{last_characters}",
+        "estimated_tax_label": "الضريبة التقديرية",
+        "due_on_fulfillment": "مستحق عند التنفيذ",
+        "duties_label": "الرسوم الجمركية",
+        "duties_and_taxes_label": "الرسوم والضرائب",
+        "error_duties_tooltip": "يتم شحن هذا الطلب من دولة أخرى، لذا قد تُفرض رسوم جمركية وضرائب عند التسليم.",
+        "full_price": "السعر الكامل: %{price}",
+        "expand_component_information": {
+          "one": "عرض %{count} عنصر",
+          "other": "عرض %{count} من العناصر"
+        },
+        "discount_discovery": {
+          "add_code": "أضف خصمًا",
+          "back_to_finalize_order": "العودة لإتمام الطلب",
+          "merchandise_quantity_label": {
+            "one": "%{count} عنصر",
+            "other": "%{count} عنصرًا"
+          }
+        }
       }
     },
     "attributes": {
