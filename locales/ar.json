@@ -438,7 +438,49 @@
         "quantity": "الكمية"
       },
       "gift_wrapping_html": "مقابل {{ price }} يُرجى تغليف المنتجات بهذا الترتيب.",
-      "gift_note_placeholder": "رسالة هدية (مجانية واختيارية)"
+      "gift_note_placeholder": "رسالة هدية (مجانية واختيارية)",
+      "title": "سلة التسوق",
+      "remove_title": "إزالة {{ title }}",
+      "subtotal": "المجموع الفرعي",
+      "note_placeholder": "كيف يمكننا مساعدتك؟",
+      "taxes_and_shipping_policy_at_checkout_html": "تُحتسب الضرائب و<a href=\"{{ link }}\">تكاليف الشحن</a> عند إتمام الشراء",
+      "taxes_included_but_shipping_at_checkout": "السعر شامل الضريبة وتُحتسب تكلفة الشحن عند الدفع",
+      "taxes_included_and_shipping_policy_html": "السعر شامل الضريبة. يتم احتساب <a href=\"{{ link }}\">تكلفة الشحن</a> عند الدفع.",
+      "taxes_and_shipping_at_checkout": "تُحتسب الضرائب وتكاليف الشحن عند إتمام عملية الشراء",
+      "update": "تحديث"
+    },
+    "header": {
+      "announcement": "إعلان",
+      "menu": "قائمة",
+      "cart_count": {
+        "one": "{{ count }} عنصر",
+        "other": "{{ count }} عناصر"
+      }
+    },
+    "footer": {
+      "social_placeholder": "تابعونا على وسائل التواصل الاجتماعي!",
+      "payment": "طرق الدفع"
+    },
+    "featured_blog": {
+      "view_all": "عرض الكل",
+      "onboarding_title": "تدوينة مدونة",
+      "onboarding_content": "قدّم لعملائك ملخصًا لمقالة مدونتك"
+    },
+    "featured_collection": {
+      "view_all": "عرض الكل",
+      "view_all_label": "عرض جميع المنتجات في مجموعة {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "عرض الكل"
+    },
+    "collection_template": {
+      "title": "مجموعة",
+      "no_products": "عذرًا، لا توجد منتجات في هذه المجموعة",
+      "empty": "لم يتم العثور على منتجات",
+      "use_fewer_filters_html": "استخدم فلاتر أقل أو <a class=\"{{ class }}\" href=\"{{ link }}\">امسح الكل</a>"
+    },
+    "video": {
+      "load_video": "تحميل الفيديو: {{ description }}"
     }
   },
   "shopify": {
