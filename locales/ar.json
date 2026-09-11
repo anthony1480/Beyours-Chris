@@ -3615,7 +3615,79 @@
         "footer": {
           "heading": "لا تُعِد تحميل هذه الصفحة، ستتحدّث تلقائيًا.",
           "body": "العناصر الموجودة في سلة التسوق ليست محجوزة حتى تُكمل عملية الدفع."
+        },
+        "too_many_attempts": {
+          "message": "محاولات كثيرة جدًا",
+          "description": "حاول مرة أخرى بعد بضع دقائق"
+        },
+        "line_to_check_out": "أنت في قائمة الانتظار لإتمام عملية الشراء",
+        "merchandise": {
+          "available": "متاح",
+          "sold_out": "نفدت الكمية"
+        },
+        "inventory": {
+          "partial_inventory_banner": "جزء من سلة التسوق الخاصة بك نفد ولن يكون متاحًا للشراء عند إتمام الطلب.",
+          "sold_out": {
+            "heading": "نفدت جميع المنتجات من سلة التسوق لديك",
+            "storefront_body": "العودة إلى المتجر لمتابعة التسوق",
+            "no_storefront_body": "للأسف، لم يعد المنتج الذي ترغب في شرائه متاحًا.",
+            "link": "العودة إلى المتجر"
+          }
+        },
+        "title": "قائمة الانتظار",
+        "time_to_checkout_title": "حان وقت الدفع - {{shopName}}",
+        "last_checked": "(آخر تحقق: {{time}})"
+      },
+      "ucp": {
+        "standard_errors": {
+          "item_unavailable": "لا يمكن شراء العنصر"
         }
+      },
+      "vaulted": {
+        "change_button": "تغيير"
+      },
+      "tips": {
+        "title": "أضف إكرامية",
+        "description": "أظهر دعمك للفريق في %{shop_name}",
+        "presets_description": "اختر نسبة الإكرامية",
+        "custom_label": "إكرامية مخصّصة",
+        "add_tip": "أضف إكرامية",
+        "update_tip": "تحديث الإكرامية",
+        "message": "شكرًا لك، نحن نُقدّر ذلك.",
+        "no_tip_label": "لا شيء",
+        "not_available_with_spi": "غير متاح مع أقساط Shop Pay"
+      },
+      "units": {
+        "milligram": "ملغم",
+        "kilogram": "كغ",
+        "milliliter": "ملليلتر",
+        "centiliter": "مليلتر centiliters",
+        "liter": "L",
+        "cubic_meter": "م³",
+        "millimeter": "مم",
+        "centimeter": "سم",
+        "square_meter": "متر مربع",
+        "ounce": "أونصة",
+        "pound": "رطل",
+        "fluid_ounce": "أونصة سائلة",
+        "pint": "برتغالية",
+        "quart": "qt",
+        "gallon": "غال",
+        "inch": "في",
+        "foot": "قدم",
+        "yard": "ياردة",
+        "square_foot": "قدم مربع",
+        "item": "عنصر"
+      },
+      "tooltip": {
+        "accessibility_label_context": "مزيد من المعلومات حول %{context}",
+        "additional_payment_methods": "طرق دفع إضافية"
+      },
+      "too_many_requests": {
+        "title": "محاولات كثيرة جدًا لإتمام الدفع",
+        "body": "يُرجى الانتظار بضع دقائق ثم المحاولة مرة أخرى من سلة التسوق.",
+        "body_no_cart": "يرجى الانتظار بضع دقائق ثم المحاولة مرة أخرى.",
+        "return_to_cart": "العودة إلى سلة التسوق"
       }
     },
     "attributes": {
