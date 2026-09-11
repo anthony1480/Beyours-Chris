@@ -691,7 +691,11 @@
             "one": "ستتم إزالة هذا المنتج من سلة التسوق لأن طرق التوصيل غير متاحة لعنوانك.",
             "other": "ستتم إزالة هذه العناصر من سلة التسوق الخاصة بك لعدم توفر طرق توصيل لعنوانك."
           },
-          "label": "لا يوجد توصيل"
+          "label": "لا يوجد توصيل",
+          "title": {
+            "one": "لا يتوفر توصيل لـ %{count} من العناصر",
+            "other": "لا يتوفر توصيل لـ %{count} من العناصر"
+          }
         }
       },
       "customer_payment_methods": {
@@ -701,6 +705,80 @@
         "delete_customer_mandate": {
           "generic_error": "حدثت مشكلة أثناء معالجة طلبك.",
           "success_message": "تم حذف طريقة الدفع بنجاح"
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "راجع طلبك"
+        },
+        "shipping": {
+          "shipping_options": "عرض جميع خيارات الشحن"
+        },
+        "payment": {
+          "payment_options": "اطّلع على جميع خيارات الدفع"
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "مجانًا",
+        "ship": "اشحن",
+        "ship_to_address": "الشحن إلى العنوان",
+        "shipping_address": "عنوان الشحن",
+        "pick_up": "استلم",
+        "pickup": "الاستلام",
+        "pickup_store": "الاستلام من المتجر",
+        "pickup_point": "نقطة الاستلام",
+        "pick_up_from_store": "الاستلام من المتجر",
+        "pick_up_locations": "مواقع الاستلام",
+        "pickup_point_map_title": "خريطة نقاط الاستلام",
+        "pick_up_in_one_hour": "جاهز عادةً خلال ساعة واحدة",
+        "pick_up_in_two_hours": "عادةً ما يكون جاهزًا خلال ساعتين",
+        "pick_up_in_four_hours": "جاهز عادةً خلال 4 ساعات",
+        "pick_up_in_twenty_four_hours": "جاهز عادةً خلال 24 ساعة",
+        "pick_up_in_two_to_four_days": "جاهز عادةً خلال يومين إلى أربعة أيام",
+        "pick_up_in_five_or_more_days": "عادةً ما يكون جاهزًا خلال 5 أيام أو أكثر",
+        "pick_up_in_zero_to_two_hours": "جاهز للاستلام خلال ساعتين",
+        "pick_up_in_two_to_four_hours": "جاهز للاستلام خلال 4 ساعات",
+        "pick_up_immediately": "جاهز للاستلام الآن",
+        "pick_up_next_day": "جاهز للاستلام في اليوم التالي",
+        "pickup_point_method_definition": "الشحن إلى نقطة الاستلام",
+        "retail_method_definition": "الشحن بالتجزئة",
+        "company_location_no_address_banner": "ستُحال الطلبات المشحونة إلى مواقع لا تحتوي على عنوان للمراجعة.",
+        "none_method_definition": "بدون شحن",
+        "digital_product": "منتج رقمي",
+        "subscription_pickup_information": "سيكون هذا موقع الاستلام لجميع الطلبات المستقبلية لاشتراكك."
+      },
+      "failed_payment": {
+        "page_title": "تعذّرت معالجة الدفع",
+        "payment_not_processed_title": "تعذّرت معالجة دفعتك",
+        "payment_not_processed_text": "لم يتم تحصيل أي رسوم منك. عُد إلى سلة التسوق لإكمال عملية الشراء.",
+        "return_to_cart_button_label": "العودة إلى سلة التسوق"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "حدثت مشكلة في عملية الدفع لدينا",
+          "message": "حدّث هذه الصفحة أو حاول مرة أخرى بعد بضع دقائق",
+          "action": {
+            "cta": "تحديث الصفحة"
+          },
+          "request_id": "معرّف الطلب: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "هذا المتجر محمي بكلمة مرور",
+          "customer_account_required": "يلزم وجود حساب عميل لإتمام عملية الدفع",
+          "cart_completed": "تم إكمال عملية الدفع هذه بالفعل",
+          "invalid_cart": "لم تعد سلة التسوق صالحة",
+          "not_authorized": "فشلت مصادقة الدفع. تحقّق من بيانات اعتماد تطبيقك",
+          "killswitch_enabled": "الدفع عند إتمام الشراء غير متاح مؤقتًا",
+          "policy_violation": "تعذّر إتمام عملية الدفع بسبب قيود إعدادات السياسة",
+          "unrecoverable_failure": "تعذّر تحميل صفحة الدفع. حاول مرة أخرى"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "تعذّر معالجة طلبك لأن رمز الخصم لم يعد متاحًا. راجع إجمالي طلبك وحاول مرة أخرى."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "انتقل إلى المتجر الإلكتروني"
         }
       }
     },
