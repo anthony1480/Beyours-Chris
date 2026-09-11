@@ -409,7 +409,17 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "أريد إرسال هذا كهدية"
+      "checkbox": "أريد إرسال هذا كهدية",
+      "email_label": "البريد الإلكتروني للمستلم",
+      "email_label_optional_for_no_js_behavior": "البريد الإلكتروني للمستلم (اختياري)",
+      "email": "البريد الإلكتروني",
+      "name_label": "اسم المستلم (اختياري)",
+      "name": "الاسم",
+      "message_label": "الرسالة (اختياري)",
+      "message": "رسالة",
+      "max_characters": "بحد أقصى {{ max_chars }} حرفًا",
+      "send_on": "YYYY-MM-DD",
+      "send_on_label": "تاريخ الإرسال (اختياري)"
     }
   },
   "sections": {
@@ -429,6 +439,68 @@
       },
       "gift_wrapping_html": "مقابل {{ price }} يُرجى تغليف المنتجات بهذا الترتيب.",
       "gift_note_placeholder": "رسالة هدية (مجانية واختيارية)"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "billing": {
+        "add_address": "استخدم عنوانًا مختلفًا",
+        "address_delete": "حذف العنوان",
+        "address_confirm": "هل أنت متأكد من رغبتك في حذف هذا العنوان من حسابك؟"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "الدفع السريع",
+        "or": "أو",
+        "or_pay_another_way": "أو ادفع بطريقة أخرى",
+        "or_check_out_another_way": "أو جرّب طريقة أخرى",
+        "or_pay_with_credit_card": "أو ادفع ببطاقة ائتمان",
+        "show_more_options": "عرض المزيد من الخيارات",
+        "hide_more_options": "إخفاء المزيد من الخيارات"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "حدثت مشكلة أثناء معالجة طلبك. حاول مرة أخرى بعد بضع دقائق."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "لم تعد تملك صلاحية تقديم طلبات B2B. %{logout_url} لتقديم طلب شخصي بدلاً من ذلك.",
+        "log_out_link_text": "تسجيل الخروج",
+        "lost_permissions_subtitle": "لم يعد لديك إذن لإجراء طلبات B2B. سجّل الخروج لإجراء طلب شخصي.",
+        "lost_permissions_title": "لا توجد أذونات للموقع الجغرافي"
+      },
+      "address_management": {
+        "saved_with_store": "محفوظ لدى هذا المتجر"
+      }
+    },
+    "attributes": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "password_confirmation": "تأكيد كلمة المرور",
+      "first_name": "الاسم الأول",
+      "last_name": "اسم العائلة",
+      "body": "الجسم",
+      "signature": "العنوان"
+    },
+    "addresses": {
+      "zip_code": "الرمز البريدي",
+      "postal_code": "الرمز البريدي",
+      "postcode": "الرمز البريدي",
+      "pincode": "الرمز البريدي",
+      "region": "المنطقة",
+      "prefecture": "محافظة",
+      "province": "مقاطعة",
+      "state": "الولاية",
+      "state_and_territory": "الولاية/الإقليم",
+      "county": "مقاطعة",
+      "emirate": "إمارة",
+      "governorate": "محافظة",
+      "confirm": "هل أنت متأكد من رغبتك في حذف هذا العنوان؟"
+    },
+    "cart": {
+      "discounts_with_count": "تم تطبيق خصومات بنسبة %{count}"
+    },
+    "challenge": {
+      "message": "للمتابعة، أخبرنا أنك لست روبوتًا.",
+      "error": "لم تكن إجابتك صحيحة، يُرجى المحاولة مرة أخرى.",
+      "submit_button_text": "إرسال"
     }
   }
 }
