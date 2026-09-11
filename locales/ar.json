@@ -2265,7 +2265,65 @@
         "payment_option": {
           "accessibility_label": "اختر طريقة دفع"
         },
-        "payments": "المدفوعات"
+        "payments": "المدفوعات",
+        "title": "الدفع",
+        "supported_card_brands_more_label": "والمزيد…",
+        "saved_by_payment_method": "تم الحفظ بواسطة %{payment_method}",
+        "same_billing_address_label": "نفس عنوان الشحن",
+        "receiver_payment_experience_hint": "بعد تقديم طلبك، ستتلقى تفاصيل الدفع. ادفع عبر Multibanco أو عبر الإنترنت خلال %{due_days} يومًا.",
+        "technical_error": "لا يمكن معالجة المدفوعات الآن بسبب مشكلة تقنية. حاول مرة أخرى بعد بضع دقائق.",
+        "shop_pay_ideal_unavailable_error": "لا تتوفر خدمتا iDEAL وWero لهذا الطلب. اختر طريقة دفع أخرى.",
+        "sofort_label": "تحويل بنكي فوري",
+        "shop_pay_installments_label": "تقسيط Shop Pay",
+        "set_as_default_card": "تعيين كبطاقة افتراضية",
+        "twint_label": "TWINT",
+        "swish_label": "سويش",
+        "satispay_label": "ساتيسباي",
+        "usdc_label": "USDC",
+        "usdc_cashback_title": "استرداد نقدي بنسبة %{incentive_percentage}%",
+        "usdc_cashback_additional_info": "ادفع باستخدام USDC على Base واسترد %{incentive_percentage}% في محفظتك خلال 30 يومًا.",
+        "usdc_cashback_terms": "تسري الشروط والقيود",
+        "subscription_card_update_agreement_label": "سيؤدي تغيير طريقة الدفع إلى تحديث اشتراكك والدفعات المتكررة المستقبلية.",
+        "subscription_agreement_label": "يوجد عنصر واحد أو أكثر في سلة التسوق الخاصة بك يمثل عملية شراء مؤجلة أو اشتراكًا. بمتابعة الدفع، فإنك توافق على تحصيل الرسوم تلقائيًا من طريقة الدفع الخاصة بك بالسعر والتكرار الموضحين في هذه الصفحة حتى انتهاء الاشتراك أو إلغائه. تخضع جميع عمليات الإلغاء لـ %{cancelled}.",
+        "subscription_agreement_cancelled": "سياسة الإلغاء",
+        "subscription_heading": "اتفاقية الاشتراك",
+        "subscription_agreement_label_html": "أفهم أنني أوافق على اشتراك. سيتجدد بالسعر والتكرار الموضحين حتى ينتهي أو يتم <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">إلغاؤه</a>.",
+        "purchase_options_subscription_consent_text": "أنت توافق صراحةً وبشكلٍ مؤكد على أن يتم تلقائيًا خصم المبلغ أو المبالغ المتكررة الموضحة في سلة التسوق الخاصة بك (بالإضافة إلى تكاليف الشحن والضرائب) حتى انتهاء الاشتراك أو إلغائه.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} يُرجى الاطلاع على %{cancellation_policy_label}.",
+        "taxes_not_included": "الضرائب غير مشمولة",
+        "update_payment_method": "تحديث طريقة الدفع",
+        "store_credit": {
+          "label": "رصيد المتجر",
+          "apply_label": "استخدام رصيد المتجر",
+          "add_label": "إضافة رصيد إلى المتجر",
+          "manage_label": "إدارة رصيد المتجر",
+          "buying_gift_card": "لا يمكنك استخدام رصيد المتجر لشراء بطاقة هدايا",
+          "no_fixed_selling_plans": "لا يمكنك استخدام رصيد المتجر مع خيارات الشراء المؤجّل"
+        },
+        "same_billing_address_checkbox_label": "استخدم عنوان الشحن كعنوان للفوترة",
+        "use_location_billing_address_label": "استخدم عنوان الفوترة للموقع",
+        "shipping_rate_updated": "تم تحديث طرق الشحن المتاحة. أكّد اختيارك قبل إتمام عملية الدفع.",
+        "simulated_checkout": "ستتوفر المعاينة قريبًا",
+        "simulated_express_checkout": "المحافظ غير متاحة في معاينة المحرر بسبب منطقتك أو متصفحك",
+        "use_different_credit_card_label": "استخدم بطاقة أخرى",
+        "saved_credit_card": "بطاقتك الائتمانية المحفوظة",
+        "saved_credit_card_info": "آخر أربعة أرقام",
+        "saved_credit_card_cvv_verification": "لأغراض التحقق، أدخل رمز أمان بطاقتك.",
+        "saved_credit_card_actions": {
+          "edit": "تحرير",
+          "delete": "حذف"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "عرض جميع البطاقات المحفوظة",
+          "done": "تم",
+          "cancel": "إلغاء"
+        },
+        "purchase_order_number": {
+          "title": "رقم أمر الشراء",
+          "label": "رقم أمر الشراء (اختياري)"
+        },
+        "separate_payments_label": "منتجاتك من أكثر من متجر. سيتم تحصيل المبلغ منك عبر %{separate_payments_link}.",
+        "separate_payments_text": "دفعات منفصلة"
       }
     },
     "attributes": {
