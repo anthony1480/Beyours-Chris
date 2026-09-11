@@ -2650,12 +2650,72 @@
         },
         "subtitle_must_use": "سيتم شحن طلبك إلى هذا العنوان.",
         "continue": "تابع باستخدام هذا العنوان",
-        "return_to_cart": "العودة إلى سلة التسوق"
+        "return_to_cart": "العودة إلى سلة التسوق",
+        "title": "مراجعة العنوان",
+        "subtitle_no_match": "هذا العنوان لا يطابق أيًا من عناوينك المحفوظة.",
+        "use_saved_address": "استخدم عنوانًا مختلفًا"
       },
       "required_extensions": {
         "errors": {
           "interaction_required": "يلزم التفاعل مع إضافة لإتمام عملية الدفع."
         }
+      },
+      "shipping": {
+        "delivery_title": "التوصيل",
+        "free_rate_label": "مجانًا",
+        "cheapest_rate_label": "الأرخص",
+        "estimated_delivery_date": {
+          "one": "%{count} يوم عمل",
+          "other": "%{count} يوم عمل"
+        },
+        "estimated_delivery_date_range": "من %{minimum} إلى %{maximum} يوم عمل",
+        "estimated_delivery_time": "التسليم المتوقع %{time}",
+        "estimated_delivery_time_range": "موعد التسليم المُقدّر %{min_time}–%{max_time}",
+        "delivery_today": "توصيل في اليوم نفسه %{time}",
+        "delivery_tomorrow": "التوصيل في اليوم التالي %{time}",
+        "delivery": "التوصيل %{time}",
+        "delivery_to": "التوصيل إلى",
+        "arrives_time": "يصل %{time}",
+        "arrives_time_range": "يصل %{min_time}–%{max_time}",
+        "estimated_time": "الوقت المقدّر %{time}",
+        "estimated_time_range": "مُقدَّر بـ %{min_time}–%{max_time}",
+        "default_description": "يُشحن خلال يوم عمل واحد",
+        "duties_and_taxes_title": "الرسوم والضرائب",
+        "duties_and_taxes_options": {
+          "ddu_title": "الدفع عند الاستلام",
+          "ddu_caption": "قد تُطبَّق رسوم إضافية",
+          "ddp_title": "ادفع الآن",
+          "ddp_caption": "لا رسوم إضافية عند التوصيل"
+        },
+        "address_update": "تحديث العنوان",
+        "add_address": "استخدم عنوانًا مختلفًا",
+        "add_delivery_instructions": "أضف تعليمات التوصيل",
+        "edit": "تحرير",
+        "delete": "حذف",
+        "back": "رجوع",
+        "address_more": "مزيد من الإجراءات لهذا العنوان",
+        "address_edit": "تعديل العنوان",
+        "address_delete": "حذف العنوان",
+        "address_confirm": "هل أنت متأكد من رغبتك في حذف هذا العنوان من حسابك؟",
+        "address_default": "تعيين كافتراضي",
+        "address_form": {
+          "add_address": "إضافة عنوان",
+          "save": "حفظ",
+          "cancel": "إلغاء",
+          "edit": "تعديل العنوان",
+          "update": "حفظ التغييرات",
+          "generic_error": "حدثت مشكلة أثناء حفظ عنوانك. حاول مرة أخرى.",
+          "one_time_address_subtitle": "استخدم عنوانًا لمرة واحدة لهذا الطلب"
+        },
+        "different_shipping_method_summary": "أدخل عنوان شحن مختلفًا لعرض طرق الشحن المتاحة",
+        "invalid_shipping_method_summary": "أدخل عنوان شحن صالحًا لعرض طرق الشحن المتاحة",
+        "add_shipping_address": "أضف عنوان الشحن",
+        "add_new_delivery_address": "أضف عنوان توصيل جديدًا",
+        "choose_new_address": "اختر عنوانًا جديدًا"
+      },
+      "session_errors": {
+        "session_not_unique": "حدثت مشكلة أثناء معالجة طلبك. حدّث هذه الصفحة للعودة إلى المتجر.",
+        "session_already_finished": "تم إرسال هذا الطلب بالفعل. يمكنك العودة إلى المتجر لبدء طلب جديد."
       }
     },
     "attributes": {
