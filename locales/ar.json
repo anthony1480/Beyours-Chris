@@ -3311,6 +3311,72 @@
           "close": "إغلاق",
           "expand": "توسيع",
           "collapse": "طيّ"
+        },
+        "failed_pending_payment_page_title": "هناك مشكلة في دفعتك",
+        "customer_information_title": "تفاصيل الطلب",
+        "estimated_arrival": "تاريخ التسليم المُقدَّر:",
+        "estimated_delivery": "التقدير الحالي لموعد التسليم:",
+        "items_fulfilled_by_store": {
+          "one": "ستأتي العناصر التي اشتريتها من %{remote_shop_name}.",
+          "other": "ستأتي المنتجات التي اشتريتها من متاجر أخرى."
+        },
+        "gift_card_confirmation_by_text": "إذا لم تستلمه، فأعد إرسال النص أو تواصل معنا.",
+        "gift_card_confirmation_by_email": "إذا لم تستلمه، فأعد إرسال البريد الإلكتروني أو تواصل معنا.",
+        "gift_card_title": "بطاقات الهدايا",
+        "in_transit": "في الطريق",
+        "in_transit_title": "طلبك في الطريق",
+        "in_transit_description": "ستتلقى تحديثات حول تقدّمه.",
+        "in_transit_description_days": "من المفترض أن تستلم طلبك خلال %{number} أيام.",
+        "in_transit_description_today": "من المفترض أن تتلقى طلبك اليوم.",
+        "in_transit_description_tomorrow": "من المفترض أن تستلم طلبك خلال اليوم التالي.",
+        "delivered": "تم التسليم",
+        "delivered_title": "تم توصيل طلبك",
+        "delivered_description_html": "تم توصيل طلبك إلى العنوان الذي قدمته. إذا لم تستلمه، أو واجهت أي مشكلات أخرى، %{contact_us}.",
+        "delivered_local_title": "تم توصيل طلبك",
+        "delivered_local_description_html": "لم تستلم طلبك؟ %{let_us_know}.",
+        "contact_us_lowercase": "اتصل بنا",
+        "contact_us_html": "هل تحتاج إلى مساعدة؟ %{contact_us}",
+        "failure": "لم يتم التسليم",
+        "failed_title": "تعذّر تسليم طلبك",
+        "failed_contact_merchant": "تواصل مع %{company} لترتيب التوصيل.",
+        "failed_contact_merchant_no_company": "تواصل معنا لترتيب التوصيل.",
+        "customer_information_hidden_fields_message": "سجّل الدخول لعرض جميع معلومات العملاء.",
+        "customer_validation_error": "أدخل بريدًا إلكترونيًا صالحًا أو رقم طلب.",
+        "customer_validation_error_phone": "أدخل رقم هاتف أو رقم طلب صالحًا.",
+        "fulfillment": {
+          "fulfilled_table_title": "العناصر في هذه الشحنة",
+          "unfulfilled_table_title": "العناصر قيد التجهيز للشحن",
+          "product_image_label": "صورة المنتج",
+          "description_label": "الوصف",
+          "quantity_label": "الكمية"
+        },
+        "delivery_information_label": "معلومات التوصيل:",
+        "gift_card_sent_confirmation": "تم إرسال بطاقات الهدايا",
+        "first_payment_complete": "اكتمل الدفع الأول",
+        "in_store_purchase": "شراء من المتجر",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "ستتلقى رسالة نصية تحتوي على بطاقة هديتك خلال بضع دقائق.",
+          "other": "ستتلقى رسالة نصية تحتوي على بطاقات الهدايا الخاصة بك خلال بضع دقائق."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "ستتلقى بريدًا إلكترونيًا يحتوي على بطاقة الهدايا الخاصة بك خلال بضع دقائق.",
+          "other": "ستتلقى بريدًا إلكترونيًا يحتوي على بطاقات الهدايا الخاصة بك خلال بضع دقائق."
+        },
+        "gift_card_email_title": {
+          "one": "تم إرسال بطاقة الهدايا عبر البريد الإلكتروني",
+          "other": "أُرسلت بطاقات الهدايا عبر البريد الإلكتروني"
+        },
+        "gift_card_text_title": {
+          "one": "تم إرسال بطاقة الهدايا عبر رسالة نصية قصيرة",
+          "other": "أُرسلت بطاقات الهدايا عبر رسالة نصية قصيرة"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "أُعيد إرسال بطاقة الهدايا.",
+          "other": "تمت إعادة إرسال بطاقات الهدايا."
+        },
+        "gift_card_resend_failure": {
+          "one": "حدثت مشكلة أثناء إعادة إرسال بطاقة الهدايا الخاصة بك. حاول مرة أخرى أو تواصل معنا.",
+          "other": "حدثت مشكلة أثناء إعادة إرسال بطاقات الهدايا الخاصة بك. حاول مرة أخرى أو تواصل معنا."
         }
       }
     },
