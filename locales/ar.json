@@ -300,11 +300,70 @@
       "add_set_to_cart": "أضف المجموعة إلى سلة التسوق",
       "description": "الوصف",
       "inventory": {
-        "in_stock_label": "متوفر في المخزون، جاهز للشحن"
+        "in_stock_label": "متوفر في المخزون، جاهز للشحن",
+        "stock_label_html": {
+          "one": "أسرع، لم يتبقَّ سوى <strong>{{ count }}</strong> قطعة في المخزون!",
+          "other": "أسرع، لم يتبقَّ في المخزون سوى <strong>{{ count }}</strong> منتجات!"
+        },
+        "will_not_ship_until": "جاهز للشحن في {{ date }}",
+        "will_be_in_stock_after": "متوفر من جديد في المخزون {{ date }}",
+        "waiting_for_stock": "المخزون في الطريق"
       },
       "include_taxes": "شامل الضريبة.",
       "choose_options": "اختر الخيارات",
-      "choose_product_options": "اختر الخيارات لـ {{ product_name }}"
+      "choose_product_options": "اختر الخيارات لـ {{ product_name }}",
+      "size_chart_trigger": "المقاس",
+      "size_chart": "مساعدة بشأن مقاسك",
+      "quick_view": "عرض سريع",
+      "on_sale": "تخفيضات",
+      "product_variants": "متغيرات المنتج",
+      "media": {
+        "gallery_viewer": "عارض المعرض",
+        "load_image": "تحميل الصورة {{ index }} في عرض المعرض",
+        "load_model": "تحميل النموذج ثلاثي الأبعاد {{ index }} في عرض المعرض",
+        "load_video": "تشغيل الفيديو {{ index }} في عرض المعرض",
+        "image_available": "الصورة {{ index }} متاحة الآن في عرض المعرض",
+        "open_media": "فتح الوسائط {{ index }} في نافذة منبثقة",
+        "play_model": "تشغيل العارض ثلاثي الأبعاد",
+        "play_video": "شغّل الفيديو"
+      },
+      "quantity": {
+        "label": "الكمية",
+        "input_label": "الكمية لـ {{ product }}",
+        "increase": "زيادة كمية {{ product }}",
+        "decrease": "تقليل كمية {{ product }}",
+        "minimum_of": "الحد الأدنى هو {{ quantity }}",
+        "maximum_of": "بحد أقصى {{ quantity }}",
+        "multiples_of": "زيادات بمقدار {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> في سلة التسوق"
+      },
+      "pickup_availability": {
+        "view_store_info": "عرض معلومات المتجر",
+        "check_other_stores": "تحقّق من التوفّر في متاجر أخرى",
+        "pick_up_available": "الاستلام متاح",
+        "pick_up_available_at_html": "الاستلام متاح في <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "الاستلام غير متاح حاليًا في <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "تعذّر تحميل مدى توفّر الاستلام",
+        "refresh": "تحديث"
+      },
+      "price": {
+        "regular_price": "السعر العادي",
+        "sale_price": "سعر التخفيض",
+        "unit_price": "سعر الوحدة"
+      },
+      "share": "شارك هذا المنتج",
+      "view": "عرض المنتج",
+      "sold_out": "نفد المخزون",
+      "unavailable": "غير متاح",
+      "pre_order": "الطلب المسبق",
+      "vendor": "البائع",
+      "video_exit_message": "{{ title }} يفتح فيديو بملء الشاشة في النافذة نفسها.",
+      "view_full_details": "عرض التفاصيل الكاملة",
+      "view_info": "مزيد من المعلومات",
+      "view_images": "عرض الصور",
+      "xr_button": "عرض في مساحتك",
+      "xr_button_label": "اعرضه في مساحتك، لتحميل المنتج في نافذة الواقع المعزّز",
+      "shipping_policy_html": "<a href=\"{{ link }}\">يُحتسب الشحن</a> عند الدفع."
     },
     "modal": {
       "label": "معرض الوسائط"
@@ -347,5 +406,10 @@
     "language_label": "اللغة",
     "update_language": "تحديث اللغة",
     "text_direction_trigger": "من اليسار إلى اليمين"
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "أريد إرسال هذا كهدية"
+    }
   }
 }
