@@ -52,7 +52,7 @@
         "newsletter_text": "<p>Join our free membership today and unlock exclusive deals, insider news, and special event invitations!</p>",
         "return_url": "",
         "enable_follow_on_shop": true,
-        "show_social": true,
+        "show_social": false,
         "social_heading": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
