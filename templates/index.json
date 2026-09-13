@@ -337,7 +337,7 @@
         "heading_size_mobile": 12,
         "heading_height": 130,
         "heading_align": "center",
-        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
+        "bottom": "",
         "bottom_custom": false,
         "bottom_font": "josefin_sans_n4",
         "bottom_size": 18,
