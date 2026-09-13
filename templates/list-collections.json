@@ -28,6 +28,7 @@
     },
     "featured_collection_JgG3aw": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "our-collection",
@@ -55,10 +56,98 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_3EAMJC": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Wzffiy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pillow",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_CABDzD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "duvet",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_k6RGQC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bed-set",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_ne4BLR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mattress-protector",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_y6ydgX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mattress-topper",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_nV93X3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "towels",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_A3WeA3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blankets",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_86krma": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bedspread",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Wzffiy",
+        "featured_collection_CABDzD",
+        "featured_collection_k6RGQC",
+        "featured_collection_ne4BLR",
+        "featured_collection_y6ydgX",
+        "featured_collection_nV93X3",
+        "featured_collection_A3WeA3",
+        "featured_collection_86krma"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Collections",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "featured_collection_JgG3aw"
+    "featured_collection_JgG3aw",
+    "collection_list_3EAMJC"
   ]
 }
