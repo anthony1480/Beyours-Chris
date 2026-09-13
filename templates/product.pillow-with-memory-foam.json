@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "empty-space": {
-      "type": "empty-space",
-      "settings": {
-        "desktop_height": 36,
-        "mobile_height": 16
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -507,7 +500,6 @@
     }
   },
   "order": [
-    "empty-space",
     "main",
     "scrolling-promotion",
     "video_slider_edeBcc",
