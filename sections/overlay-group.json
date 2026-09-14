@@ -78,7 +78,7 @@
         "popup-3": {
           "type": "social_media",
           "settings": {
-            "mobile_disabled": true
+            "mobile_disabled": false
           }
         },
         "popup-4": {
