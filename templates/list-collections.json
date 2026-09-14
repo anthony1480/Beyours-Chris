@@ -77,13 +77,6 @@
             "collection": "blankets",
             "image_position": "center center"
           }
-        },
-        "featured_collection_86krma": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bedspread",
-            "image_position": "center center"
-          }
         }
       },
       "block_order": [
@@ -93,8 +86,7 @@
         "featured_collection_ne4BLR",
         "featured_collection_y6ydgX",
         "featured_collection_nV93X3",
-        "featured_collection_A3WeA3",
-        "featured_collection_86krma"
+        "featured_collection_A3WeA3"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
