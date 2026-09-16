@@ -79,14 +79,6 @@
             "text_style": "body"
           }
         },
-        "text_j9XbkN": {
-          "type": "text",
-          "settings": {
-            "icon": "price_tag",
-            "text": "30 Days Money Back Guarantee",
-            "text_style": "body"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -137,7 +129,6 @@
         "buy_buttons",
         "text_JYwhaX",
         "text_HQpkiV",
-        "text_j9XbkN",
         "description",
         "inventory_status",
         "collapsible_tab-0",
