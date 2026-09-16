@@ -1,6 +1,225 @@
+{% doc %}
+  @prompt
+    Add JavaScript to the Welcome roulette popup block that uses localStorage to track whether a customer has already spun the wheel. On page load, check if a "roulette_spun" key exists in localStorage. If it does, hide the popup entirely. When the spin button is clicked, set the "roulette_spun" key in localStorage so the popup never shows again on future visits.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-roulette-popup-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: 28px;
+    background: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    border: 1px solid {{ block.settings.border_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    text-align: center;
+  }
+
+  .ai-roulette-popup-{{ ai_gen_id }}[hidden] {
+    display: none;
+  }
+
+  .ai-roulette-popup-{{ ai_gen_id }}__title {
+    margin: 0 0 10px;
+    color: {{ block.settings.heading_color }};
+    font-family: {{ block.settings.heading_font.family }};
+    font-size: {{ block.settings.heading_size }}px;
+  }
+
+  .ai-roulette-popup-{{ ai_gen_id }}__message {
+    margin: 0 0 20px;
+  }
+
+  .ai-roulette-popup-{{ ai_gen_id }}__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: {{ block.settings.button_radius }}px;
+    background: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .ai-roulette-popup-{{ ai_gen_id }}__button:focus-visible {
+    outline: 3px solid {{ block.settings.focus_color }};
+    outline-offset: 3px;
+  }
+{% endstyle %}
+
+<roulette-popup-{{ ai_gen_id }}
+  class="ai-roulette-popup-{{ ai_gen_id }}"
+  data-roulette-popup
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.title != blank %}
+    <h2 class="ai-roulette-popup-{{ ai_gen_id }}__title">{{ block.settings.title | escape }}</h2>
+  {% endif %}
+  {% if block.settings.message != blank %}
+    <div class="ai-roulette-popup-{{ ai_gen_id }}__message">{{ block.settings.message }}</div>
+  {% endif %}
+  <button type="button" class="ai-roulette-popup-{{ ai_gen_id }}__button" data-roulette-spin>
+    {{ block.settings.button_label | escape }}
+  </button>
+</roulette-popup-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class RoulettePopup{{ ai_gen_id }} extends HTMLElement {
+      connectedCallback() {
+        this.storageKey = 'roulette_spun';
+        this.spinButton = this.querySelector('[data-roulette-spin]');
+
+        try {
+          if (window.localStorage.getItem(this.storageKey) !== null) {
+            this.hidden = true;
+            return;
+          }
+        } catch (error) {
+          return;
+        }
+
+        if (this.spinButton) {
+          this.spinButton.addEventListener('click', () => {
+            try {
+              window.localStorage.setItem(this.storageKey, 'true');
+              this.hidden = true;
+            } catch (error) {
+              this.hidden = true;
+            }
+          });
+        }
+      }
+    }
+
+    if (!customElements.get('roulette-popup-{{ ai_gen_id }}')) {
+      customElements.define('roulette-popup-{{ ai_gen_id }}', RoulettePopup{{ ai_gen_id }});
+    }
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Welcome roulette popup",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Spin to win"
+    },
+    {
+      "type": "richtext",
+      "id": "message",
+      "label": "Message",
+      "default": "<p>Try your luck and discover your offer.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Spin the wheel"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "arvo_n4"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 18,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#212326"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border",
+      "default": "#d2d5d9"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "focus_color",
+      "label": "Focus outline",
+      "default": "#87adf5"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Corner radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "button_radius",
+      "label": "Button radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Welcome roulette popup"
+    }
+  ],
+  "tag": null,
+  "class": "roulette-popup-block"
+}
 {% endschema %}
