@@ -63,22 +63,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "text_JYwhaX": {
-          "type": "text",
-          "settings": {
-            "icon": "check_mark",
-            "text": "Orthopedic-grade memory foam",
-            "text_style": "body"
-          }
-        },
-        "text_HQpkiV": {
-          "type": "text",
-          "settings": {
-            "icon": "leaf",
-            "text": "Wake Up Without Neck Pain. Guaranteed",
-            "text_style": "body"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -105,8 +89,6 @@
         "countdown",
         "variant_picker",
         "buy_buttons",
-        "text_JYwhaX",
-        "text_HQpkiV",
         "description",
         "inventory_status",
         "sticky_cart"
