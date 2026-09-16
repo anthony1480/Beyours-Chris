@@ -239,17 +239,12 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "17895552355d7916d6": {
-      "type": "_blocks",
-      "settings": {}
     }
   },
   "order": [
     "cookie-banner",
     "popup",
     "age-verifier",
-    "mobile-dock",
-    "17895552355d7916d6"
+    "mobile-dock"
   ]
 }
