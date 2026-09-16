@@ -437,18 +437,6 @@
     "guarantees": {
       "type": "guarantees",
       "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "large",
-            "image": "shopify://shop_images/knowledge.png",
-            "custom_icon": "",
-            "title": "Science Based",
-            "title_size": "h4",
-            "text": "<p>All of our products are backed by years of research and crafted with expertise.</p>"
-          }
-        },
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
@@ -466,9 +454,9 @@
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Free Delivery Across Lebanon",
+            "title": "Cheap delivery all over lebanon",
             "title_size": "h4",
-            "text": "<p>Enjoy Affordable Prices and Free Delivery to Your Doorstep.</p>"
+            "text": "<p>Enjoy Affordable Delivery Prices to Your Doorstep.</p>"
           }
         },
         "guarantee-3": {
@@ -477,14 +465,13 @@
             "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "30 Days Money Back Guarantee",
+            "title": "10 Days Money Back Guarantee",
             "title_size": "h4",
             "text": "<p>Not Satisfied? Let Us Make It Right.</p>"
           }
         }
       },
       "block_order": [
-        "guarantee-0",
         "guarantee-1",
         "guarantee-2",
         "guarantee-3"
@@ -561,6 +548,7 @@
       "blocks": {
         "ai_gen_block_6898fab_DECT7t": {
           "type": "ai_gen_block_6898fab",
+          "disabled": true,
           "settings": {
             "eyebrow": "A welcome gift",
             "heading": "Spin for a discount",
@@ -571,11 +559,11 @@
             "prize_one_code": "159764382",
             "segment_one_color": "#232F8D",
             "prize_two": "10% off",
-            "prize_two_code": "WELCOME10",
+            "prize_two_code": "152D48H90",
             "segment_two_color": "#FFFFFF",
             "prize_three": "10% off",
-            "prize_three_code": "WELCOME15",
-            "segment_three_color": "#000000",
+            "prize_three_code": "",
+            "segment_three_color": "#727272",
             "heading_font": "arvo_n4",
             "background_color": "#ffffff",
             "text_color": "#212326",
