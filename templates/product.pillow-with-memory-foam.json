@@ -161,18 +161,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Ever slept on clouds?",
-            "text_size": 16,
-            "link": ""
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Well you're about to",
+            "text": "Ever slept on clouds? Well, you're about to",
             "text_size": 16,
             "link": ""
           }
@@ -191,10 +180,8 @@
       },
       "block_order": [
         "announcement-0",
-        "announcement-1",
         "announcement-3"
       ],
-      "disabled": true,
       "settings": {
         "direction": "left",
         "speed": 1.6,
