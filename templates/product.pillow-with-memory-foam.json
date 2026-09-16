@@ -91,28 +91,6 @@
             "color_scheme": "accent-3"
           }
         },
-        "collapsible_tab-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Material",
-            "content": "<p>Feather-like synthetic polyester fiber (premium down alternative)<br/><br/>Memory foam insert on one side for added support<br/><br/>233 thread count down-proof, high-quality combed cotton fabric<br/></p><p>Double-stitched with piped edges in a structured box style for durability and shape retention<br/></p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
-        "collapsible_tab-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Features",
-            "content": "<p>Strategically placed on one side of the pillow, the memory foam adapts to the natural curves of your head and neck, providing targeted support and pressure relief where it's needed most<br/><br/>Filled with feather-like synthetic polyester fiber, this down alternative offers the plush feel of natural feathers without triggering allergies or using animal-derived materials.<br/><br/>Expertly constructed with double-stitched edging and piped trim to maintain shape and extend the life of the pillow.<br/><br/>Comes with a removable, washable cotton cover for convenient cleaning. <em>(Memory foam should be spot cleaned only.</em></p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
         "sticky_cart": {
           "type": "sticky_cart",
           "settings": {
@@ -131,8 +109,6 @@
         "text_HQpkiV",
         "description",
         "inventory_status",
-        "collapsible_tab-0",
-        "collapsible_tab-1",
         "sticky_cart"
       ],
       "settings": {
