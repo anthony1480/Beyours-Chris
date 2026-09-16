@@ -78,14 +78,6 @@
             "text_style": "body"
           }
         },
-        "text_apmkBk": {
-          "type": "text",
-          "settings": {
-            "icon": "price_tag",
-            "text": "30 Days Money Back Guarantee",
-            "text_style": "body"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -104,28 +96,6 @@
             "inventory_threshold": 20,
             "show_inventory_transfer": true,
             "color_scheme": "accent-3"
-          }
-        },
-        "collapsible_tab-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Key Features",
-            "content": "<p>• Outer Fabric: Indulge in the sumptuous feel of 233 thread count, 100% cotton for an<br/>irresistibly soft and breathable touch.<br/>• Feather-like Synthetic Fill: Generously filled with 400 grams of luxurious, down-proof,<br/>feather-like synthetic polyester fiber, mimicking the loft and plushness of natural down<br/>while preventing fiber escape. This hypoallergenic fill ensures optimal warmth,<br/>breathability, and year-round comfort.<br/>• Durable Construction: Meticulously constructed with double-stitched edges and<br/>reinforced seams, this comforter is built to maintain its shape and sumptuous comfort over<br/>time.<br/>• Easy Care: Designed for effortless luxury, this comforter is machine washable. </p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
-        "collapsible_tab-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Care Instructions:",
-            "content": "<p>Machine wash cold on a gentle cycle.<br/>▪ Use mild detergent.<br/>▪ Do not bleach.<br/>▪ Tumble dry low or air dry.<br/>▪ Do not iron.<br/>▪ For best results, wash separately or with like colors.</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
           }
         },
         "related_buttons": {
@@ -150,12 +120,9 @@
         "variant_picker",
         "text_XGXtMq",
         "text_4Fgnwt",
-        "text_apmkBk",
         "buy_buttons",
         "description",
         "inventory_status",
-        "collapsible_tab-0",
-        "collapsible_tab-1",
         "related_buttons",
         "sticky_cart"
       ],
