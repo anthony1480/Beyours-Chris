@@ -555,6 +555,45 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1789555951c209ebc3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6898fab_DECT7t": {
+          "type": "ai_gen_block_6898fab",
+          "settings": {
+            "eyebrow": "A welcome gift",
+            "heading": "Spin for a discount",
+            "description": "Spin and receive one of our welcome offers from Softex Linens.\n\n5% 10% or 15",
+            "button_label": "get your discount",
+            "note": "One spin per customer — your discount is available once.",
+            "prize_one": "5% off",
+            "prize_one_code": "159764382",
+            "segment_one_color": "#232F8D",
+            "prize_two": "10% off",
+            "prize_two_code": "WELCOME10",
+            "segment_two_color": "#FFFFFF",
+            "prize_three": "10% off",
+            "prize_three_code": "WELCOME15",
+            "segment_three_color": "#000000",
+            "heading_font": "arvo_n4",
+            "background_color": "#ffffff",
+            "text_color": "#212326",
+            "heading_color": "#1a1b18",
+            "accent_color": "#1a1b18",
+            "button_color": "#1a1b18",
+            "button_text_color": "#ffffff",
+            "button_radius": 32,
+            "radius": 40,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6898fab_DECT7t"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -565,6 +604,7 @@
     "video-hero",
     "google_reviews_F7hDGr",
     "guarantees",
-    "collapsible_content_PFfRJ8"
+    "collapsible_content_PFfRJ8",
+    "1789555951c209ebc3"
   ]
 }
