@@ -75,7 +75,7 @@
       ],
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "blog": "news",
+        "blog": "softex-blog",
         "post_limit": 4,
         "show_view_all": true,
         "show_divider": false,
