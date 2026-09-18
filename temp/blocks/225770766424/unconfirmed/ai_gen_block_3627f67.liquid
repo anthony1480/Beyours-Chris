@@ -1,6 +1,153 @@
+{% doc %}
+  @prompt
+    Add a floating WhatsApp button on all pages that allows visitors to easily contact the store via WhatsApp. The button should appear as a fixed floating icon (WhatsApp logo in green) in the bottom-right corner of the screen, visible on all pages. It should open a WhatsApp chat link when clicked. The button should be mobile-friendly and have a subtle hover effect or shadow to make it stand out.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-whatsapp-float-{{ ai_gen_id }} {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1000;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 64px;
+  }
+
+  .ai-whatsapp-float__link-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: {{ block.settings.button_size }}px;
+    height: {{ block.settings.button_size }}px;
+    border-radius: 50%;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.icon_color }};
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .ai-whatsapp-float__link-{{ ai_gen_id }}:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.26);
+  }
+
+  .ai-whatsapp-float__link-{{ ai_gen_id }}:focus-visible {
+    outline: 3px solid {{ block.settings.focus_color }};
+    outline-offset: 4px;
+  }
+
+  .ai-whatsapp-float__link-{{ ai_gen_id }} svg {
+    width: 55%;
+    height: 55%;
+    fill: currentColor;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-whatsapp-float-{{ ai_gen_id }} {
+      right: 16px;
+      bottom: 16px;
+    }
+
+    .ai-whatsapp-float__link-{{ ai_gen_id }} {
+      width: {{ block.settings.mobile_button_size }}px;
+      height: {{ block.settings.mobile_button_size }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-whatsapp-float-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <a
+    class="ai-whatsapp-float__link-{{ ai_gen_id }}"
+    href="https://wa.me/{{ block.settings.phone_number | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' }}{% if block.settings.message != blank %}?text={{ block.settings.message | url_encode }}{% endif %}"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="{{ block.settings.accessibility_label | escape }}"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true" focusable="false">
+      <path d="M380.9 97.1C339-4.5 224.8-36.4 126.7 8.4 28.5 53.2-16.8 166.4 18 266.1L0 332l68.9-17.7c38.4 20.9 82.1 31.8 126.8 31.8h.1c123.2 0 223.6-100.4 223.6-223.7 0-43.1-12.3-85.2-35.5-121.3zM195.8 304.5c-39.7 0-78.7-10.7-112.6-31l-4.8-2.9-40.9 10.5 10.9-39.8-3.1-5.1c-21.6-34.4-33-74.2-33-115.2C12.3 1.4 94.7-81 195.9-81c49 0 95.1 19.1 129.7 53.8 34.6 34.7 53.7 80.8 53.7 129.8 0 101.3-82.4 183.7-183.5 183.7zm100.7-137.8c-5.5-2.8-32.5-16-37.5-17.8-5-1.9-8.6-2.8-12.2 2.8-3.6 5.5-14 17.8-17.2 21.4-3.1 3.6-6.3 4.1-11.7 1.4-5.5-2.8-23-8.5-43.8-27.1-16.2-14.4-27.1-32.2-30.3-37.6-3.1-5.5-.3-8.4 2.4-11.1 2.5-2.5 5.5-6.3 8.3-9.4 2.8-3.1 3.7-5.5 5.5-9.2 1.8-3.6.9-6.9-.5-9.7-1.4-2.8-12.2-29.4-16.7-40.3-4.4-10.6-8.9-9.2-12.2-9.4-3.1-.2-6.7-.2-10.3-.2-3.6 0-9.4 1.4-14.4 6.9-5 5.5-19 18.6-19 45.2 0 26.7 19.4 52.4 22.1 56 2.8 3.6 38.1 58.2 92.3 81.6 12.9 5.6 23 8.9 30.9 11.4 13 4.1 24.8 3.5 34.1 2.1 10.4-1.6 32.5-13.3 37.1-26.1 4.6-12.8 4.6-23.8 3.2-26.1-1.3-2.4-5-3.7-10.4-6.5z" transform="translate(24 81)"/>
+    </svg>
+  </a>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Floating WhatsApp",
+  "settings": [
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "WhatsApp number",
+      "info": "Use the full international number without spaces or the plus sign."
+    },
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Prefilled message",
+      "default": "Hello, I would like to ask about your products."
+    },
+    {
+      "type": "text",
+      "id": "accessibility_label",
+      "label": "Accessibility label",
+      "default": "Contact us on WhatsApp"
+    },
+    {
+      "type": "range",
+      "id": "button_size",
+      "label": "Desktop button size",
+      "min": 44,
+      "max": 72,
+      "step": 4,
+      "unit": "px",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "mobile_button_size",
+      "label": "Mobile button size",
+      "min": 44,
+      "max": 68,
+      "step": 4,
+      "unit": "px",
+      "default": 52
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#25D366"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "focus_color",
+      "label": "Focus outline",
+      "default": "#1A1B18"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Floating WhatsApp"
+    }
+  ],
+  "tag": null,
+  "class": "floating-whatsapp-block"
+}
 {% endschema %}
