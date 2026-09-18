@@ -101,64 +101,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "bundle_products_chBkiH": {
-      "type": "bundle-products",
-      "blocks": {
-        "product_BiJxUH": {
-          "type": "product",
-          "settings": {
-            "product": "down-proof-feather-touch-comforter",
-            "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 48,
-            "vertical": 64
-          }
-        },
-        "product_giMKpq": {
-          "type": "product",
-          "settings": {
-            "product": "pillow-with-memory-foam",
-            "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 46,
-            "vertical": 81
-          }
-        }
-      },
-      "block_order": [
-        "product_BiJxUH",
-        "product_giMKpq"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/productimages2.jpg",
-        "layout": "image_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
-        "show_divider": false,
-        "subheading": "Bundle & Save",
-        "subheading_size": "h5",
-        "heading": "Build your dream Bed",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
     "subs",
     "product-grid",
-    "featured_collection_Y7kBmX",
-    "bundle_products_chBkiH"
+    "featured_collection_Y7kBmX"
   ]
 }
