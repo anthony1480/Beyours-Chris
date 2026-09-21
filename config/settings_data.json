@@ -157,6 +157,11 @@
         "type": "shopify://apps/enkage/blocks/storefront-enkage/019c0295-e36f-7668-8e0c-2b8612768c0a",
         "disabled": true,
         "settings": {}
+      },
+      "6468128024931565999": {
+        "type": "shopify://apps/seguno-popups/blocks/popup-app-embed/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
