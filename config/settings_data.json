@@ -158,14 +158,14 @@
         "disabled": true,
         "settings": {}
       },
-      "6468128024931565999": {
-        "type": "shopify://apps/seguno-popups/blocks/popup-app-embed/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
-        "disabled": false,
-        "settings": {}
-      },
       "17270581071990108477": {
         "type": "shopify://apps/hoppy-popups/blocks/Email_collection_Bar/0403c282-cb2c-4202-b054-d6c540cb0df9",
         "disabled": false,
+        "settings": {}
+      },
+      "6468128024931565999": {
+        "type": "shopify://apps/seguno-popups/blocks/popup-app-embed/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "disabled": true,
         "settings": {}
       }
     }
