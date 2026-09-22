@@ -557,10 +557,10 @@
             "note": "One spin per customer — your discount is available once.",
             "prize_one": "5% off",
             "prize_one_code": "159764382",
-            "segment_one_color": "#232F8D",
+            "segment_one_color": "#232f8d",
             "prize_two": "10% off",
             "prize_two_code": "152D48H90",
-            "segment_two_color": "#FFFFFF",
+            "segment_two_color": "#ffffff",
             "prize_three": "10% off",
             "prize_three_code": "",
             "segment_three_color": "#727272",
@@ -582,6 +582,38 @@
         "ai_gen_block_6898fab_DECT7t"
       ],
       "settings": {}
+    },
+    "179006528440b1fc68": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9ed7bba_AQ6rcB": {
+          "type": "ai_gen_block_9ed7bba",
+          "settings": {
+            "heading": "New Bundles Coming Soon",
+            "message": "Stay tuned — exciting new bundle deals are on their way",
+            "desktop_width_percent": 100,
+            "alignment": "center",
+            "background_color": "#F3EEE7",
+            "heading_color": "#1A1B18",
+            "text_color": "#212326",
+            "border_color": "#D8CEC2",
+            "heading_size": 30,
+            "message_size": 16,
+            "vertical_padding": 32,
+            "horizontal_padding": 32,
+            "border_width": 1,
+            "mobile_heading_size": 24,
+            "mobile_message_size": 14,
+            "mobile_vertical_padding": 24,
+            "mobile_horizontal_padding": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9ed7bba_AQ6rcB"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -593,6 +625,7 @@
     "google_reviews_F7hDGr",
     "guarantees",
     "collapsible_content_PFfRJ8",
-    "1789555951c209ebc3"
+    "1789555951c209ebc3",
+    "179006528440b1fc68"
   ]
 }
