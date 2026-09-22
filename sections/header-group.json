@@ -121,10 +121,15 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "1790065004f1918f67": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "1790065004f1918f67"
   ]
 }
