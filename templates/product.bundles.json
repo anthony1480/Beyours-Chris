@@ -1,0 +1,624 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "box",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "large",
+            "show_badges": true,
+            "sale_badge_basis": "percentage"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "description_VgMCqm": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Key Features",
+            "content": "",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "washing",
+            "heading": "Care Instructions",
+            "content": "<p>Care Instructions: </p><p>Dry Cleaning, wrinkle-resistant and quick-drying.</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "buy_buttons",
+        "countdown",
+        "variant_picker",
+        "description_VgMCqm",
+        "collapsible_tab-0",
+        "collapsible_tab-1",
+        "share",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt_first",
+        "show_featured_media": true,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "mobile_image_ratio": "square",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "scrolling-promotion": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Delivery across lebanon for 4$ / Free for orders over 100$",
+            "text_size": 16,
+            "link": ""
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "EASY RETURN 10-day return policy",
+            "text_size": 16,
+            "link": ""
+          }
+        },
+        "announcement-3": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "10% OFF your first order | Use code: SOFTEX",
+            "text_size": 16,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1",
+        "announcement-3"
+      ],
+      "settings": {
+        "direction": "right",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#f1ff34",
+        "colors_text": "#212326",
+        "colors_background": "#f2f2f2",
+        "gradient_background": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "guarantees_K8kHVM": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_EW3VJ8": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "large",
+            "image": "shopify://shop_images/knowledge.png",
+            "custom_icon": "",
+            "title": "Science Based",
+            "title_size": "h4",
+            "text": "<p>All of our products are backed by years of research and crafted with expertise.</p>"
+          }
+        },
+        "guarantee_VN3tm7": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "globe",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "World Class Material",
+            "title_size": "h4",
+            "text": "<p>Though our products are lightweight, we never compromise on the quality of our materials.</p>"
+          }
+        },
+        "guarantee_NDrM3a": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Free Delivery Across Lebanon",
+            "title_size": "h4",
+            "text": "<p>Enjoy Affordable Prices and Free Delivery to Your Doorstep.</p>"
+          }
+        },
+        "guarantee_qeUNcV": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shield",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "30 Days Money Back Guarantee",
+            "title_size": "h4",
+            "text": "<p>Not Satisfied? Let Us Make It Right.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_EW3VJ8",
+        "guarantee_VN3tm7",
+        "guarantee_NDrM3a",
+        "guarantee_qeUNcV"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Our Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "google_reviews_DgQNiG": {
+      "type": "Google-Reviews",
+      "blocks": {
+        "testimonial_JUMHEF": {
+          "type": "testimonial",
+          "settings": {
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_Gnm9Xg": {
+          "type": "testimonial",
+          "settings": {
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_CniLdm": {
+          "type": "testimonial",
+          "settings": {
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_NcVjU9": {
+          "type": "testimonial",
+          "settings": {
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        },
+        "testimonial_CtKz64": {
+          "type": "testimonial",
+          "settings": {
+            "title": "COMPANY NAME",
+            "text": "The real gem is the integrated smartphone app with guided classes and body tracking. I really like it.",
+            "hide_avatar": false,
+            "author": "Lara S.",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_JUMHEF",
+        "testimonial_Gnm9Xg",
+        "testimonial_CniLdm",
+        "testimonial_NcVjU9",
+        "testimonial_CtKz64"
+      ],
+      "disabled": true,
+      "name": "SS - Testimonial #9",
+      "settings": {
+        "heading": "<h4>Over <strong>250+</strong> reviews on <em>Google</em> from our clients</h4>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 48,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "bottom": "<p><a href=\"https://google.com\">Read more on <em>Google</em></a></p>",
+        "bottom_custom": false,
+        "bottom_font": "josefin_sans_n4",
+        "bottom_size": 18,
+        "bottom_size_mobile": 16,
+        "bottom_height": 130,
+        "bottom_align": "center",
+        "bottom_mt": 24,
+        "rating": 4.9,
+        "rating_hide": false,
+        "rating_align": "center",
+        "rating_custom": false,
+        "rating_font": "josefin_sans_n4",
+        "rating_size": 18,
+        "rating_size_mobile": 16,
+        "rating_height": 130,
+        "rating_mt": 16,
+        "stars_count": 5,
+        "stars_size": 16,
+        "slider_view": "5",
+        "slider_view_mobile": 1.5,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "card_padding_vertical": 24,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 24,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 30,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 12,
+        "title_size_mobile": 12,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 20,
+        "avatar_size": 62,
+        "avatar_size_mobile": 40,
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 18,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 20,
+        "navigation_mt": 32,
+        "arrow_size": 34,
+        "arrow_size_mobile": 34,
+        "arrow_icon_size": 34,
+        "arrow_icon_size_mobile": 34,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "progress_width": 150,
+        "progress_width_mobile": 150,
+        "progress_height": 6,
+        "progress_height_mobile": 6,
+        "progress_show_desktop": true,
+        "progress_show_mobile": true,
+        "card_bg_color": "#f8f8f8",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "title_color": "#b8b8b8",
+        "text_color": "#000000",
+        "author_color": "#000000",
+        "arrow_color": "#e6e6e6",
+        "arrow_hover_color": "#a7a7a4",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "progress_bg_color": "#d9d9d9",
+        "progress_color": "#838383",
+        "heading_color": "#000000",
+        "bottom_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_color": "#f4ac03",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Express yourself with",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>#instagram</p>",
+            "text_size": "typeset2",
+            "secondary_color": true,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "gallery": {
+      "type": "gallery",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h4",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "#summerMe",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1",
+        "image-2",
+        "image-3",
+        "image-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "per_row": 5,
+        "spacing_images": 4,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling-promotion",
+    "guarantees_K8kHVM",
+    "product-recommendations",
+    "google_reviews_DgQNiG",
+    "rich-text",
+    "gallery"
+  ]
+}
