@@ -21,7 +21,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "box",
             "text": "{{ product.vendor }}",
@@ -38,6 +37,10 @@
         },
         "rating": {
           "type": "rating",
+          "settings": {}
+        },
+        "description_VgMCqm": {
+          "type": "description",
           "settings": {}
         },
         "price": {
@@ -78,10 +81,6 @@
             "enable_swatch_unavailable_click": false,
             "size_chart": ""
           }
-        },
-        "description_VgMCqm": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
@@ -130,11 +129,11 @@
         "vendor",
         "title",
         "rating",
+        "description_VgMCqm",
         "price",
         "buy_buttons",
         "countdown",
         "variant_picker",
-        "description_VgMCqm",
         "collapsible_tab-0",
         "collapsible_tab-1",
         "share",
