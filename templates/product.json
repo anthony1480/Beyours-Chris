@@ -43,6 +43,19 @@
           "type": "description",
           "settings": {}
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -67,19 +80,6 @@
             "colors_heading": "#da3f3f",
             "colors_text": "#da3f3f",
             "colors_background": "#ffeeee"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatches_source": "file",
-            "swatch_type": "round",
-            "enable_swatch_cross": true,
-            "enable_swatch_unavailable_click": false,
-            "size_chart": ""
           }
         },
         "collapsible_tab-0": {
@@ -131,10 +131,10 @@
         "title",
         "rating",
         "description_VgMCqm",
+        "variant_picker",
         "price",
         "buy_buttons",
         "countdown",
-        "variant_picker",
         "collapsible_tab-0",
         "collapsible_tab-1",
         "share",
