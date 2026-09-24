@@ -84,6 +84,7 @@
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Key Features",
