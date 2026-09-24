@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "heading_size": "h2",
         "show_description": true,
@@ -44,7 +45,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_row": 4,
         "rows_per_page": 5,
@@ -134,6 +134,7 @@
         "kaching_bundles_app_block_rdAxir",
         "kaching_bundles_app_block_XmDmeE"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true,
         "show_divider": true,
