@@ -24,6 +24,7 @@
       "block_order": [
         "heading_nHiUgx"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Softex_memory_pillow_web4.jpg",
@@ -73,6 +74,7 @@
         "summary_yNiBXy",
         "read_more_66rd96"
       ],
+      "disabled": true,
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "blog": "softex-blog",
@@ -94,7 +96,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "narrow": true,
         "padding_top": 60,
