@@ -116,6 +116,7 @@
       "block_order": [
         "kaching_bundles_app_block_CF7H9B"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true,
         "show_divider": false,
