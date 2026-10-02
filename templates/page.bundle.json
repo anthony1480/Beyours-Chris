@@ -154,6 +154,13 @@
             "product": "luxury-white-hotel-towels",
             "manual_deal_block_id": ""
           }
+        },
+        "kaching_bundles_app_block_jQ4zzk": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "softex-pillow-alternative-feather",
+            "manual_deal_block_id": ""
+          }
         }
       },
       "block_order": [
@@ -163,9 +170,9 @@
         "kaching_bundles_app_block_eELeRQ",
         "kaching_bundles_app_block_yNq6np",
         "kaching_bundles_app_block_rRcYiA",
-        "kaching_bundles_app_block_C3rjmq"
+        "kaching_bundles_app_block_C3rjmq",
+        "kaching_bundles_app_block_jQ4zzk"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true,
         "show_divider": false,
