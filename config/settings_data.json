@@ -192,6 +192,11 @@
           "custom_switcher_background_color": "#ffffff",
           "custom_switcher_border_color": "#000000"
         }
+      },
+      "10835620152770840175": {
+        "type": "shopify://apps/xb-sticky-add-to-cart/blocks/satc/019ab3af-f172-72de-8bba-d1737c6c0d1e",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
