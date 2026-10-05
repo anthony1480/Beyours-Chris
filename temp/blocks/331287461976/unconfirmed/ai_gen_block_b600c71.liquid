@@ -1,6 +1,143 @@
+{% doc %}
+  @prompt
+    GENERATE ADD TO CART BUTTON , UNDER EACH BLOCK
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+{% capture ai_form_class %}ai-add-cart-{{ ai_gen_id }}__form{% endcapture %}
+
+{% style %}
+  .ai-add-cart-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin-top: 12px;
+  }
+
+  .ai-add-cart-{{ ai_gen_id }}__form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .ai-add-cart-{{ ai_gen_id }}__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 20px;
+    border: 1px solid {{ block.settings.button_color }};
+    border-radius: {{ block.settings.corner_radius }}px;
+    background: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .ai-add-cart-{{ ai_gen_id }}__button:hover:not(:disabled) {
+    filter: brightness(0.92);
+  }
+
+  .ai-add-cart-{{ ai_gen_id }}__button:focus-visible {
+    outline: 3px solid {{ block.settings.focus_color }};
+    outline-offset: 3px;
+  }
+
+  .ai-add-cart-{{ ai_gen_id }}__button:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-add-cart-{{ ai_gen_id }} {
+      width: 100%;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-add-cart-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.product != blank %}
+    {% assign selected_variant = block.settings.product.selected_or_first_available_variant %}
+    {% form 'product', block.settings.product, class: ai_form_class %}
+      <input type="hidden" name="id" value="{{ selected_variant.id }}">
+      <input type="hidden" name="quantity" value="1">
+      <button type="submit" name="add" class="ai-add-cart-{{ ai_gen_id }}__button" {% unless selected_variant.available %}disabled aria-disabled="true"{% endunless %}>
+        {% if selected_variant.available %}{{ block.settings.button_label | escape }}{% else %}{{ block.settings.sold_out_label | escape }}{% endif %}
+      </button>
+    {% endform %}
+  {% else %}
+    <button type="button" class="ai-add-cart-{{ ai_gen_id }}__button" disabled aria-disabled="true">Select a product in block settings</button>
+  {% endif %}
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Add to cart button",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Add to cart"
+    },
+    {
+      "type": "text",
+      "id": "sold_out_label",
+      "label": "Sold-out label",
+      "default": "Sold out"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button background",
+      "default": "#1A1B18"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "focus_color",
+      "label": "Focus outline",
+      "default": "#1A1B18"
+    },
+    {
+      "type": "range",
+      "id": "corner_radius",
+      "label": "Corner radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Add to cart button"
+    }
+  ],
+  "tag": null,
+  "class": "add-to-cart-button-block"
+}
 {% endschema %}
