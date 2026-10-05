@@ -1,0 +1,71 @@
+{% doc %}
+  @prompt
+    BUY BUTTON
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-buy-button-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-buy-button-{{ ai_gen_id }}__link {
+    display: flex;
+    width: 100%;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border: {{ block.settings.border_width }}px solid {{ block.settings.button_color }};
+    border-radius: {{ block.settings.corner_radius }}px;
+    background: {{ block.settings.button_color }};
+    color: {{ block.settings.text_color }};
+    font: inherit;
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 160ms ease;
+  }
+
+  .ai-buy-button-{{ ai_gen_id }}__link:hover { opacity: 0.82; }
+  .ai-buy-button-{{ ai_gen_id }}__link:focus-visible { outline: 2px solid {{ block.settings.focus_color }}; outline-offset: 3px; }
+  .ai-buy-button-{{ ai_gen_id }}__link[aria-disabled="true"] { opacity: 0.55; cursor: not-allowed; }
+{% endstyle %}
+
+<div class="ai-buy-button-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.button_link != blank %}
+    <a class="ai-buy-button-{{ ai_gen_id }}__link" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+  {% elsif product != blank %}
+    <a class="ai-buy-button-{{ ai_gen_id }}__link" href="{{ product.url }}">{{ block.settings.button_label | escape }}</a>
+  {% else %}
+    <span class="ai-buy-button-{{ ai_gen_id }}__link" aria-disabled="true">{{ block.settings.button_label | escape }}</span>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Buy button",
+  "settings": [
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "Buy now" },
+    { "type": "url", "id": "button_link", "label": "Button link", "info": "Optional. If blank on a product page, links to the current product." },
+    { "type": "header", "content": "Style" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 },
+    { "type": "range", "id": "font_size", "label": "Text size", "min": 12, "max": 24, "step": 1, "unit": "px", "default": 14 },
+    { "type": "range", "id": "border_width", "label": "Border width", "min": 0, "max": 5, "step": 1, "unit": "px", "default": 1 },
+    { "type": "range", "id": "corner_radius", "label": "Corner radius", "min": 0, "max": 20, "step": 2, "unit": "px", "default": 0 },
+    { "type": "color", "id": "button_color", "label": "Button color", "default": "#1A1B18" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#FFFFFF" },
+    { "type": "color", "id": "focus_color", "label": "Focus outline", "default": "#1A1B18" }
+  ],
+  "presets": [{ "name": "Buy button" }],
+  "tag": null,
+  "class": "buy-button-block"
+}
+{% endschema %}
