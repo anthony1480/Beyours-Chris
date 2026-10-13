@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "rich_text_Gz8Dxc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PzFbmY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Check-out bundles for these products",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "text_zF7TM9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Curated bundles of premium bedding and home textiles designed to elevate your comfort. Mix and match blankets, comforters and pillows at exceptional value. Discover coordinated sets that bring warmth and style to every room.</em><br/></p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "button_ThPkdA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PzFbmY",
+        "text_zF7TM9",
+        "button_ThPkdA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -144,6 +198,7 @@
     }
   },
   "order": [
+    "rich_text_Gz8Dxc",
     "banner",
     "subs",
     "product-grid",
