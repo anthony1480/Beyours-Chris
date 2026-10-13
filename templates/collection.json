@@ -15,35 +15,14 @@
         "heading_PzFbmY": {
           "type": "heading",
           "settings": {
-            "heading": "Check-out bundles for these products",
+            "heading": "Tap any product below to see our available linen bundles",
             "heading_size": "h2",
             "heading_tag": "h2"
-          }
-        },
-        "text_zF7TM9": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Curated bundles of premium bedding and home textiles designed to elevate your comfort. Mix and match blankets, comforters and pillows at exceptional value. Discover coordinated sets that bring warmth and style to every room.</em><br/></p>",
-            "text_size": "typeset2",
-            "secondary_color": false,
-            "highlight_phrases": "",
-            "highlight_style": "marker"
-          }
-        },
-        "button_ThPkdA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_PzFbmY",
-        "text_zF7TM9",
-        "button_ThPkdA"
+        "heading_PzFbmY"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
