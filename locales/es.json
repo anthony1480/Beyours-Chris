@@ -587,5 +587,14 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "stock_details": {
+          "in_stock": "En existencia"
+        }
+      }
+    }
   }
 }
