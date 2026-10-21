@@ -14,6 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_FdkFdX": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% off Premium Memory Foam Mattress Toppers. Shop now.",
+            "text_on_mobile": "20% Off Any Premium Memory Foam Topper",
+            "text_size": 13,
+            "link": ""
+          }
+        },
         "announcement_dYN3CP": {
           "type": "announcement",
           "settings": {
@@ -34,6 +43,7 @@
         }
       },
       "block_order": [
+        "announcement_FdkFdX",
         "announcement_dYN3CP",
         "announcement-bar-0"
       ],
