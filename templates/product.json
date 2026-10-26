@@ -161,17 +161,6 @@
     "scrolling-promotion": {
       "type": "scrolling-promotion",
       "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Delivery across lebanon for 4$ / Free for orders over 100$",
-            "text_size": 16,
-            "link": ""
-          }
-        },
         "announcement-1": {
           "type": "announcement",
           "settings": {
@@ -185,7 +174,6 @@
         },
         "announcement-3": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_size": "medium",
@@ -197,7 +185,6 @@
         }
       },
       "block_order": [
-        "announcement-0",
         "announcement-1",
         "announcement-3"
       ],
