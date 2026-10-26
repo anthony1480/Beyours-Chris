@@ -19,10 +19,19 @@
             "heading_size": "h0",
             "heading_tag": "h2"
           }
+        },
+        "text_WA6tyi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Softex Linens | Made in Lebanon Since 1980</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "text_WA6tyi"
       ],
       "settings": {
         "image": "shopify://shop_images/11.jpg",
@@ -87,7 +96,7 @@
         "image_4": "shopify://shop_images/SoftexMemoryfoamtopper.jpg",
         "image_ratio": "portrait",
         "image_position": "center center",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "mobile_text_alignment": "left",
