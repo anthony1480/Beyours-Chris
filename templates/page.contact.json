@@ -35,7 +35,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/contact-customer-service.jpg",
+        "image": "shopify://shop_images/contact-customer-service_1.jpg",
         "image_position": "center center",
         "text_box_position": "top-center",
         "text_alignment": "center",
