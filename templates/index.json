@@ -612,6 +612,7 @@
       "block_order": [
         "ai_gen_block_3b056ad_xLaD3j"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
