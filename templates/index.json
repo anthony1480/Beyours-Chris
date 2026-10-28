@@ -475,6 +475,17 @@
     "guarantees": {
       "type": "guarantees",
       "blocks": {
+        "guarantee_CbnQwt": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "heart",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Quality Materials",
+            "title_size": "h3",
+            "text": "<p>Carefully selected fabrics and fillings, designed for lasting comfort, quality and everyday use.</p>"
+          }
+        },
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
@@ -510,6 +521,7 @@
         }
       },
       "block_order": [
+        "guarantee_CbnQwt",
         "guarantee-1",
         "guarantee-2",
         "guarantee-3"
@@ -520,7 +532,7 @@
         "horizontal_content": false,
         "full_width": true,
         "show_divider": false,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "heading": "Our Guarantees",
         "heading_size": "h1",
         "heading_tag": "h2",
