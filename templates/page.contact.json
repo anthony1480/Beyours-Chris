@@ -69,7 +69,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "return_url": "",
+        "return_url": "mailto:atco.sal@gmail.com",
         "show_phone": true,
         "show_divider": false,
         "heading": "Get in touch",
