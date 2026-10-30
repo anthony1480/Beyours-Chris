@@ -477,6 +477,7 @@
       "blocks": {
         "guarantee_CbnQwt": {
           "type": "guarantee",
+          "disabled": true,
           "settings": {
             "icon": "heart",
             "icon_size": "medium",
@@ -532,7 +533,7 @@
         "horizontal_content": false,
         "full_width": true,
         "show_divider": false,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "heading": "Our Guarantees",
         "heading_size": "h1",
         "heading_tag": "h2",
