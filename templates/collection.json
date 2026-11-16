@@ -48,8 +48,8 @@
       "settings": {
         "heading_size": "h2",
         "show_description": true,
-        "show_image": true,
-        "apply_overlay": true,
+        "show_image": false,
+        "apply_overlay": false,
         "image_position": "center center",
         "image_ratio": "550px",
         "text_alignment": "left",
@@ -107,66 +107,6 @@
     },
     "1790160401c73a9482": {
       "type": "apps",
-      "blocks": {
-        "kaching_bundles_app_block_aURtkG": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "bathrobe",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_YyNkEq": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "softex-100-waterproof-fitted-mattress-protector",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_YyEWjd": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "100-waterproof-fitted-mattress-protector-regular",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_XLc88R": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "down-proof-feather-touch-comforter",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_QPgY66": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "softex-duvet-feather-touch-with-piping",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_rdAxir": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "quilted-pillow",
-            "manual_deal_block_id": ""
-          }
-        },
-        "kaching_bundles_app_block_XmDmeE": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "softex-pillow-alternative-feather",
-            "manual_deal_block_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "kaching_bundles_app_block_aURtkG",
-        "kaching_bundles_app_block_YyNkEq",
-        "kaching_bundles_app_block_YyEWjd",
-        "kaching_bundles_app_block_XLc88R",
-        "kaching_bundles_app_block_QPgY66",
-        "kaching_bundles_app_block_rdAxir",
-        "kaching_bundles_app_block_XmDmeE"
-      ],
       "disabled": true,
       "settings": {
         "include_margins": true,
