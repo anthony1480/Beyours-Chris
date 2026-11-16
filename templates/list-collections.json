@@ -96,7 +96,7 @@
         "heading": "Collections",
         "heading_size": "h2",
         "heading_alignment": "left",
-        "heading_tag": "h2",
+        "heading_tag": "h1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "image_ratio": "square",
