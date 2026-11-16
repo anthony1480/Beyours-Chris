@@ -14,6 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_W4meCz": {
+          "type": "announcement",
+          "settings": {
+            "text": "10% off your entire order at checkout",
+            "text_on_mobile": "10% off your entire order at checkout",
+            "text_size": 13,
+            "link": ""
+          }
+        },
         "announcement_FdkFdX": {
           "type": "announcement",
           "settings": {
@@ -43,6 +52,7 @@
         }
       },
       "block_order": [
+        "announcement_W4meCz",
         "announcement_FdkFdX",
         "announcement_dYN3CP",
         "announcement-bar-0"
