@@ -14,6 +14,7 @@
       "blocks": {
         "heading_PzFbmY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Explore our collection of hotel-quality linens{{ collection.title }}",
             "heading_size": "h2",
@@ -24,6 +25,7 @@
       "block_order": [
         "heading_PzFbmY"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "text_alignment": "left",
