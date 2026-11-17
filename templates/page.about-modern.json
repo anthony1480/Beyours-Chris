@@ -233,7 +233,7 @@
         "columns_desktop": 4,
         "heading": "Our Values",
         "heading_size": "h1",
-        "heading_tag": "h2",
+        "heading_tag": "h1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
