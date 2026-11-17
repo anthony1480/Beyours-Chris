@@ -190,7 +190,7 @@
           "settings": {
             "heading": "Who We Work With",
             "heading_size": "h1",
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         },
         "text_BrahFQ": {
@@ -245,7 +245,7 @@
         "show_divider": false,
         "heading": "Get in touch to get a Quotation",
         "heading_size": "h2",
-        "heading_tag": "h2",
+        "heading_tag": "h1",
         "padding_top": 36,
         "padding_bottom": 36
       }
