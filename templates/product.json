@@ -96,7 +96,6 @@
         },
         "collapsible_tab-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "icon": "washing",
             "heading": "Care Instructions",
