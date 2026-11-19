@@ -19,17 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "collapsible_tab_MBYbtY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "question_mark",
-            "heading": "Description",
-            "content": "<p>Bring the comfort of hotel towels into your home with our White Hotel Towel Collection. Made from 100% cotton, these towels offer excellent absorbency, softness and a clean, timeless hotel look. The collection is produced in 550 GSM.</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -93,12 +82,23 @@
             "colors_background": "#ffeeee"
           }
         },
+        "collapsible_tab_MBYbtY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Description",
+            "content": "<p>Bring the comfort of hotel towels into your home with our White Hotel Towel Collection. Made from 100% cotton, these towels offer excellent absorbency, softness and a clean, timeless hotel look. The collection is produced in 550 GSM.</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
         "collapsible_tab-1": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "washing",
             "heading": "Care Instructions",
-            "content": "<p>Care Instructions:&nbsp;</p><p>Dry Cleaning, wrinkle-resistant and quick-drying.</p>",
+            "content": "<p>Machine wash at up to 60°C with similar colors. Tumble dry at medium temperature. Avoid excessive fabric softener to help maintain absorbency.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
@@ -133,7 +133,6 @@
         }
       },
       "block_order": [
-        "collapsible_tab_MBYbtY",
         "vendor",
         "title",
         "rating",
@@ -142,6 +141,7 @@
         "price",
         "buy_buttons",
         "countdown",
+        "collapsible_tab_MBYbtY",
         "collapsible_tab-1",
         "share",
         "related_buttons",
