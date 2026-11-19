@@ -47,7 +47,7 @@
           "type": "variant_picker",
           "settings": {
             "show_variant_labels": true,
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "enable_color_swatches": false,
             "swatches_source": "file",
             "swatch_type": "round",
@@ -67,13 +67,14 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": false,
+            "show_quantity_selector": true,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
         "countdown": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "heading": "Hurry up ! Sale end in:",
             "number_size": "compact",
@@ -117,12 +118,6 @@
             "show_icons": false
           }
         },
-        "sticky_cart": {
-          "type": "sticky_cart",
-          "settings": {
-            "show_quantity_selector": false
-          }
-        },
         "aov_ai_bundle_offer_inline_YjUjbr": {
           "type": "shopify://apps/aov-ai-bundle/blocks/offer-inline/0335d423-143c-4ad7-b224-99a1db74a9ee",
           "settings": {}
@@ -145,7 +140,6 @@
         "collapsible_tab-1",
         "share",
         "related_buttons",
-        "sticky_cart",
         "aov_ai_bundle_offer_inline_YjUjbr",
         "aov_ai_bundle_offer_fixed_h7JXmE"
       ],
