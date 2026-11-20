@@ -12,6 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "collapsible_description_kXqHYe": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "none",
+            "heading": "Description",
+            "keep_open": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -63,10 +71,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -83,13 +87,13 @@
         }
       },
       "block_order": [
+        "collapsible_description_kXqHYe",
         "title",
         "rating",
         "price",
         "countdown",
         "variant_picker",
         "buy_buttons",
-        "description",
         "inventory_status",
         "sticky_cart"
       ],

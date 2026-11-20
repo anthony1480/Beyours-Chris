@@ -47,10 +47,6 @@
           "type": "rating",
           "settings": {}
         },
-        "description_VgMCqm": {
-          "type": "description",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -118,7 +114,6 @@
         "vendor",
         "title",
         "rating",
-        "description_VgMCqm",
         "variant_picker",
         "price",
         "buy_buttons",
