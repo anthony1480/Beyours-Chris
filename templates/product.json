@@ -19,25 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "collapsible_tab_7FyVJ6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "washing",
-            "heading": "care instructions",
-            "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
-        "collapsible_description_qx6NCD": {
-          "type": "collapsible_description",
-          "settings": {
-            "icon": "question_mark",
-            "heading": "Description",
-            "keep_open": false
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -52,6 +33,14 @@
             "title_size": "h1",
             "show_price": false,
             "price_size": "medium"
+          }
+        },
+        "collapsible_description_qx6NCD": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Description",
+            "keep_open": false
           }
         },
         "rating": {
@@ -98,6 +87,17 @@
             "colors_background": "#ffeeee"
           }
         },
+        "collapsible_tab_7FyVJ6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "washing",
+            "heading": "care instructions",
+            "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -121,15 +121,15 @@
         }
       },
       "block_order": [
-        "collapsible_tab_7FyVJ6",
-        "collapsible_description_qx6NCD",
         "vendor",
         "title",
+        "collapsible_description_qx6NCD",
         "rating",
         "variant_picker",
         "price",
         "buy_buttons",
         "countdown",
+        "collapsible_tab_7FyVJ6",
         "share",
         "related_buttons",
         "aov_ai_bundle_offer_inline_YjUjbr",
