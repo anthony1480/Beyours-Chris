@@ -12,6 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "collapsible_description_TP68mk": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "none",
+            "heading": "Description",
+            "keep_open": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -79,10 +87,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -106,6 +110,7 @@
         }
       },
       "block_order": [
+        "collapsible_description_TP68mk",
         "title",
         "rating",
         "price",
@@ -114,7 +119,6 @@
         "text_XGXtMq",
         "text_4Fgnwt",
         "buy_buttons",
-        "description",
         "inventory_status",
         "related_buttons",
         "sticky_cart"
