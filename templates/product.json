@@ -30,7 +30,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_size": "h1",
+            "title_size": "h2",
             "show_price": false,
             "price_size": "medium"
           }
@@ -40,6 +40,17 @@
           "settings": {
             "icon": "question_mark",
             "heading": "Description",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_7FyVJ6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "plant",
+            "heading": "SPECIFICATIONS",
+            "content": "<p>{{ product.metafields.custom.specification | metafield_tag }}</p>",
+            "page": "",
+            "custom_liquid": "",
             "keep_open": false
           }
         },
@@ -87,11 +98,11 @@
             "colors_background": "#ffeeee"
           }
         },
-        "collapsible_tab_7FyVJ6": {
+        "collapsible_tab_GtrWcY": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "washing",
-            "heading": "care instructions",
+            "heading": "CARE INSTRUCTIONS",
             "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}</p>",
             "page": "",
             "custom_liquid": "",
@@ -124,12 +135,13 @@
         "vendor",
         "title",
         "collapsible_description_qx6NCD",
+        "collapsible_tab_7FyVJ6",
         "rating",
         "variant_picker",
         "price",
         "buy_buttons",
         "countdown",
-        "collapsible_tab_7FyVJ6",
+        "collapsible_tab_GtrWcY",
         "share",
         "related_buttons",
         "aov_ai_bundle_offer_inline_YjUjbr",
