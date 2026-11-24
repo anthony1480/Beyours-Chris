@@ -35,25 +35,6 @@
             "price_size": "medium"
           }
         },
-        "collapsible_description_qx6NCD": {
-          "type": "collapsible_description",
-          "settings": {
-            "icon": "question_mark",
-            "heading": "Description",
-            "keep_open": false
-          }
-        },
-        "collapsible_tab_7FyVJ6": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "plant",
-            "heading": "SPECIFICATIONS",
-            "content": "<p>{{ product.metafields.custom.specification | metafield_tag }}</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {}
@@ -79,6 +60,36 @@
             "sale_badge_basis": "percentage"
           }
         },
+        "collapsible_description_qx6NCD": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Description",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_7FyVJ6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "plant",
+            "heading": "SPECIFICATIONS",
+            "content": "<p>{{ product.metafields.custom.specification | metafield_tag }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_GtrWcY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "washing",
+            "heading": "CARE INSTRUCTIONS",
+            "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -96,17 +107,6 @@
             "colors_heading": "#da3f3f",
             "colors_text": "#da3f3f",
             "colors_background": "#ffeeee"
-          }
-        },
-        "collapsible_tab_GtrWcY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "washing",
-            "heading": "CARE INSTRUCTIONS",
-            "content": "<p>{{ product.metafields.custom.care_instructions | metafield_tag }}</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
           }
         },
         "share": {
@@ -134,14 +134,14 @@
       "block_order": [
         "vendor",
         "title",
-        "collapsible_description_qx6NCD",
-        "collapsible_tab_7FyVJ6",
         "rating",
         "variant_picker",
         "price",
+        "collapsible_description_qx6NCD",
+        "collapsible_tab_7FyVJ6",
+        "collapsible_tab_GtrWcY",
         "buy_buttons",
         "countdown",
-        "collapsible_tab_GtrWcY",
         "share",
         "related_buttons",
         "aov_ai_bundle_offer_inline_YjUjbr",
