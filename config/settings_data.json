@@ -202,6 +202,11 @@
         "type": "shopify://apps/aov-ai-bundle/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
         "disabled": false,
         "settings": {}
+      },
+      "13070091535480640111": {
+        "type": "shopify://apps/attrac/blocks/app-embed/b783956d-47a9-4434-91ad-4ec960bd74b0",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
