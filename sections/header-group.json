@@ -17,7 +17,7 @@
         "announcement_W4meCz": {
           "type": "announcement",
           "settings": {
-            "text": "10% off your entire order at checkout",
+            "text": "20% off your entire order at checkout",
             "text_on_mobile": "10% off your entire order at checkout",
             "text_size": 13,
             "link": ""
@@ -26,7 +26,7 @@
         "announcement_FdkFdX": {
           "type": "announcement",
           "settings": {
-            "text": "20% off Premium Memory Foam Mattress Toppers.",
+            "text": "",
             "text_on_mobile": "20% Off Premium Memory Foam Mattress Topper.",
             "text_size": 13,
             "link": ""
