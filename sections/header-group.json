@@ -138,8 +138,8 @@
         "colors_background": "#f5efe6",
         "gradient_background": "#e8d9c5",
         "colors_highlight": "#bbff00",
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     }
   },

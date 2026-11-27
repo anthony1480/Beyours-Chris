@@ -64,6 +64,7 @@
     "cart_recommendations_enabled": false,
     "cart_recommendations_heading": "You may also like",
     "cart_recommendations_show_vendor": true,
+    "predictive_search_enabled": true,
     "predictive_search_show_vendor": true,
     "swatch_config": "{\"swatches\": [{\"name\": \"Mocha\", \"color\": \"#6D3B07\"}]}",
     "share_facebook": false,
@@ -126,11 +127,6 @@
       "2159966444958424640": {
         "type": "shopify://apps/enkage/blocks/storefront-enkage/019c0295-e36f-7668-8e0c-2b8612768c0a",
         "disabled": true,
-        "settings": {}
-      },
-      "17270581071990108477": {
-        "type": "shopify://apps/hoppy-popups/blocks/Email_collection_Bar/0403c282-cb2c-4202-b054-d6c540cb0df9",
-        "disabled": false,
         "settings": {}
       },
       "7918667362130427036": {
